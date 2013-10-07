@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		09BFD96117FD808400CAE2EF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09BFD96017FD808400CAE2EF /* Default-568h@2x.png */; };
 		0E8675981801DD22002113C6 /* TeachersSurvey2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8675971801DD22002113C6 /* TeachersSurvey2ViewController.m */; };
+		0E86759E18028303002113C6 /* TeachersSurvey3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E86759D18028303002113C6 /* TeachersSurvey3ViewController.m */; };
 		A26E6A7A17FC4D04006C9456 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26E6A7917FC4D04006C9456 /* Foundation.framework */; };
 		A26E6A7C17FC4D04006C9456 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26E6A7B17FC4D04006C9456 /* CoreGraphics.framework */; };
 		A26E6A7E17FC4D04006C9456 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26E6A7D17FC4D04006C9456 /* UIKit.framework */; };
@@ -55,6 +56,8 @@
 		09BFD96017FD808400CAE2EF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		0E8675961801DD22002113C6 /* TeachersSurvey2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeachersSurvey2ViewController.h; sourceTree = "<group>"; };
 		0E8675971801DD22002113C6 /* TeachersSurvey2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeachersSurvey2ViewController.m; sourceTree = "<group>"; };
+		0E86759C18028303002113C6 /* TeachersSurvey3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeachersSurvey3ViewController.h; sourceTree = "<group>"; };
+		0E86759D18028303002113C6 /* TeachersSurvey3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeachersSurvey3ViewController.m; sourceTree = "<group>"; };
 		A26E6A7617FC4D04006C9456 /* iPad-YOU-Pad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iPad-YOU-Pad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A26E6A7917FC4D04006C9456 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A26E6A7B17FC4D04006C9456 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -232,6 +235,8 @@
 				DE1BAFD417FD5D3800802872 /* Teachers0ViewController.m */,
 				0E8675961801DD22002113C6 /* TeachersSurvey2ViewController.h */,
 				0E8675971801DD22002113C6 /* TeachersSurvey2ViewController.m */,
+				0E86759C18028303002113C6 /* TeachersSurvey3ViewController.h */,
+				0E86759D18028303002113C6 /* TeachersSurvey3ViewController.m */,
 			);
 			name = TeachersSurvey;
 			path = ..;
@@ -384,6 +389,7 @@
 				0E8675981801DD22002113C6 /* TeachersSurvey2ViewController.m in Sources */,
 				A26E6A9017FC4D04006C9456 /* MainMenuViewController.m in Sources */,
 				A26E6A8A17FC4D04006C9456 /* AppDelegate.m in Sources */,
+				0E86759E18028303002113C6 /* TeachersSurvey3ViewController.m in Sources */,
 				A289646417FD257B0071FC46 /* SettingsViewController.m in Sources */,
 				A2E0DC5D17FD17FC004E7327 /* CompletedSurveysViewController.m in Sources */,
 				A2E0DC5A17FD17DD004E7327 /* EducatorSurveysViewController.m in Sources */,

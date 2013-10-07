@@ -49,13 +49,14 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="isV-fl-7xs">
-                                <rect key="frame" x="247" y="405" width="274" height="45"/>
+                                <rect key="frame" x="217" y="770" width="274" height="45"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <state key="normal" title="11-7 follow up">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="Survey3Action:" destination="Y3i-KE-YZz" eventType="touchUpInside" id="hVP-k5-ccw"/>
+                                    <segue destination="cIq-HV-Ji8" kind="push" id="Iw0-AA-o7l"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -70,7 +71,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Khi-iI-nov" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1920" y="-248"/>
+            <point key="canvasLocation" x="1332" y="-120"/>
         </scene>
         <!--Parent Menu View Controller-->
         <scene sceneID="eMj-06-zvZ">
@@ -145,7 +146,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g51-a0-hCu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="989" y="-239"/>
+            <point key="canvasLocation" x="369" y="-91"/>
         </scene>
         <!--Parents41 View Controller-->
         <scene sceneID="kl5-We-uqi">
@@ -507,6 +508,7 @@
                                 </state>
                                 <connections>
                                     <action selector="nextButton:" destination="Qo6-tQ-JcR" eventType="touchUpInside" id="SYZ-Nh-gTV"/>
+                                    <segue destination="cIq-HV-Ji8" kind="push" id="f6s-jm-fFG"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Shares readily with other youths, for example books, games and food " lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fIZ-U4-OwA">
@@ -525,7 +527,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vUQ-8t-IfF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="974" y="1123"/>
+            <point key="canvasLocation" x="369" y="1059"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="pgG-Yx-06h">
@@ -541,12 +543,9 @@
                                 <state key="normal" title="Button">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <segue destination="PfX-lm-PMo" kind="push" id="q1I-iy-AkT"/>
-                                </connections>
                             </button>
                             <button opaque="NO" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="NOi-po-RAO">
-                                <rect key="frame" x="541" y="308" width="34" height="30"/>
+                                <rect key="frame" x="531" y="353" width="34" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" backgroundImage="Very-Basic-Unchecked-checkbox-icon.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -557,7 +556,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="102" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="hAS-9B-PXx">
-                                <rect key="frame" x="619" y="308" width="34" height="30"/>
+                                <rect key="frame" x="609" y="353" width="34" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" backgroundImage="Very-Basic-Unchecked-checkbox-icon.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -568,7 +567,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="103" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="eHz-ur-Bwj">
-                                <rect key="frame" x="699" y="308" width="34" height="30"/>
+                                <rect key="frame" x="689" y="353" width="34" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" backgroundImage="Very-Basic-Unchecked-checkbox-icon.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -579,49 +578,49 @@
                                 </state>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Not True" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="aKK-i9-4oX">
-                                <rect key="frame" x="536" y="246" width="39" height="43"/>
+                                <rect key="frame" x="526" y="291" width="39" height="43"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Somewhat True" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="iWg-bA-pqY">
-                                <rect key="frame" x="585" y="243" width="87" height="50"/>
+                                <rect key="frame" x="575" y="288" width="87" height="50"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Certainly True" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jn1-jc-L0F">
-                                <rect key="frame" x="671" y="243" width="89" height="50"/>
+                                <rect key="frame" x="661" y="288" width="89" height="50"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Considerate of other people's feelings" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="RFK-Cz-TA1">
-                                <rect key="frame" x="33" y="317" width="308" height="21"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Helpful if someone is hurt, upset or feeling ill" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="RFK-Cz-TA1">
+                                <rect key="frame" x="23" y="362" width="340" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Restless, overactive, cannot stay still for long" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="l3G-r1-LJ0">
-                                <rect key="frame" x="33" y="375" width="407" height="21"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Constantly fidgeting or squirming" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="l3G-r1-LJ0">
+                                <rect key="frame" x="23" y="420" width="407" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Often complains of headaches, stomach-aches or sickness" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="eeb-0H-Tcm">
-                                <rect key="frame" x="33" y="438" width="469" height="26"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Has at least one good friend" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="eeb-0H-Tcm">
+                                <rect key="frame" x="23" y="483" width="469" height="26"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Often loses temper" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="CDH-NN-2SL">
-                                <rect key="frame" x="33" y="560" width="203" height="21"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Often unhappy, depressed or tearful" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="CDH-NN-2SL">
+                                <rect key="frame" x="23" y="605" width="276" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="201" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="exU-zA-B79">
-                                <rect key="frame" x="541" y="371" width="34" height="30"/>
+                                <rect key="frame" x="531" y="416" width="34" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" backgroundImage="Very-Basic-Unchecked-checkbox-icon.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -632,7 +631,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="202" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="tEQ-4A-Pu2">
-                                <rect key="frame" x="619" y="371" width="34" height="30"/>
+                                <rect key="frame" x="609" y="416" width="34" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" backgroundImage="Very-Basic-Unchecked-checkbox-icon.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -643,7 +642,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="203" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="8Yh-el-Zeb">
-                                <rect key="frame" x="699" y="371" width="34" height="30"/>
+                                <rect key="frame" x="689" y="416" width="34" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" backgroundImage="Very-Basic-Unchecked-checkbox-icon.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -654,7 +653,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="301" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Bpi-cP-Pl4">
-                                <rect key="frame" x="541" y="434" width="34" height="30"/>
+                                <rect key="frame" x="531" y="479" width="34" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" backgroundImage="Very-Basic-Unchecked-checkbox-icon.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -665,7 +664,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="302" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Wac-gb-oHh">
-                                <rect key="frame" x="619" y="434" width="34" height="30"/>
+                                <rect key="frame" x="609" y="479" width="34" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" backgroundImage="Very-Basic-Unchecked-checkbox-icon.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -676,7 +675,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="303" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="wel-Ow-ibi">
-                                <rect key="frame" x="699" y="434" width="34" height="30"/>
+                                <rect key="frame" x="689" y="479" width="34" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" backgroundImage="Very-Basic-Unchecked-checkbox-icon.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -687,7 +686,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="401" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="hi1-S8-UQO">
-                                <rect key="frame" x="541" y="497" width="34" height="30"/>
+                                <rect key="frame" x="531" y="542" width="34" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" backgroundImage="Very-Basic-Unchecked-checkbox-icon.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -698,7 +697,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="402" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="aX5-iZ-Adm">
-                                <rect key="frame" x="619" y="497" width="34" height="30"/>
+                                <rect key="frame" x="609" y="542" width="34" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" backgroundImage="Very-Basic-Unchecked-checkbox-icon.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -709,7 +708,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="403" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="RVm-NU-Lxs">
-                                <rect key="frame" x="699" y="497" width="34" height="30"/>
+                                <rect key="frame" x="689" y="542" width="34" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" backgroundImage="Very-Basic-Unchecked-checkbox-icon.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -720,7 +719,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="501" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="O1E-Tf-N5T">
-                                <rect key="frame" x="541" y="557" width="34" height="30"/>
+                                <rect key="frame" x="531" y="602" width="34" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" backgroundImage="Very-Basic-Unchecked-checkbox-icon.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -731,7 +730,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="502" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="l6I-MI-gc7">
-                                <rect key="frame" x="619" y="557" width="34" height="30"/>
+                                <rect key="frame" x="609" y="602" width="34" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" backgroundImage="Very-Basic-Unchecked-checkbox-icon.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -742,7 +741,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="503" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ARJ-sx-kQN">
-                                <rect key="frame" x="699" y="557" width="34" height="30"/>
+                                <rect key="frame" x="689" y="602" width="34" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" backgroundImage="Very-Basic-Unchecked-checkbox-icon.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -752,26 +751,26 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Would rather be alone than with other youth" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="h1O-kA-ZLD">
-                                <rect key="frame" x="33" y="618" width="386" height="21"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Generally liked by other young people" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="h1O-kA-ZLD">
+                                <rect key="frame" x="23" y="663" width="386" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Generally well behaved, usually does what adults request" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="RX9-gL-tCk">
-                                <rect key="frame" x="33" y="682" width="469" height="21"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Easily distracted, concentration wanders" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="RX9-gL-tCk">
+                                <rect key="frame" x="23" y="727" width="469" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Many worries or often seems worried" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="FhC-ns-Vaf">
-                                <rect key="frame" x="30" y="748" width="389" height="21"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Nervous in new situations, easily loses confindence " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="FhC-ns-Vaf">
+                                <rect key="frame" x="20" y="793" width="399" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="601" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Qm0-VC-LSA">
-                                <rect key="frame" x="541" y="619" width="34" height="30"/>
+                                <rect key="frame" x="531" y="664" width="34" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" backgroundImage="Very-Basic-Unchecked-checkbox-icon.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -782,7 +781,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="602" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="aHd-RP-2t9">
-                                <rect key="frame" x="619" y="619" width="34" height="30"/>
+                                <rect key="frame" x="609" y="664" width="34" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" backgroundImage="Very-Basic-Unchecked-checkbox-icon.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -793,7 +792,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="603" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="EQG-BS-OJ7">
-                                <rect key="frame" x="699" y="619" width="34" height="30"/>
+                                <rect key="frame" x="689" y="664" width="34" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" backgroundImage="Very-Basic-Unchecked-checkbox-icon.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -804,7 +803,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="701" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Kxu-Gv-PHU">
-                                <rect key="frame" x="541" y="682" width="34" height="30"/>
+                                <rect key="frame" x="531" y="727" width="34" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" backgroundImage="Very-Basic-Unchecked-checkbox-icon.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -815,7 +814,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="702" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="jGn-4M-zhQ">
-                                <rect key="frame" x="619" y="682" width="34" height="30"/>
+                                <rect key="frame" x="609" y="727" width="34" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" backgroundImage="Very-Basic-Unchecked-checkbox-icon.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -826,7 +825,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="703" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="9Af-9E-qOP">
-                                <rect key="frame" x="699" y="682" width="34" height="30"/>
+                                <rect key="frame" x="689" y="727" width="34" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" backgroundImage="Very-Basic-Unchecked-checkbox-icon.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -837,7 +836,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="801" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="bXN-pL-Dzs">
-                                <rect key="frame" x="541" y="745" width="34" height="30"/>
+                                <rect key="frame" x="531" y="790" width="34" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" backgroundImage="Very-Basic-Unchecked-checkbox-icon.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -848,7 +847,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="802" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="8Tk-gK-reB">
-                                <rect key="frame" x="619" y="745" width="34" height="30"/>
+                                <rect key="frame" x="609" y="790" width="34" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" backgroundImage="Very-Basic-Unchecked-checkbox-icon.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -859,7 +858,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="803" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="XF8-Rv-MRb">
-                                <rect key="frame" x="699" y="745" width="34" height="30"/>
+                                <rect key="frame" x="689" y="790" width="34" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" backgroundImage="Very-Basic-Unchecked-checkbox-icon.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -878,20 +877,26 @@
                                     <action selector="nextButton:" destination="Qo6-tQ-JcR" eventType="touchUpInside" id="ebq-Es-j3B"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Shares readily with other youths, for example books, games and food " lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="KEH-Lh-4OU">
-                                <rect key="frame" x="33" y="446" width="407" height="114"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Often fights with other youth or bullies them" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="KEH-Lh-4OU">
+                                <rect key="frame" x="23" y="491" width="407" height="114"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Instructions, Since this is an educator they wont be needed " lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nhh-wq-chz">
+                                <rect key="frame" x="52" y="103" width="642" height="92"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.47843140360000003" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                <color key="highlightedColor" red="0.0" green="0.47843140360000003" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.80000000000000004" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="2gV-Wb-4rZ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XBL-8G-aOQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2018" y="1074"/>
+            <point key="canvasLocation" x="1304" y="1047"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="l3A-eg-NrQ">
@@ -921,7 +926,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cxg-sa-HUj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1036" y="2337"/>
+            <point key="canvasLocation" x="376" y="2163"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ZDV-mR-gx1">
@@ -939,10 +944,57 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FSm-MB-QpJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="50" y="-274"/>
+            <point key="canvasLocation" x="-638" y="-58"/>
         </scene>
     </scenes>
     <resources>
+        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
+        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
+        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
+        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
+        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
+        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
+        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
+        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
+        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
+        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
+        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
+        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
+        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
+        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
+        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
+        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
+        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
+        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
+        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
+        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
+        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
+        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
+        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
+        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
+        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
+        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
+        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
+        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
+        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
+        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
+        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
+        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
+        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
+        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
+        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
+        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
+        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
+        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
+        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
+        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
+        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
+        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
+        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
+        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
+        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
+        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
+        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
         <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
@@ -950,4 +1002,7 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="f6s-jm-fFG"/>
+    </inferredMetricsTieBreakers>
 </document>
