@@ -305,31 +305,31 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Considerate of other people's feelings" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="u2d-8b-dgP">
-                                <rect key="frame" x="30" y="359" width="285" height="21"/>
+                                <rect key="frame" x="30" y="359" width="348" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Restless, overactive, cannot stay still for long" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5fy-2c-IoC">
-                                <rect key="frame" x="30" y="415" width="340" height="21"/>
+                                <rect key="frame" x="30" y="415" width="433" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Often complains of headaches, stomach-aches or sickness" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1fW-FL-eZF">
-                                <rect key="frame" x="30" y="476" width="445" height="21"/>
+                                <rect key="frame" x="30" y="476" width="516" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Shares readily with other children, for example toys, treats, pencils" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cw7-hj-JRa">
-                                <rect key="frame" x="30" y="539" width="500" height="21"/>
+                                <rect key="frame" x="30" y="539" width="537" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Often loses temper" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="N25-ND-0Iy">
-                                <rect key="frame" x="30" y="597" width="144" height="21"/>
+                                <rect key="frame" x="30" y="597" width="314" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -503,19 +503,19 @@
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Rather solitary, prefers to play alone" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5hh-VL-zt3">
-                                <rect key="frame" x="30" y="654" width="274" height="21"/>
+                                <rect key="frame" x="30" y="654" width="353" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Generally well behaved, usually does what adults request" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="RQD-5P-SzP">
-                                <rect key="frame" x="30" y="715" width="433" height="21"/>
+                                <rect key="frame" x="30" y="715" width="468" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Many worries or often seems worried" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="lH4-2G-bf4">
-                                <rect key="frame" x="27" y="781" width="279" height="21"/>
+                                <rect key="frame" x="27" y="781" width="392" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -2494,115 +2494,6 @@
     </scenes>
     <resources>
         <image name="Bullet-Point.jpg" width="300" height="300"/>
-        <image name="Bullet-Point.jpg" width="300" height="300"/>
-        <image name="Bullet-Point.jpg" width="300" height="300"/>
-        <image name="Bullet-Point.jpg" width="300" height="300"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
         <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
@@ -2614,7 +2505,7 @@
         <segue reference="t2P-OS-Dhr"/>
         <segue reference="GvK-8q-Ib6"/>
         <segue reference="nbN-gz-Pec"/>
-        <segue reference="foz-IL-rgF"/>
+        <segue reference="kkr-kf-NvS"/>
         <segue reference="DUm-wZ-DFB"/>
     </inferredMetricsTieBreakers>
 </document>
