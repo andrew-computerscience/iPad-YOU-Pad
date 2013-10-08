@@ -2,7 +2,7 @@
 //  Teachers0ViewController.m
 //  iPad-YOU-Pad
 //
-//  Created by Yuki Robson on 3/10/13.
+//  Created by Yuki Robson & Nicolas La Verghetta
 //  Copyright (c) 2013 Andrew Edwards. All rights reserved.
 //
 

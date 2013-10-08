@@ -153,7 +153,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="mY2-QF-Qep">
-                                <rect key="frame" x="344" y="870" width="22" height="17"/>
+                                <rect key="frame" x="306" y="803" width="117" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="wat do">
@@ -1051,6 +1051,6 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="Iw0-AA-o7l"/>
+        <segue reference="f6s-jm-fFG"/>
     </inferredMetricsTieBreakers>
 </document>
