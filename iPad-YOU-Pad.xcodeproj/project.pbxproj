@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0998D1BF180567F0009A7E50 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0998D1BE180567F0009A7E50 /* AVFoundation.framework */; };
+		0998D1C11805681B009A7E50 /* 4019.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0998D1C01805681B009A7E50 /* 4019.mp3 */; };
+		0998D1C3180568F3009A7E50 /* 222-big.png in Resources */ = {isa = PBXBuildFile; fileRef = 0998D1C2180568F3009A7E50 /* 222-big.png */; };
 		A26E6A7A17FC4D04006C9456 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26E6A7917FC4D04006C9456 /* Foundation.framework */; };
 		A26E6A7C17FC4D04006C9456 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26E6A7B17FC4D04006C9456 /* CoreGraphics.framework */; };
 		A26E6A7E17FC4D04006C9456 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26E6A7D17FC4D04006C9456 /* UIKit.framework */; };
@@ -62,6 +65,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0998D1BE180567F0009A7E50 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0998D1C01805681B009A7E50 /* 4019.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 4019.mp3; path = ../../Soundplay/Soundplay/4019.mp3; sourceTree = "<group>"; };
+		0998D1C2180568F3009A7E50 /* 222-big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "222-big.png"; sourceTree = "<group>"; };
 		A26E6A7617FC4D04006C9456 /* iPad-YOU-Pad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iPad-YOU-Pad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A26E6A7917FC4D04006C9456 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A26E6A7B17FC4D04006C9456 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -131,6 +137,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0998D1BF180567F0009A7E50 /* AVFoundation.framework in Frameworks */,
 				BB5FA5A91800354300F08104 /* CoreData.framework in Frameworks */,
 				A26E6A7C17FC4D04006C9456 /* CoreGraphics.framework in Frameworks */,
 				A26E6A7E17FC4D04006C9456 /* UIKit.framework in Frameworks */,
@@ -174,6 +181,7 @@
 		A26E6A7817FC4D04006C9456 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0998D1BE180567F0009A7E50 /* AVFoundation.framework */,
 				A26E6A7917FC4D04006C9456 /* Foundation.framework */,
 				A26E6A7B17FC4D04006C9456 /* CoreGraphics.framework */,
 				A26E6A7D17FC4D04006C9456 /* UIKit.framework */,
@@ -185,6 +193,7 @@
 		A26E6A7F17FC4D04006C9456 /* iPad-YOU-Pad */ = {
 			isa = PBXGroup;
 			children = (
+				0998D1C01805681B009A7E50 /* 4019.mp3 */,
 				FBE43ACB1805231400F05B85 /* parentSurvey */,
 				A289645F17FD24220071FC46 /* Settings */,
 				A2E0DC5117FD1601004E7327 /* MainMenu */,
@@ -228,6 +237,7 @@
 		A26E6AAE17FC4D15006C9456 /* KidsSurveys */ = {
 			isa = PBXGroup;
 			children = (
+				0998D1C2180568F3009A7E50 /* 222-big.png */,
 				A26E6AB617FC4D3B006C9456 /* KidsSurveys.storyboard */,
 				A26E6AAF17FC4D2C006C9456 /* button (1).png */,
 				A26E6AB017FC4D2C006C9456 /* button.png */,
@@ -410,6 +420,8 @@
 				FBE43AE61805231400F05B85 /* ParentsSurveys.storyboard in Resources */,
 				FBE43AE71805231400F05B85 /* Very-Basic-Checked-checkbox-icon.png in Resources */,
 				FBE43AE81805231400F05B85 /* Very-Basic-Unchecked-checkbox-icon.png in Resources */,
+				0998D1C11805681B009A7E50 /* 4019.mp3 in Resources */,
+				0998D1C3180568F3009A7E50 /* 222-big.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

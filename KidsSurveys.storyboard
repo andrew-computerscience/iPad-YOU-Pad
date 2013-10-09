@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="4510" systemVersion="12F37" targetRuntime="iOS.CocoaTouch.iPad" variant="6xAndEarlier" propertyAccessControl="none" initialViewController="k1n-AG-N5p">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12C60" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="k1n-AG-N5p">
     <dependencies>
         <deployment defaultVersion="1552" identifier="iOS"/>
         <development version="4600" identifier="xcode"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
     <scenes>
         <!--Kids Surveys View Controller-->
@@ -11,7 +11,7 @@
             <objects>
                 <viewController id="2" customClass="KidsSurveysViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5">
-                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <rect key="frame" x="0.0" y="64" width="768" height="916"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="I try to be nice to other people. I care about their feelings" lineBreakMode="tailTruncation" minimumFontSize="10" id="DB0-q4-30h">
@@ -76,12 +76,30 @@
                                 <rect key="frame" x="291" y="874" width="150" height="9"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </progressView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="zR6-nU-FFE">
+                                <rect key="frame" x="32" y="299" width="73" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button" image="222-big.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playSound:" destination="2" eventType="touchUpInside" id="bWd-ww-cJv"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <toolbarItems/>
                     <navigationItem key="navigationItem" id="O8C-FZ-4GP"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="firstQuestionNavBar" destination="O8C-FZ-4GP" id="Vey-pp-8tk"/>
+                        <outlet property="playSound" destination="zR6-nU-FFE" id="UDI-bH-Ym7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3" sceneMemberID="firstResponder"/>
@@ -93,7 +111,7 @@
             <objects>
                 <viewController id="4gd-da-uUD" customClass="KidsSurveysViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2WY-eo-rOp">
-                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <rect key="frame" x="0.0" y="64" width="768" height="916"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" tag="998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="mPI-Zf-sCW">
@@ -172,7 +190,7 @@
             <objects>
                 <viewController id="id2-1c-Zrk" customClass="KidsSurveysViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dMe-lB-iaT">
-                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <rect key="frame" x="0.0" y="64" width="768" height="916"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" tag="998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="tAd-kh-zeB">
@@ -251,7 +269,7 @@
             <objects>
                 <viewController id="f3m-ei-PLG" customClass="KidsSurveysViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2Ui-jZ-wZg">
-                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <rect key="frame" x="0.0" y="64" width="768" height="916"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I usually share with others, for example CD's, games, foods" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ae0-UM-9Wi">
@@ -330,7 +348,7 @@
             <objects>
                 <viewController id="Z2A-Am-dKS" customClass="KidsSurveysViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="AUn-Ee-dKx">
-                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <rect key="frame" x="0.0" y="64" width="768" height="916"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I get very angry and often lose my temper" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kUM-uz-Nc9">
@@ -409,7 +427,7 @@
             <objects>
                 <viewController id="9Wm-wN-gPA" customClass="KidsSurveysViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6Lt-7B-AUi">
-                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <rect key="frame" x="0.0" y="64" width="768" height="916"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I would rather be alone than with people of my age" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="NEQ-CY-6Fz">
@@ -488,7 +506,7 @@
             <objects>
                 <viewController id="0Fz-Vx-ca7" customClass="KidsSurveysViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EZP-Of-kJ9">
-                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <rect key="frame" x="0.0" y="64" width="768" height="916"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I usually do as I am told" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="f8t-Kn-WrW">
@@ -567,7 +585,7 @@
             <objects>
                 <viewController id="naO-dW-MK3" customClass="KidsSurveysViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="avC-O5-q7L">
-                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <rect key="frame" x="0.0" y="64" width="768" height="916"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I worry a lot" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="34T-Hv-61b">
@@ -646,7 +664,7 @@
             <objects>
                 <viewController id="8YU-vq-uMU" customClass="KidsSurveysViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="o4C-Aq-Wef">
-                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <rect key="frame" x="0.0" y="64" width="768" height="916"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I am helpful if someone is hurt, upset or feeling ill" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="WLn-Ek-9j7">
@@ -725,7 +743,7 @@
             <objects>
                 <viewController id="DvD-My-dlE" customClass="KidsSurveysViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aat-0b-idp">
-                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <rect key="frame" x="0.0" y="64" width="768" height="916"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I am constantly fidgeting or squirming" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="E6i-DS-UCP">
@@ -804,7 +822,7 @@
             <objects>
                 <viewController id="XN0-xH-GJl" customClass="KidsSurveysViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LPg-fa-rCA">
-                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <rect key="frame" x="0.0" y="64" width="768" height="916"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I have one good friend or more" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LbL-13-JaP">
@@ -883,7 +901,7 @@
             <objects>
                 <viewController id="O85-WR-MFD" customClass="KidsSurveysViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NnL-Yb-wOq">
-                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <rect key="frame" x="0.0" y="64" width="768" height="916"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I fight a lot. I can make other people do what I want" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="z3g-6f-Y1h">
@@ -962,7 +980,7 @@
             <objects>
                 <viewController id="gbt-1O-zTD" customClass="KidsSurveysViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MGV-Jj-e20">
-                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <rect key="frame" x="0.0" y="64" width="768" height="916"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I am often unhappy, depressed or tearful" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="WZg-W3-oo3">
@@ -1041,7 +1059,7 @@
             <objects>
                 <viewController id="LJk-sT-ziR" customClass="KidsSurveysViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Yod-a4-h0b">
-                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <rect key="frame" x="0.0" y="64" width="768" height="916"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Other people my age generally like me" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qni-0S-o6Y">
@@ -1120,7 +1138,7 @@
             <objects>
                 <viewController id="fdC-XH-o2Z" customClass="KidsSurveysViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="q3f-dT-6QS">
-                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <rect key="frame" x="0.0" y="64" width="768" height="916"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I am easily distracted, I find it difficult to concentrate" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LHW-W7-wfl">
@@ -1199,7 +1217,7 @@
             <objects>
                 <viewController id="i33-jS-Pis" customClass="KidsSurveysViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NaM-Xa-fGd">
-                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <rect key="frame" x="0.0" y="64" width="768" height="916"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I am nervous in new situations. I easily lose confidence" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3WT-8W-qZq">
@@ -1278,7 +1296,7 @@
             <objects>
                 <viewController id="VRi-ei-Sur" customClass="KidsSurveysViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Cds-O2-uNy">
-                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <rect key="frame" x="0.0" y="64" width="768" height="916"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I am kind to younger children" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="NBd-mV-ecO">
@@ -1357,7 +1375,7 @@
             <objects>
                 <viewController id="lUb-qE-bA2" customClass="KidsSurveysViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oM1-8O-iJ1">
-                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <rect key="frame" x="0.0" y="64" width="768" height="916"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I am often accused of lying or cheating" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qUa-nu-a1U">
@@ -1436,7 +1454,7 @@
             <objects>
                 <viewController id="QNw-ft-4Rj" customClass="KidsSurveysViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MgZ-TB-iMb">
-                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <rect key="frame" x="0.0" y="64" width="768" height="916"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Other children or young people pick on me or bully me" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8Ma-iF-5eg">
@@ -1515,7 +1533,7 @@
             <objects>
                 <viewController id="kTS-X7-6Ek" customClass="KidsSurveysViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ozA-39-Cch">
-                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <rect key="frame" x="0.0" y="64" width="768" height="916"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I often volunteer to help other (parents, teachers, children)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="RCp-Oa-4Ch">
@@ -1594,7 +1612,7 @@
             <objects>
                 <viewController id="FnK-z3-akr" customClass="KidsSurveysViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8x5-km-PDb">
-                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <rect key="frame" x="0.0" y="64" width="768" height="916"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I think before I do things" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="CSU-Lz-5kL">
@@ -1673,7 +1691,7 @@
             <objects>
                 <viewController id="h0s-hH-tnp" customClass="KidsSurveysViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cbW-4o-Thw">
-                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <rect key="frame" x="0.0" y="64" width="768" height="916"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I take things that are not mine from home, school or elsewhere" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qGZ-b9-bJ6">
@@ -1752,7 +1770,7 @@
             <objects>
                 <viewController id="upV-k1-36q" customClass="KidsSurveysViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zRu-Ue-jxa">
-                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <rect key="frame" x="0.0" y="64" width="768" height="916"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I get along better with adults than with people my own age" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="e0X-o7-l7H">
@@ -1831,7 +1849,7 @@
             <objects>
                 <viewController id="tuV-QB-Kqe" customClass="KidsSurveysViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Fsc-B4-tCK">
-                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <rect key="frame" x="0.0" y="64" width="768" height="916"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I have many fears, I am easily scared" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Gx4-bX-PPP">
@@ -1910,7 +1928,7 @@
             <objects>
                 <viewController id="uHk-3J-I0H" customClass="KidsSurveysViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HlO-Wb-P1K">
-                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <rect key="frame" x="0.0" y="64" width="768" height="916"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I finish the work I'm doing. My attention is good" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="AQ7-bs-crP">
@@ -2095,7 +2113,7 @@
             <objects>
                 <viewController id="3Rc-R0-mEO" customClass="KidsSurveysViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uG6-Mq-9v7">
-                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <rect key="frame" x="0.0" y="64" width="768" height="916"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thankyou for completing the survey, please hand the iPad back to the staff member now." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="p8N-kb-6j7">
@@ -2140,7 +2158,7 @@
             <objects>
                 <viewController id="AsD-eU-e4G" customClass="KidsSurveysViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wdD-7f-Fdp">
-                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <rect key="frame" x="0.0" y="64" width="768" height="916"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6hB-3h-Fko">
@@ -2236,7 +2254,7 @@
             <objects>
                 <viewController id="Ybs-B3-HHA" customClass="KidsSurveysViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Tdz-lz-yv0">
-                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <rect key="frame" x="0.0" y="64" width="768" height="916"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How long have these difficulties been present?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="KEJ-Dl-r0G">
@@ -2327,7 +2345,7 @@
             <objects>
                 <viewController id="xzA-oE-O4P" customClass="KidsSurveysViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Nmz-e0-GDY">
-                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <rect key="frame" x="0.0" y="64" width="768" height="916"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thankyou, please press submit." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="P8i-u0-Tcs">
@@ -2371,7 +2389,7 @@
             <objects>
                 <viewController id="bPq-RY-dqI" customClass="KidsSurveysViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kiy-Sv-Lwb">
-                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <rect key="frame" x="0.0" y="64" width="768" height="916"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Do these difficulties upset or distress you?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="FrN-QZ-Pne">
@@ -2462,7 +2480,7 @@
             <objects>
                 <viewController id="jFc-Ur-zr5" customClass="KidsSurveysViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2D8-mg-k8a">
-                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <rect key="frame" x="0.0" y="64" width="768" height="916"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Do the difficulties interfere with your everyday life in the following areas?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1IG-0d-NJR">
@@ -2725,7 +2743,7 @@
             <objects>
                 <viewController id="ekC-sF-n0c" customClass="KidsSurveysViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="g7c-RC-0Qp">
-                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <rect key="frame" x="0.0" y="64" width="768" height="916"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Do the difficulties make it harder for those around you (family, friends, teachers, etc.)?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="OCx-HD-7iN">
@@ -2816,7 +2834,7 @@
             <objects>
                 <viewController id="fLT-KT-rtv" customClass="KidsSurveysViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zzk-Wo-CxT">
-                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <rect key="frame" x="0.0" y="64" width="768" height="916"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Has coming to the service been helpful in other ways, eg. providing information or making the problems more bearable?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="QSR-CX-A0r">
@@ -2907,7 +2925,7 @@
             <objects>
                 <viewController id="B6l-2X-pg0" customClass="KidsSurveysViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IZa-9q-teS">
-                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <rect key="frame" x="0.0" y="64" width="768" height="916"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" tag="998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="uLF-fP-vhm">
@@ -3010,7 +3028,7 @@
             <objects>
                 <viewController id="PBH-OJ-KA9" customClass="KidsSurveysViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="b9s-9o-AgI">
-                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <rect key="frame" x="0.0" y="64" width="768" height="916"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vj4-ze-cKx">
@@ -3106,7 +3124,7 @@
             <objects>
                 <viewController id="USS-QE-kr0" customClass="KidsSurveysViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="buV-Rl-8hh">
-                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <rect key="frame" x="0.0" y="64" width="768" height="916"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Do these difficulties upset or distress you?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ADT-iV-mqG">
@@ -3197,7 +3215,7 @@
             <objects>
                 <viewController id="oKK-VX-gQd" customClass="KidsSurveysViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OVs-2T-VU0">
-                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <rect key="frame" x="0.0" y="64" width="768" height="916"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Do the difficulties interfere with your everyday life in the following areas?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hwr-yS-74h">
@@ -3460,7 +3478,7 @@
             <objects>
                 <viewController id="Bxm-CD-1wk" customClass="KidsSurveysViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pOX-TM-6xe">
-                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <rect key="frame" x="0.0" y="64" width="768" height="916"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Do the difficulties make it harder for those around you (family, friends, teachers, etc.)?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="SaC-6L-4Qk">
@@ -3658,7 +3676,7 @@
             <objects>
                 <viewController id="GRR-xz-ty1" customClass="KidsSurveysViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bdS-0X-G3A">
-                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <rect key="frame" x="0.0" y="64" width="768" height="916"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Does your family complain about you having problems with overactivity or poor concentration?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="k7x-Ie-C9a">
@@ -3737,7 +3755,7 @@
             <objects>
                 <viewController id="72j-Io-Seh" customClass="KidsSurveysViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ccr-KY-n3g">
-                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <rect key="frame" x="0.0" y="64" width="768" height="916"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Does your teachers complain about you having problems with overactivity or poor concentration?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="L5U-08-ZID">
@@ -3816,7 +3834,7 @@
             <objects>
                 <viewController id="BNR-IT-YfP" customClass="KidsSurveysViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nyJ-UJ-l0O">
-                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <rect key="frame" x="0.0" y="64" width="768" height="916"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Does your family complain about you being awkward or troublesome?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="usf-bV-WHi">
@@ -3895,7 +3913,7 @@
             <objects>
                 <viewController id="c1D-Sl-d42" customClass="KidsSurveysViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dWe-0J-MX1">
-                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <rect key="frame" x="0.0" y="64" width="768" height="916"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Do your teachers complain about you being awkward or troublesome?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="yUV-ND-oyc">
@@ -3974,7 +3992,7 @@
             <objects>
                 <viewController id="2mn-XD-oQ4" customClass="KidsSurveysViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ebx-Mq-UcX">
-                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <rect key="frame" x="0.0" y="64" width="768" height="916"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zqZ-jc-xxT">
@@ -4070,7 +4088,7 @@
             <objects>
                 <viewController id="gnQ-tG-ig5" customClass="KidsSurveysViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3Es-SN-QtW">
-                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <rect key="frame" x="0.0" y="64" width="768" height="916"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How long have these difficulties been present?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="GY2-jx-JhT">
@@ -4161,7 +4179,7 @@
             <objects>
                 <viewController id="TMq-3j-W95" customClass="KidsSurveysViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8Rn-mI-THk">
-                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <rect key="frame" x="0.0" y="64" width="768" height="916"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Do these difficulties upset or distress you?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8NW-FD-w4C">
@@ -4252,7 +4270,7 @@
             <objects>
                 <viewController id="dHD-uS-9rt" customClass="KidsSurveysViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Gfc-wj-CcV">
-                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <rect key="frame" x="0.0" y="64" width="768" height="916"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Do the difficulties interfere with your everyday life in the following areas?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bRH-sj-wQ9">
@@ -4515,7 +4533,7 @@
             <objects>
                 <viewController id="SdN-B4-NWK" customClass="KidsSurveysViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VIG-sE-xgW">
-                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
+                        <rect key="frame" x="0.0" y="64" width="768" height="916"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Do the difficulties make it harder for those around you (family, friends, teachers, etc.)?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6M8-Tn-VLB">
@@ -4603,6 +4621,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="222-big.png" width="680" height="278"/>
         <image name="button (1).png" width="95" height="50"/>
         <image name="button.png" width="95" height="50"/>
     </resources>

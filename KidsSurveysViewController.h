@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+//josh
+#import <AVFoundation/AVFoundation.h>
 
+//josh
 extern BOOL runOnce;
 extern BOOL s1117ImpactSupplement;
 extern BOOL s1117FollowUp;
@@ -31,7 +34,9 @@ extern NSString *researcherName;
     IBOutlet UITextField *kidsName;
     IBOutlet UITextField *researcherName;
 }
-
+//josh
+- (IBAction)playSound:(id)sender;
+//josh
 - (IBAction)answer:(id)sender;
 - (IBAction)submit:(id)sender;
 - (IBAction)childDifficultiesNext:(id)sender;
