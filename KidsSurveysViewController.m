@@ -24,6 +24,14 @@ NSString *kidsIDString;
 NSString *kidsNameString;
 NSString *researcherNameString;
 NSString *commentsString;
+//----------josh was here
+
+@interface KidsSurveysViewController ()
+{
+    AVAudioPlayer *avPlayer;
+}
+@end
+//------to here
 
 @implementation KidsSurveysViewController
 
@@ -100,9 +108,34 @@ NSString *commentsString;
     [self.view setBackgroundColor:circleColorPattern];
     
     [super viewDidLoad];
+    //-----josh was here
+    NSString *stringPath =[[NSBundle mainBundle]pathForResource:@"4019" ofType:@"mp3"];
+    NSURL *url = [NSURL fileURLWithPath:stringPath];
+
+    
+    NSError *error;
+    
+    avPlayer = [[AVAudioPlayer alloc]initWithContentsOfURL:url error:&error];
+    [avPlayer setNumberOfLoops:1];
+    //to ehre
 }
 
 //event handler for recording answer when an answer button is selected.
+- (IBAction)playButton:(id)sender {
+    
+     [avPlayer play];
+}
+
+- (IBAction)playq1:(id)sender {
+    NSError *error;
+
+    NSString *stringPathq1 =[[NSBundle mainBundle]pathForResource:@"vo-1" ofType:@"wav"];
+    NSURL *urlq1 = [NSURL fileURLWithPath:stringPathq1];
+    avPlayer = [[AVAudioPlayer alloc]initWithContentsOfURL:urlq1 error:&error];
+
+    [avPlayer play];
+}
+
 -(IBAction)answer:(id)sender
 {
     UIButton *button = (UIButton *)sender;
