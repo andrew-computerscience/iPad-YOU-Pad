@@ -34,9 +34,9 @@ extern NSString *researcherName;
     IBOutlet UITextField *kidsName;
     IBOutlet UITextField *researcherName;
 }
-//josh
+/*/josh
 - (IBAction)playSound:(id)sender;
-//josh
+//josh*/
 - (IBAction)answer:(id)sender;
 - (IBAction)submit:(id)sender;
 - (IBAction)childDifficultiesNext:(id)sender;

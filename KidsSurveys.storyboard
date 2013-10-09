@@ -2869,7 +2869,7 @@
                                 </connections>
                             </textField>
                             <button opaque="NO" tag="998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="SH5-n2-iqw">
-                                <rect key="frame" x="619" y="856" width="102" height="57"/>
+                                <rect key="frame" x="638" y="652" width="102" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Next" backgroundImage="button (1).png">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>

@@ -23,13 +23,15 @@ NSString *hiddenFilePath;
 NSString *kidsIDString;
 NSString *kidsNameString;
 NSString *researcherNameString;
-//josh
+/*/josh
 @interface KidsSurveysViewController ()
 {
     AVAudioPlayer *avPlayer;
 }
 @end
-//josh
+//josh*/
+
+
 @implementation KidsSurveysViewController
 
 - (void)didReceiveMemoryWarning
@@ -53,7 +55,7 @@ NSString *researcherNameString;
 - (void)viewDidLoad
 {
     
-    //josh
+    /*//josh
     NSString *stringPath =[[NSBundle mainBundle]pathForResource:@"4019" ofType:@"mp3"];
     NSURL *url = [NSURL fileURLWithPath:stringPath];
     
@@ -61,7 +63,7 @@ NSString *researcherNameString;
     
     avPlayer = [[AVAudioPlayer alloc]initWithContentsOfURL:url error:&error];
     [avPlayer setNumberOfLoops:2];
-    //josh
+    //josh*/
 
     //make the next button unclickable until an answer is selected
     UIButton * next = (UIButton *)[self.view viewWithTag:998];
@@ -120,10 +122,10 @@ NSString *researcherNameString;
 }
 
 
-//josh
+/*//josh
 - (IBAction)playSound:(id)sender {
     [avPlayer play];
-}
+}*/
 
 //josh
 //event handler for recording answer when an answer button is selected.
