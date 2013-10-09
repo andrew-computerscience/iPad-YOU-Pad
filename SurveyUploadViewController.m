@@ -74,18 +74,23 @@ NSMutableData *responseData;
         
         survey.uploaded = [NSNumber numberWithBool:YES] ;
         [[NSNotificationCenter defaultCenter] postNotificationName:@"surveyUploaded" object:self];
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Congratulations"
-                                                        message:@"The survey is successfully uploaded!"
-                                                       delegate:self
-                                              cancelButtonTitle:@"Ok"
-                                              otherButtonTitles: nil];
-        [alert show];
-        [self dismissViewControllerAnimated:YES completion:nil];
+        
+        NSLog(@"Core data?");
+        /*
+         UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Congratulations"
+         message:@"The survey is successfully uploaded!"
+         delegate:self
+         cancelButtonTitle:@"Ok"
+         otherButtonTitles: nil];
+         [alert show];
+         
+         [self dismissViewControllerAnimated:YES completion:nil];
+         */
     }
     else{
         [self.message setText:msg];
     }
-
+    
     
     
     [self.activity stopAnimating];
