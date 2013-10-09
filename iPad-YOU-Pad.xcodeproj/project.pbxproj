@@ -10,6 +10,8 @@
 		0E6FBEBC1805C3C000AA303D /* iconbig.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E6FBEBB1805C3C000AA303D /* iconbig.png */; };
 		0E6FBEBE1805C3CE00AA303D /* iconmed.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E6FBEBD1805C3CE00AA303D /* iconmed.png */; };
 		0E6FBEC01805C42300AA303D /* iconsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E6FBEBF1805C42300AA303D /* iconsmall.png */; };
+		0E6FBEC21805C74900AA303D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E6FBEC11805C74900AA303D /* AVFoundation.framework */; };
+		0E6FBEC41805C92900AA303D /* vo-1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0E6FBEC31805C92900AA303D /* vo-1.wav */; };
 		A26E6A7A17FC4D04006C9456 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26E6A7917FC4D04006C9456 /* Foundation.framework */; };
 		A26E6A7C17FC4D04006C9456 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26E6A7B17FC4D04006C9456 /* CoreGraphics.framework */; };
 		A26E6A7E17FC4D04006C9456 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26E6A7D17FC4D04006C9456 /* UIKit.framework */; };
@@ -68,6 +70,8 @@
 		0E6FBEBB1805C3C000AA303D /* iconbig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconbig.png; sourceTree = "<group>"; };
 		0E6FBEBD1805C3CE00AA303D /* iconmed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconmed.png; sourceTree = "<group>"; };
 		0E6FBEBF1805C42300AA303D /* iconsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconsmall.png; sourceTree = "<group>"; };
+		0E6FBEC11805C74900AA303D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0E6FBEC31805C92900AA303D /* vo-1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "vo-1.wav"; sourceTree = "<group>"; };
 		A26E6A7617FC4D04006C9456 /* iPad-YOU-Pad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iPad-YOU-Pad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A26E6A7917FC4D04006C9456 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A26E6A7B17FC4D04006C9456 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -137,6 +141,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E6FBEC21805C74900AA303D /* AVFoundation.framework in Frameworks */,
 				BB5FA5A91800354300F08104 /* CoreData.framework in Frameworks */,
 				A26E6A7C17FC4D04006C9456 /* CoreGraphics.framework in Frameworks */,
 				A26E6A7E17FC4D04006C9456 /* UIKit.framework in Frameworks */,
@@ -180,6 +185,7 @@
 		A26E6A7817FC4D04006C9456 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0E6FBEC11805C74900AA303D /* AVFoundation.framework */,
 				A26E6A7917FC4D04006C9456 /* Foundation.framework */,
 				A26E6A7B17FC4D04006C9456 /* CoreGraphics.framework */,
 				A26E6A7D17FC4D04006C9456 /* UIKit.framework */,
@@ -206,6 +212,7 @@
 			isa = PBXGroup;
 			children = (
 				0E6FBEBF1805C42300AA303D /* iconsmall.png */,
+				0E6FBEC31805C92900AA303D /* vo-1.wav */,
 				0E6FBEBD1805C3CE00AA303D /* iconmed.png */,
 				0E6FBEBB1805C3C000AA303D /* iconbig.png */,
 				A26E6A8117FC4D04006C9456 /* iPad-YOU-Pad-Info.plist */,
@@ -420,6 +427,7 @@
 				0E6FBEC01805C42300AA303D /* iconsmall.png in Resources */,
 				FBE43AE61805231400F05B85 /* ParentsSurveys.storyboard in Resources */,
 				0E6FBEBE1805C3CE00AA303D /* iconmed.png in Resources */,
+				0E6FBEC41805C92900AA303D /* vo-1.wav in Resources */,
 				FBE43AE71805231400F05B85 /* Very-Basic-Checked-checkbox-icon.png in Resources */,
 				FBE43AE81805231400F05B85 /* Very-Basic-Unchecked-checkbox-icon.png in Resources */,
 			);

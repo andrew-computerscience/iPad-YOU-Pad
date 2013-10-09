@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
 extern BOOL runOnce;
 extern BOOL s1117ImpactSupplement;
@@ -33,6 +34,8 @@ extern NSString *commentsString;
     IBOutlet UITextField *researcherName;
     IBOutlet UITextView *comments;
 }
+- (IBAction)playButton:(id)sender;
+- (IBAction)playq1:(id)sender;
 
 - (IBAction)answer:(id)sender;
 - (IBAction)submit:(id)sender;
