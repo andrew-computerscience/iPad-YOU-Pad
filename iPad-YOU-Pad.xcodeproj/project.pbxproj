@@ -7,17 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A249A25618051F2900633935 /* Bullet-Point.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A249A24418051F2900633935 /* Bullet-Point.jpg */; };
-		A249A25718051F2900633935 /* EndPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A249A24618051F2900633935 /* EndPageViewController.m */; };
-		A249A25818051F2900633935 /* Parent42ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A249A24818051F2900633935 /* Parent42ViewController.m */; };
-		A249A25918051F2900633935 /* parentMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A249A24A18051F2900633935 /* parentMenuViewController.m */; };
-		A249A25A18051F2900633935 /* Parents41ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A249A24C18051F2900633935 /* Parents41ViewController.m */; };
-		A249A25B18051F2900633935 /* Parents43ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A249A24E18051F2900633935 /* Parents43ViewController.m */; };
-		A249A25C18051F2900633935 /* Parents44ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A249A25018051F2900633935 /* Parents44ViewController.m */; };
-		A249A25D18051F2900633935 /* Parents45ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A249A25218051F2900633935 /* Parents45ViewController.m */; };
-		A249A25E18051F2900633935 /* ParentsSurveys.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A249A25318051F2900633935 /* ParentsSurveys.storyboard */; };
-		A249A25F18051F2900633935 /* Very-Basic-Checked-checkbox-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A249A25418051F2900633935 /* Very-Basic-Checked-checkbox-icon.png */; };
-		A249A26018051F2900633935 /* Very-Basic-Unchecked-checkbox-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A249A25518051F2900633935 /* Very-Basic-Unchecked-checkbox-icon.png */; };
 		A26E6A7A17FC4D04006C9456 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26E6A7917FC4D04006C9456 /* Foundation.framework */; };
 		A26E6A7C17FC4D04006C9456 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26E6A7B17FC4D04006C9456 /* CoreGraphics.framework */; };
 		A26E6A7E17FC4D04006C9456 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26E6A7D17FC4D04006C9456 /* UIKit.framework */; };
@@ -42,7 +31,24 @@
 		A2E0DC5517FD167C004E7327 /* CompletedSurveys.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2E0DC5417FD167C004E7327 /* CompletedSurveys.storyboard */; };
 		A2E0DC5A17FD17DD004E7327 /* EducatorSurveysViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E0DC5917FD17DD004E7327 /* EducatorSurveysViewController.m */; };
 		A2E0DC5D17FD17FC004E7327 /* CompletedSurveysViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E0DC5C17FD17FC004E7327 /* CompletedSurveysViewController.m */; };
+		BB5FA5A91800354300F08104 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB5FA5A81800354300F08104 /* CoreData.framework */; };
+		BB5FA5AC1800386D00F08104 /* Survey.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BB5FA5AA1800386D00F08104 /* Survey.xcdatamodeld */; };
+		BB5FA5AF18003F4400F08104 /* SurveyListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5FA5AE18003F4400F08104 /* SurveyListViewController.m */; };
+		BB5FA5B418004CD200F08104 /* SurveyListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5FA5B318004CD200F08104 /* SurveyListCell.m */; };
+		BB5FA5BD18012C6400F08104 /* SurveyUploadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5FA5BC18012C6400F08104 /* SurveyUploadViewController.m */; };
+		BB5FA5C018045C1D00F08104 /* Survey.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5FA5BF18045C1D00F08104 /* Survey.m */; };
 		FB27DA6C17FD4EE400FB049D /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB27DA6B17FD4EE400FB049D /* bg.jpg */; };
+		FBE43ADE1805231400F05B85 /* Bullet-Point.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBE43ACC1805231400F05B85 /* Bullet-Point.jpg */; };
+		FBE43ADF1805231400F05B85 /* EndPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE43ACE1805231400F05B85 /* EndPageViewController.m */; };
+		FBE43AE01805231400F05B85 /* Parent42ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE43AD01805231400F05B85 /* Parent42ViewController.m */; };
+		FBE43AE11805231400F05B85 /* parentMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE43AD21805231400F05B85 /* parentMenuViewController.m */; };
+		FBE43AE21805231400F05B85 /* Parents41ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE43AD41805231400F05B85 /* Parents41ViewController.m */; };
+		FBE43AE31805231400F05B85 /* Parents43ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE43AD61805231400F05B85 /* Parents43ViewController.m */; };
+		FBE43AE41805231400F05B85 /* Parents44ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE43AD81805231400F05B85 /* Parents44ViewController.m */; };
+		FBE43AE51805231400F05B85 /* Parents45ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE43ADA1805231400F05B85 /* Parents45ViewController.m */; };
+		FBE43AE61805231400F05B85 /* ParentsSurveys.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBE43ADB1805231400F05B85 /* ParentsSurveys.storyboard */; };
+		FBE43AE71805231400F05B85 /* Very-Basic-Checked-checkbox-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FBE43ADC1805231400F05B85 /* Very-Basic-Checked-checkbox-icon.png */; };
+		FBE43AE81805231400F05B85 /* Very-Basic-Unchecked-checkbox-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FBE43ADD1805231400F05B85 /* Very-Basic-Unchecked-checkbox-icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,24 +62,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A249A24418051F2900633935 /* Bullet-Point.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bullet-Point.jpg"; sourceTree = "<group>"; };
-		A249A24518051F2900633935 /* EndPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EndPageViewController.h; sourceTree = "<group>"; };
-		A249A24618051F2900633935 /* EndPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EndPageViewController.m; sourceTree = "<group>"; };
-		A249A24718051F2900633935 /* Parent42ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parent42ViewController.h; sourceTree = "<group>"; };
-		A249A24818051F2900633935 /* Parent42ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parent42ViewController.m; sourceTree = "<group>"; };
-		A249A24918051F2900633935 /* parentMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parentMenuViewController.h; sourceTree = "<group>"; };
-		A249A24A18051F2900633935 /* parentMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = parentMenuViewController.m; sourceTree = "<group>"; };
-		A249A24B18051F2900633935 /* Parents41ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parents41ViewController.h; sourceTree = "<group>"; };
-		A249A24C18051F2900633935 /* Parents41ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parents41ViewController.m; sourceTree = "<group>"; };
-		A249A24D18051F2900633935 /* Parents43ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parents43ViewController.h; sourceTree = "<group>"; };
-		A249A24E18051F2900633935 /* Parents43ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parents43ViewController.m; sourceTree = "<group>"; };
-		A249A24F18051F2900633935 /* Parents44ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parents44ViewController.h; sourceTree = "<group>"; };
-		A249A25018051F2900633935 /* Parents44ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parents44ViewController.m; sourceTree = "<group>"; };
-		A249A25118051F2900633935 /* Parents45ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parents45ViewController.h; sourceTree = "<group>"; };
-		A249A25218051F2900633935 /* Parents45ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parents45ViewController.m; sourceTree = "<group>"; };
-		A249A25318051F2900633935 /* ParentsSurveys.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ParentsSurveys.storyboard; sourceTree = "<group>"; };
-		A249A25418051F2900633935 /* Very-Basic-Checked-checkbox-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Very-Basic-Checked-checkbox-icon.png"; sourceTree = "<group>"; };
-		A249A25518051F2900633935 /* Very-Basic-Unchecked-checkbox-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Very-Basic-Unchecked-checkbox-icon.png"; sourceTree = "<group>"; };
 		A26E6A7617FC4D04006C9456 /* iPad-YOU-Pad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iPad-YOU-Pad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A26E6A7917FC4D04006C9456 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A26E6A7B17FC4D04006C9456 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -107,7 +95,35 @@
 		A2E0DC5917FD17DD004E7327 /* EducatorSurveysViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EducatorSurveysViewController.m; sourceTree = "<group>"; };
 		A2E0DC5B17FD17FC004E7327 /* CompletedSurveysViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompletedSurveysViewController.h; sourceTree = "<group>"; };
 		A2E0DC5C17FD17FC004E7327 /* CompletedSurveysViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompletedSurveysViewController.m; sourceTree = "<group>"; };
+		BB5FA5A81800354300F08104 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BB5FA5AB1800386D00F08104 /* Survey.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Survey.xcdatamodel; sourceTree = "<group>"; };
+		BB5FA5AD18003F4400F08104 /* SurveyListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SurveyListViewController.h; sourceTree = "<group>"; };
+		BB5FA5AE18003F4400F08104 /* SurveyListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SurveyListViewController.m; sourceTree = "<group>"; };
+		BB5FA5B218004CD200F08104 /* SurveyListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SurveyListCell.h; sourceTree = "<group>"; };
+		BB5FA5B318004CD200F08104 /* SurveyListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SurveyListCell.m; sourceTree = "<group>"; };
+		BB5FA5BB18012C6400F08104 /* SurveyUploadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SurveyUploadViewController.h; sourceTree = "<group>"; };
+		BB5FA5BC18012C6400F08104 /* SurveyUploadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SurveyUploadViewController.m; sourceTree = "<group>"; };
+		BB5FA5BE18045C1D00F08104 /* Survey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Survey.h; sourceTree = "<group>"; };
+		BB5FA5BF18045C1D00F08104 /* Survey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Survey.m; sourceTree = "<group>"; };
 		FB27DA6B17FD4EE400FB049D /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
+		FBE43ACC1805231400F05B85 /* Bullet-Point.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bullet-Point.jpg"; sourceTree = "<group>"; };
+		FBE43ACD1805231400F05B85 /* EndPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EndPageViewController.h; sourceTree = "<group>"; };
+		FBE43ACE1805231400F05B85 /* EndPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EndPageViewController.m; sourceTree = "<group>"; };
+		FBE43ACF1805231400F05B85 /* Parent42ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parent42ViewController.h; sourceTree = "<group>"; };
+		FBE43AD01805231400F05B85 /* Parent42ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parent42ViewController.m; sourceTree = "<group>"; };
+		FBE43AD11805231400F05B85 /* parentMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parentMenuViewController.h; sourceTree = "<group>"; };
+		FBE43AD21805231400F05B85 /* parentMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = parentMenuViewController.m; sourceTree = "<group>"; };
+		FBE43AD31805231400F05B85 /* Parents41ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parents41ViewController.h; sourceTree = "<group>"; };
+		FBE43AD41805231400F05B85 /* Parents41ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parents41ViewController.m; sourceTree = "<group>"; };
+		FBE43AD51805231400F05B85 /* Parents43ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parents43ViewController.h; sourceTree = "<group>"; };
+		FBE43AD61805231400F05B85 /* Parents43ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parents43ViewController.m; sourceTree = "<group>"; };
+		FBE43AD71805231400F05B85 /* Parents44ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parents44ViewController.h; sourceTree = "<group>"; };
+		FBE43AD81805231400F05B85 /* Parents44ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parents44ViewController.m; sourceTree = "<group>"; };
+		FBE43AD91805231400F05B85 /* Parents45ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parents45ViewController.h; sourceTree = "<group>"; };
+		FBE43ADA1805231400F05B85 /* Parents45ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parents45ViewController.m; sourceTree = "<group>"; };
+		FBE43ADB1805231400F05B85 /* ParentsSurveys.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ParentsSurveys.storyboard; sourceTree = "<group>"; };
+		FBE43ADC1805231400F05B85 /* Very-Basic-Checked-checkbox-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Very-Basic-Checked-checkbox-icon.png"; sourceTree = "<group>"; };
+		FBE43ADD1805231400F05B85 /* Very-Basic-Unchecked-checkbox-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Very-Basic-Unchecked-checkbox-icon.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB5FA5A91800354300F08104 /* CoreData.framework in Frameworks */,
 				A26E6A7C17FC4D04006C9456 /* CoreGraphics.framework in Frameworks */,
 				A26E6A7E17FC4D04006C9456 /* UIKit.framework in Frameworks */,
 				A26E6A7A17FC4D04006C9456 /* Foundation.framework in Frameworks */,
@@ -134,35 +151,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A249A24318051F2900633935 /* parentSurvey */ = {
-			isa = PBXGroup;
-			children = (
-				A249A24418051F2900633935 /* Bullet-Point.jpg */,
-				A249A24518051F2900633935 /* EndPageViewController.h */,
-				A249A24618051F2900633935 /* EndPageViewController.m */,
-				A249A24718051F2900633935 /* Parent42ViewController.h */,
-				A249A24818051F2900633935 /* Parent42ViewController.m */,
-				A249A24918051F2900633935 /* parentMenuViewController.h */,
-				A249A24A18051F2900633935 /* parentMenuViewController.m */,
-				A249A24B18051F2900633935 /* Parents41ViewController.h */,
-				A249A24C18051F2900633935 /* Parents41ViewController.m */,
-				A249A24D18051F2900633935 /* Parents43ViewController.h */,
-				A249A24E18051F2900633935 /* Parents43ViewController.m */,
-				A249A24F18051F2900633935 /* Parents44ViewController.h */,
-				A249A25018051F2900633935 /* Parents44ViewController.m */,
-				A249A25118051F2900633935 /* Parents45ViewController.h */,
-				A249A25218051F2900633935 /* Parents45ViewController.m */,
-				A249A25318051F2900633935 /* ParentsSurveys.storyboard */,
-				A249A25418051F2900633935 /* Very-Basic-Checked-checkbox-icon.png */,
-				A249A25518051F2900633935 /* Very-Basic-Unchecked-checkbox-icon.png */,
-			);
-			path = parentSurvey;
-			sourceTree = "<group>";
-		};
 		A26E6A6D17FC4D04006C9456 = {
 			isa = PBXGroup;
 			children = (
-				A249A24318051F2900633935 /* parentSurvey */,
+				BB5FA5A81800354300F08104 /* CoreData.framework */,
 				A26E6A7F17FC4D04006C9456 /* iPad-YOU-Pad */,
 				A26E6A9E17FC4D04006C9456 /* iPad-YOU-PadTests */,
 				A26E6A7817FC4D04006C9456 /* Frameworks */,
@@ -193,6 +185,7 @@
 		A26E6A7F17FC4D04006C9456 /* iPad-YOU-Pad */ = {
 			isa = PBXGroup;
 			children = (
+				FBE43ACB1805231400F05B85 /* parentSurvey */,
 				A289645F17FD24220071FC46 /* Settings */,
 				A2E0DC5117FD1601004E7327 /* MainMenu */,
 				A2E0DC5017FD15F0004E7327 /* EducatorsSurveys */,
@@ -261,6 +254,12 @@
 				A2E0DC5417FD167C004E7327 /* CompletedSurveys.storyboard */,
 				A2E0DC5B17FD17FC004E7327 /* CompletedSurveysViewController.h */,
 				A2E0DC5C17FD17FC004E7327 /* CompletedSurveysViewController.m */,
+				BB5FA5AD18003F4400F08104 /* SurveyListViewController.h */,
+				BB5FA5AE18003F4400F08104 /* SurveyListViewController.m */,
+				BB5FA5B218004CD200F08104 /* SurveyListCell.h */,
+				BB5FA5B318004CD200F08104 /* SurveyListCell.m */,
+				BB5FA5BB18012C6400F08104 /* SurveyUploadViewController.h */,
+				BB5FA5BC18012C6400F08104 /* SurveyUploadViewController.m */,
 			);
 			name = CompletedSurveys;
 			path = ..;
@@ -287,9 +286,38 @@
 				A26E6A8E17FC4D04006C9456 /* MainMenuViewController.h */,
 				A26E6A8F17FC4D04006C9456 /* MainMenuViewController.m */,
 				A26E6A9117FC4D04006C9456 /* Images.xcassets */,
+				BB5FA5BE18045C1D00F08104 /* Survey.h */,
+				BB5FA5BF18045C1D00F08104 /* Survey.m */,
+				BB5FA5AA1800386D00F08104 /* Survey.xcdatamodeld */,
 			);
 			name = MainMenu;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		FBE43ACB1805231400F05B85 /* parentSurvey */ = {
+			isa = PBXGroup;
+			children = (
+				FBE43ACC1805231400F05B85 /* Bullet-Point.jpg */,
+				FBE43ACD1805231400F05B85 /* EndPageViewController.h */,
+				FBE43ACE1805231400F05B85 /* EndPageViewController.m */,
+				FBE43ACF1805231400F05B85 /* Parent42ViewController.h */,
+				FBE43AD01805231400F05B85 /* Parent42ViewController.m */,
+				FBE43AD11805231400F05B85 /* parentMenuViewController.h */,
+				FBE43AD21805231400F05B85 /* parentMenuViewController.m */,
+				FBE43AD31805231400F05B85 /* Parents41ViewController.h */,
+				FBE43AD41805231400F05B85 /* Parents41ViewController.m */,
+				FBE43AD51805231400F05B85 /* Parents43ViewController.h */,
+				FBE43AD61805231400F05B85 /* Parents43ViewController.m */,
+				FBE43AD71805231400F05B85 /* Parents44ViewController.h */,
+				FBE43AD81805231400F05B85 /* Parents44ViewController.m */,
+				FBE43AD91805231400F05B85 /* Parents45ViewController.h */,
+				FBE43ADA1805231400F05B85 /* Parents45ViewController.m */,
+				FBE43ADB1805231400F05B85 /* ParentsSurveys.storyboard */,
+				FBE43ADC1805231400F05B85 /* Very-Basic-Checked-checkbox-icon.png */,
+				FBE43ADD1805231400F05B85 /* Very-Basic-Unchecked-checkbox-icon.png */,
+			);
+			name = parentSurvey;
+			path = ../parentSurvey;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -368,20 +396,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A249A25E18051F2900633935 /* ParentsSurveys.storyboard in Resources */,
 				A2E0DC5517FD167C004E7327 /* CompletedSurveys.storyboard in Resources */,
 				A26E6AB717FC4D3B006C9456 /* KidsSurveys.storyboard in Resources */,
-				A249A25618051F2900633935 /* Bullet-Point.jpg in Resources */,
 				A26E6A9217FC4D04006C9456 /* Images.xcassets in Resources */,
 				A2E0DC5317FD166B004E7327 /* EducatorsSurveys.storyboard in Resources */,
 				A26E6AB417FC4D2C006C9456 /* button.png in Resources */,
 				A26E6A8417FC4D04006C9456 /* InfoPlist.strings in Resources */,
-				A249A26018051F2900633935 /* Very-Basic-Unchecked-checkbox-icon.png in Resources */,
 				A26E6A8D17FC4D04006C9456 /* MainMenu.storyboard in Resources */,
-				A249A25F18051F2900633935 /* Very-Basic-Checked-checkbox-icon.png in Resources */,
 				A26E6AB317FC4D2C006C9456 /* button (1).png in Resources */,
 				A289646117FD253C0071FC46 /* Settings.storyboard in Resources */,
 				FB27DA6C17FD4EE400FB049D /* bg.jpg in Resources */,
+				FBE43ADE1805231400F05B85 /* Bullet-Point.jpg in Resources */,
+				FBE43AE61805231400F05B85 /* ParentsSurveys.storyboard in Resources */,
+				FBE43AE71805231400F05B85 /* Very-Basic-Checked-checkbox-icon.png in Resources */,
+				FBE43AE81805231400F05B85 /* Very-Basic-Unchecked-checkbox-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,20 +428,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A249A25918051F2900633935 /* parentMenuViewController.m in Sources */,
-				A249A25A18051F2900633935 /* Parents41ViewController.m in Sources */,
 				A26E6A9017FC4D04006C9456 /* MainMenuViewController.m in Sources */,
 				A26E6A8A17FC4D04006C9456 /* AppDelegate.m in Sources */,
-				A249A25718051F2900633935 /* EndPageViewController.m in Sources */,
 				A289646417FD257B0071FC46 /* SettingsViewController.m in Sources */,
 				A2E0DC5D17FD17FC004E7327 /* CompletedSurveysViewController.m in Sources */,
 				A2E0DC5A17FD17DD004E7327 /* EducatorSurveysViewController.m in Sources */,
 				A26E6AB517FC4D2C006C9456 /* KidsSurveysViewController.m in Sources */,
-				A249A25B18051F2900633935 /* Parents43ViewController.m in Sources */,
-				A249A25818051F2900633935 /* Parent42ViewController.m in Sources */,
-				A249A25C18051F2900633935 /* Parents44ViewController.m in Sources */,
 				A26E6A8617FC4D04006C9456 /* main.m in Sources */,
-				A249A25D18051F2900633935 /* Parents45ViewController.m in Sources */,
+				BB5FA5AC1800386D00F08104 /* Survey.xcdatamodeld in Sources */,
+				BB5FA5AF18003F4400F08104 /* SurveyListViewController.m in Sources */,
+				BB5FA5B418004CD200F08104 /* SurveyListCell.m in Sources */,
+				BB5FA5BD18012C6400F08104 /* SurveyUploadViewController.m in Sources */,
+				BB5FA5C018045C1D00F08104 /* Survey.m in Sources */,
+				FBE43ADF1805231400F05B85 /* EndPageViewController.m in Sources */,
+				FBE43AE01805231400F05B85 /* Parent42ViewController.m in Sources */,
+				FBE43AE11805231400F05B85 /* parentMenuViewController.m in Sources */,
+				FBE43AE21805231400F05B85 /* Parents41ViewController.m in Sources */,
+				FBE43AE31805231400F05B85 /* Parents43ViewController.m in Sources */,
+				FBE43AE41805231400F05B85 /* Parents44ViewController.m in Sources */,
+				FBE43AE51805231400F05B85 /* Parents45ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -639,6 +672,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BB5FA5AA1800386D00F08104 /* Survey.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BB5FA5AB1800386D00F08104 /* Survey.xcdatamodel */,
+			);
+			currentVersion = BB5FA5AB1800386D00F08104 /* Survey.xcdatamodel */;
+			path = Survey.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = A26E6A6E17FC4D04006C9456 /* Project object */;
 }

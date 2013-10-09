@@ -22,7 +22,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vgB-q0-LWU">
-                                <rect key="frame" x="183" y="373" width="119" height="66"/>
+                                <rect key="frame" x="183" y="373" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Not True" backgroundImage="button.png">
@@ -34,7 +34,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Odr-VV-0C5">
-                                <rect key="frame" x="318" y="373" width="133" height="66"/>
+                                <rect key="frame" x="318" y="373" width="81" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Somewhat True" backgroundImage="button.png">
@@ -46,7 +46,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="HUZ-L0-cli">
-                                <rect key="frame" x="468" y="373" width="126" height="66"/>
+                                <rect key="frame" x="468" y="373" width="72" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Certaintly True" backgroundImage="button.png">
@@ -112,7 +112,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1jR-pI-PjG">
-                                <rect key="frame" x="176" y="375" width="119" height="66"/>
+                                <rect key="frame" x="176" y="375" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Not True" backgroundImage="button.png">
@@ -124,7 +124,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="102" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Bt2-Ro-74n">
-                                <rect key="frame" x="316" y="375" width="133" height="66"/>
+                                <rect key="frame" x="316" y="375" width="81" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Somewhat True" backgroundImage="button.png">
@@ -136,7 +136,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="103" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="LjF-OH-ena">
-                                <rect key="frame" x="466" y="375" width="126" height="66"/>
+                                <rect key="frame" x="466" y="375" width="72" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Certaintly True" backgroundImage="button.png">
@@ -191,7 +191,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="201" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="zoz-ql-bnP">
-                                <rect key="frame" x="173" y="370" width="119" height="66"/>
+                                <rect key="frame" x="173" y="370" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Not True" backgroundImage="button.png">
@@ -203,7 +203,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="202" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="RUp-hr-1qC">
-                                <rect key="frame" x="313" y="370" width="133" height="66"/>
+                                <rect key="frame" x="313" y="370" width="81" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Somewhat True" backgroundImage="button.png">
@@ -215,7 +215,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="203" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="VRu-3x-w1F">
-                                <rect key="frame" x="463" y="370" width="126" height="66"/>
+                                <rect key="frame" x="463" y="370" width="72" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Certaintly True" backgroundImage="button.png">
@@ -262,7 +262,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="301" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="XBP-dY-hLA">
-                                <rect key="frame" x="212" y="365" width="119" height="66"/>
+                                <rect key="frame" x="212" y="365" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Not True" backgroundImage="button.png">
@@ -274,7 +274,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="302" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="3ZB-MQ-F1j">
-                                <rect key="frame" x="352" y="365" width="133" height="66"/>
+                                <rect key="frame" x="352" y="365" width="81" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Somewhat True" backgroundImage="button.png">
@@ -286,7 +286,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="303" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="u8u-Iv-zy2">
-                                <rect key="frame" x="502" y="365" width="126" height="66"/>
+                                <rect key="frame" x="502" y="365" width="72" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Certaintly True" backgroundImage="button.png">
@@ -341,7 +341,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="401" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="4ng-Gs-Vth">
-                                <rect key="frame" x="151" y="366" width="119" height="66"/>
+                                <rect key="frame" x="151" y="366" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Not True" backgroundImage="button.png">
@@ -353,7 +353,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="402" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="w1j-Ec-MDh">
-                                <rect key="frame" x="291" y="366" width="133" height="66"/>
+                                <rect key="frame" x="291" y="366" width="81" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Somewhat True" backgroundImage="button.png">
@@ -365,7 +365,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="403" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8PR-RC-Bbl">
-                                <rect key="frame" x="441" y="366" width="126" height="66"/>
+                                <rect key="frame" x="441" y="366" width="72" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Certaintly True" backgroundImage="button.png">
@@ -420,7 +420,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="501" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="SWe-Aw-2mL">
-                                <rect key="frame" x="213" y="379" width="119" height="66"/>
+                                <rect key="frame" x="213" y="379" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Not True" backgroundImage="button.png">
@@ -432,7 +432,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="502" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="MWW-Oe-nfC">
-                                <rect key="frame" x="353" y="379" width="133" height="66"/>
+                                <rect key="frame" x="353" y="379" width="81" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Somewhat True" backgroundImage="button.png">
@@ -444,7 +444,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="503" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="aJj-dl-xZR">
-                                <rect key="frame" x="503" y="379" width="126" height="66"/>
+                                <rect key="frame" x="503" y="379" width="72" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Certaintly True" backgroundImage="button.png">
@@ -499,7 +499,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="601" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Oq7-NY-a9z">
-                                <rect key="frame" x="176" y="375" width="119" height="66"/>
+                                <rect key="frame" x="176" y="375" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Not True" backgroundImage="button.png">
@@ -511,7 +511,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="602" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="DaZ-ZA-Pat">
-                                <rect key="frame" x="316" y="375" width="133" height="66"/>
+                                <rect key="frame" x="316" y="375" width="81" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Somewhat True" backgroundImage="button.png">
@@ -523,7 +523,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="603" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="tAa-bs-W13">
-                                <rect key="frame" x="466" y="375" width="126" height="66"/>
+                                <rect key="frame" x="466" y="375" width="72" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Certaintly True" backgroundImage="button.png">
@@ -578,7 +578,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="701" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="308-Zm-7gL">
-                                <rect key="frame" x="213" y="377" width="119" height="66"/>
+                                <rect key="frame" x="213" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Not True" backgroundImage="button.png">
@@ -590,7 +590,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="702" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="c4M-xq-hmQ">
-                                <rect key="frame" x="353" y="377" width="133" height="66"/>
+                                <rect key="frame" x="353" y="377" width="81" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Somewhat True" backgroundImage="button.png">
@@ -602,7 +602,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="703" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Hz3-ev-jif">
-                                <rect key="frame" x="503" y="377" width="126" height="66"/>
+                                <rect key="frame" x="503" y="377" width="72" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Certaintly True" backgroundImage="button.png">
@@ -657,7 +657,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="801" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ESJ-06-AZB">
-                                <rect key="frame" x="213" y="377" width="119" height="66"/>
+                                <rect key="frame" x="213" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Not True" backgroundImage="button.png">
@@ -669,7 +669,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="802" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="GCg-Id-gYN">
-                                <rect key="frame" x="353" y="377" width="133" height="66"/>
+                                <rect key="frame" x="353" y="377" width="81" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Somewhat True" backgroundImage="button.png">
@@ -681,7 +681,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="803" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Xlp-DE-3Ab">
-                                <rect key="frame" x="503" y="377" width="126" height="66"/>
+                                <rect key="frame" x="503" y="377" width="72" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Certaintly True" backgroundImage="button.png">
@@ -736,7 +736,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="901" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="hwK-lZ-crL">
-                                <rect key="frame" x="213" y="377" width="119" height="66"/>
+                                <rect key="frame" x="213" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Not True" backgroundImage="button.png">
@@ -748,7 +748,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="902" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="yTf-b6-myt">
-                                <rect key="frame" x="353" y="377" width="133" height="66"/>
+                                <rect key="frame" x="353" y="377" width="81" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Somewhat True" backgroundImage="button.png">
@@ -760,7 +760,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="903" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="O17-Pv-cBe">
-                                <rect key="frame" x="503" y="377" width="126" height="66"/>
+                                <rect key="frame" x="503" y="377" width="72" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Certaintly True" backgroundImage="button.png">
@@ -815,7 +815,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="1001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="GNh-5z-3E0">
-                                <rect key="frame" x="213" y="377" width="119" height="66"/>
+                                <rect key="frame" x="213" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Not True" backgroundImage="button.png">
@@ -827,7 +827,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="1002" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8Bf-Bg-uSt">
-                                <rect key="frame" x="353" y="377" width="133" height="66"/>
+                                <rect key="frame" x="353" y="377" width="81" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Somewhat True" backgroundImage="button.png">
@@ -839,7 +839,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="1003" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="RQE-lK-Y0S">
-                                <rect key="frame" x="503" y="377" width="126" height="66"/>
+                                <rect key="frame" x="503" y="377" width="72" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Certaintly True" backgroundImage="button.png">
@@ -894,7 +894,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="1101" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vWC-Q1-JUc">
-                                <rect key="frame" x="213" y="377" width="119" height="66"/>
+                                <rect key="frame" x="213" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Not True" backgroundImage="button.png">
@@ -906,7 +906,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="1102" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="neV-Wq-Amr">
-                                <rect key="frame" x="353" y="377" width="133" height="66"/>
+                                <rect key="frame" x="353" y="377" width="81" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Somewhat True" backgroundImage="button.png">
@@ -918,7 +918,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="1103" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="X0I-t8-f9w">
-                                <rect key="frame" x="503" y="377" width="126" height="66"/>
+                                <rect key="frame" x="503" y="377" width="72" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Certaintly True" backgroundImage="button.png">
@@ -973,7 +973,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="1201" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="hyd-8o-dNK">
-                                <rect key="frame" x="213" y="377" width="119" height="66"/>
+                                <rect key="frame" x="213" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Not True" backgroundImage="button.png">
@@ -985,7 +985,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="1202" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="loN-Iy-ai0">
-                                <rect key="frame" x="353" y="377" width="133" height="66"/>
+                                <rect key="frame" x="353" y="377" width="81" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Somewhat True" backgroundImage="button.png">
@@ -997,7 +997,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="1203" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Az4-l6-NVI">
-                                <rect key="frame" x="503" y="377" width="126" height="66"/>
+                                <rect key="frame" x="503" y="377" width="72" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Certaintly True" backgroundImage="button.png">
@@ -1052,7 +1052,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="1301" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="MOQ-wH-VRg">
-                                <rect key="frame" x="213" y="377" width="119" height="66"/>
+                                <rect key="frame" x="213" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Not True" backgroundImage="button.png">
@@ -1064,7 +1064,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="1302" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="efV-EE-JV3">
-                                <rect key="frame" x="353" y="377" width="133" height="66"/>
+                                <rect key="frame" x="353" y="377" width="81" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Somewhat True" backgroundImage="button.png">
@@ -1076,7 +1076,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="1303" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Xfw-kN-raL">
-                                <rect key="frame" x="503" y="377" width="126" height="66"/>
+                                <rect key="frame" x="503" y="377" width="72" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Certaintly True" backgroundImage="button.png">
@@ -1131,7 +1131,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="1401" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="GU8-qt-tCJ">
-                                <rect key="frame" x="213" y="377" width="119" height="66"/>
+                                <rect key="frame" x="213" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Not True" backgroundImage="button.png">
@@ -1143,7 +1143,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="1402" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="yzD-eK-c1o">
-                                <rect key="frame" x="353" y="377" width="133" height="66"/>
+                                <rect key="frame" x="353" y="377" width="81" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Somewhat True" backgroundImage="button.png">
@@ -1155,7 +1155,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="1403" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8Bj-5J-CMK">
-                                <rect key="frame" x="503" y="377" width="126" height="66"/>
+                                <rect key="frame" x="503" y="377" width="72" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Certaintly True" backgroundImage="button.png">
@@ -1210,7 +1210,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="1501" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="eBw-bO-2Pa">
-                                <rect key="frame" x="213" y="377" width="119" height="66"/>
+                                <rect key="frame" x="213" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Not True" backgroundImage="button.png">
@@ -1222,7 +1222,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="1502" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vQT-Dr-5L6">
-                                <rect key="frame" x="353" y="377" width="133" height="66"/>
+                                <rect key="frame" x="353" y="377" width="81" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Somewhat True" backgroundImage="button.png">
@@ -1234,7 +1234,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="1503" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="JZY-JX-Hd4">
-                                <rect key="frame" x="503" y="377" width="126" height="66"/>
+                                <rect key="frame" x="503" y="377" width="72" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Certaintly True" backgroundImage="button.png">
@@ -1289,7 +1289,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="1601" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="7pw-Gk-cRl">
-                                <rect key="frame" x="213" y="377" width="119" height="66"/>
+                                <rect key="frame" x="213" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Not True" backgroundImage="button.png">
@@ -1301,7 +1301,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="1602" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="o1H-Bl-jqL">
-                                <rect key="frame" x="353" y="377" width="133" height="66"/>
+                                <rect key="frame" x="353" y="377" width="81" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Somewhat True" backgroundImage="button.png">
@@ -1313,7 +1313,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="1603" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="j76-qj-Jfd">
-                                <rect key="frame" x="503" y="377" width="126" height="66"/>
+                                <rect key="frame" x="503" y="377" width="72" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Certaintly True" backgroundImage="button.png">
@@ -1368,7 +1368,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="1701" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="pJP-HU-Djz">
-                                <rect key="frame" x="213" y="377" width="119" height="66"/>
+                                <rect key="frame" x="213" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Not True" backgroundImage="button.png">
@@ -1380,7 +1380,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="1702" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="PHu-1O-sbb">
-                                <rect key="frame" x="353" y="377" width="133" height="66"/>
+                                <rect key="frame" x="353" y="377" width="81" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Somewhat True" backgroundImage="button.png">
@@ -1392,7 +1392,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="1703" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="IMg-fv-MYr">
-                                <rect key="frame" x="503" y="377" width="126" height="66"/>
+                                <rect key="frame" x="503" y="377" width="72" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Certaintly True" backgroundImage="button.png">
@@ -1447,7 +1447,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="1801" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="cuX-kr-RFT">
-                                <rect key="frame" x="213" y="377" width="119" height="66"/>
+                                <rect key="frame" x="213" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Not True" backgroundImage="button.png">
@@ -1459,7 +1459,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="1802" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="QCv-WD-8e8">
-                                <rect key="frame" x="353" y="377" width="133" height="66"/>
+                                <rect key="frame" x="353" y="377" width="81" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Somewhat True" backgroundImage="button.png">
@@ -1471,7 +1471,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="1803" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="xSM-wT-jhM">
-                                <rect key="frame" x="503" y="377" width="126" height="66"/>
+                                <rect key="frame" x="503" y="377" width="72" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Certaintly True" backgroundImage="button.png">
@@ -1526,7 +1526,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="1901" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="gfD-Js-7OJ">
-                                <rect key="frame" x="213" y="377" width="119" height="66"/>
+                                <rect key="frame" x="213" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Not True" backgroundImage="button.png">
@@ -1538,7 +1538,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="1902" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="jtv-AF-vek">
-                                <rect key="frame" x="353" y="377" width="133" height="66"/>
+                                <rect key="frame" x="353" y="377" width="81" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Somewhat True" backgroundImage="button.png">
@@ -1550,7 +1550,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="1903" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="bgE-vP-lKY">
-                                <rect key="frame" x="503" y="377" width="126" height="66"/>
+                                <rect key="frame" x="503" y="377" width="72" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Certaintly True" backgroundImage="button.png">
@@ -1605,7 +1605,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="2001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="CmV-hL-fjZ">
-                                <rect key="frame" x="213" y="377" width="119" height="66"/>
+                                <rect key="frame" x="213" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Not True" backgroundImage="button.png">
@@ -1617,7 +1617,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="2002" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="qj0-88-qmT">
-                                <rect key="frame" x="353" y="377" width="133" height="66"/>
+                                <rect key="frame" x="353" y="377" width="81" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Somewhat True" backgroundImage="button.png">
@@ -1629,7 +1629,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="2003" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Jse-OH-D7k">
-                                <rect key="frame" x="503" y="377" width="126" height="66"/>
+                                <rect key="frame" x="503" y="377" width="72" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Certaintly True" backgroundImage="button.png">
@@ -1684,7 +1684,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="2101" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Rtr-km-Osl">
-                                <rect key="frame" x="213" y="377" width="119" height="66"/>
+                                <rect key="frame" x="213" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Not True" backgroundImage="button.png">
@@ -1696,7 +1696,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="2102" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="a6t-rT-oKz">
-                                <rect key="frame" x="353" y="377" width="133" height="66"/>
+                                <rect key="frame" x="353" y="377" width="81" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Somewhat True" backgroundImage="button.png">
@@ -1708,7 +1708,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="2103" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="GrC-dI-UIV">
-                                <rect key="frame" x="503" y="377" width="126" height="66"/>
+                                <rect key="frame" x="503" y="377" width="72" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Certaintly True" backgroundImage="button.png">
@@ -1763,7 +1763,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="2201" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6W8-US-N1S">
-                                <rect key="frame" x="213" y="377" width="119" height="66"/>
+                                <rect key="frame" x="213" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Not True" backgroundImage="button.png">
@@ -1775,7 +1775,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="2202" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Iqs-cL-3em">
-                                <rect key="frame" x="353" y="377" width="133" height="66"/>
+                                <rect key="frame" x="353" y="377" width="81" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Somewhat True" backgroundImage="button.png">
@@ -1787,7 +1787,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="2203" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="k4W-x3-dEl">
-                                <rect key="frame" x="503" y="377" width="126" height="66"/>
+                                <rect key="frame" x="503" y="377" width="72" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Certaintly True" backgroundImage="button.png">
@@ -1842,7 +1842,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="2301" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="czk-L6-Aaq">
-                                <rect key="frame" x="213" y="377" width="119" height="66"/>
+                                <rect key="frame" x="213" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Not True" backgroundImage="button.png">
@@ -1854,7 +1854,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="2302" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2A5-0u-YH0">
-                                <rect key="frame" x="353" y="377" width="133" height="66"/>
+                                <rect key="frame" x="353" y="377" width="81" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Somewhat True" backgroundImage="button.png">
@@ -1866,7 +1866,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="2303" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="SV2-XF-KbS">
-                                <rect key="frame" x="503" y="377" width="126" height="66"/>
+                                <rect key="frame" x="503" y="377" width="72" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Certaintly True" backgroundImage="button.png">
@@ -1921,7 +1921,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="2401" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="tU3-Q4-5Fz">
-                                <rect key="frame" x="213" y="377" width="119" height="66"/>
+                                <rect key="frame" x="213" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Not True" backgroundImage="button.png">
@@ -1933,7 +1933,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="2402" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="jcU-rO-HJ8">
-                                <rect key="frame" x="353" y="377" width="133" height="66"/>
+                                <rect key="frame" x="353" y="377" width="81" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Somewhat True" backgroundImage="button.png">
@@ -1945,7 +1945,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="2403" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="RUK-H5-BXT">
-                                <rect key="frame" x="503" y="377" width="126" height="66"/>
+                                <rect key="frame" x="503" y="377" width="72" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Certaintly True" backgroundImage="button.png">
@@ -1957,7 +1957,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="fn6-2X-Jhf">
-                                <rect key="frame" x="618" y="839" width="119" height="66"/>
+                                <rect key="frame" x="618" y="839" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Submit" backgroundImage="button (1).png">
@@ -2152,7 +2152,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="2501" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="qb1-XK-wrb">
-                                <rect key="frame" x="14" y="377" width="155" height="66"/>
+                                <rect key="frame" x="14" y="377" width="101" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="No - No difficulties" backgroundImage="button.png">
@@ -2164,7 +2164,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="2502" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="t0Q-ro-zxq">
-                                <rect key="frame" x="175" y="377" width="180" height="66"/>
+                                <rect key="frame" x="175" y="377" width="124" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Yes - Minor difficulties" backgroundImage="button.png">
@@ -2176,7 +2176,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="2503" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Tlf-q5-j6F">
-                                <rect key="frame" x="362" y="377" width="194" height="66"/>
+                                <rect key="frame" x="362" y="377" width="134" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Yes - Definite difficulties" backgroundImage="button.png">
@@ -2203,7 +2203,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="2504" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="HqW-QJ-wk4">
-                                <rect key="frame" x="563" y="377" width="188" height="66"/>
+                                <rect key="frame" x="563" y="377" width="132" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Yes - Severe difficulties" backgroundImage="button.png">
@@ -2247,7 +2247,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="2601" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="AQC-kd-OdH">
-                                <rect key="frame" x="58" y="377" width="154" height="66"/>
+                                <rect key="frame" x="58" y="377" width="100" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Less than a month" backgroundImage="button.png">
@@ -2259,7 +2259,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="2602" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="VOj-AC-Uar">
-                                <rect key="frame" x="256" y="377" width="119" height="66"/>
+                                <rect key="frame" x="256" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="1-5 months" backgroundImage="button.png">
@@ -2271,7 +2271,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="2603" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="GF5-DE-D9W">
-                                <rect key="frame" x="418" y="377" width="119" height="66"/>
+                                <rect key="frame" x="418" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="6-12 months" backgroundImage="button.png">
@@ -2298,7 +2298,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="2604" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Jvt-d5-1HB">
-                                <rect key="frame" x="577" y="377" width="119" height="66"/>
+                                <rect key="frame" x="577" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Over a year" backgroundImage="button.png">
@@ -2382,7 +2382,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="2701" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="CXw-kt-xTh">
-                                <rect key="frame" x="76" y="377" width="119" height="66"/>
+                                <rect key="frame" x="76" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Not at all" backgroundImage="button.png">
@@ -2394,7 +2394,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="2702" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="K71-qK-R3r">
-                                <rect key="frame" x="256" y="377" width="119" height="66"/>
+                                <rect key="frame" x="256" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Only a little" backgroundImage="button.png">
@@ -2406,7 +2406,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="2703" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Uih-3w-l88">
-                                <rect key="frame" x="418" y="377" width="119" height="66"/>
+                                <rect key="frame" x="418" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Quite a lot" backgroundImage="button.png">
@@ -2433,7 +2433,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="2704" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2Bs-WN-QeG">
-                                <rect key="frame" x="577" y="377" width="119" height="66"/>
+                                <rect key="frame" x="577" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="A great deal" backgroundImage="button.png">
@@ -2473,7 +2473,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="2801" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="4rl-5q-HWj">
-                                <rect key="frame" x="226" y="273" width="119" height="66"/>
+                                <rect key="frame" x="226" y="273" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Not at all" backgroundImage="button.png">
@@ -2485,7 +2485,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="2802" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="apt-8h-JBc">
-                                <rect key="frame" x="360" y="273" width="119" height="66"/>
+                                <rect key="frame" x="360" y="273" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Only a little" backgroundImage="button.png">
@@ -2497,7 +2497,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="2803" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Cc8-lU-Opy">
-                                <rect key="frame" x="494" y="273" width="119" height="66"/>
+                                <rect key="frame" x="494" y="273" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Quite a lot" backgroundImage="button.png">
@@ -2524,7 +2524,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="2804" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="5O2-uh-AMI">
-                                <rect key="frame" x="629" y="273" width="119" height="66"/>
+                                <rect key="frame" x="629" y="273" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="A great deal" backgroundImage="button.png">
@@ -2543,7 +2543,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="2901" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="im4-YZ-rP2">
-                                <rect key="frame" x="226" y="363" width="119" height="66"/>
+                                <rect key="frame" x="226" y="363" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Not at all" backgroundImage="button.png">
@@ -2555,7 +2555,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="2902" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2I6-Ut-hec">
-                                <rect key="frame" x="360" y="363" width="119" height="66"/>
+                                <rect key="frame" x="360" y="363" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Only a little" backgroundImage="button.png">
@@ -2567,7 +2567,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="2903" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="mIw-lO-rNx">
-                                <rect key="frame" x="494" y="363" width="119" height="66"/>
+                                <rect key="frame" x="494" y="363" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Quite a lot" backgroundImage="button.png">
@@ -2579,7 +2579,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="2904" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2tz-DC-6LE">
-                                <rect key="frame" x="629" y="363" width="119" height="66"/>
+                                <rect key="frame" x="629" y="363" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="A great deal" backgroundImage="button.png">
@@ -2598,7 +2598,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="3001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="UdU-Bf-nw1">
-                                <rect key="frame" x="226" y="449" width="119" height="66"/>
+                                <rect key="frame" x="226" y="449" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Not at all" backgroundImage="button.png">
@@ -2610,7 +2610,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="3002" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="f0o-gO-i5j">
-                                <rect key="frame" x="360" y="449" width="119" height="66"/>
+                                <rect key="frame" x="360" y="449" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Only a little" backgroundImage="button.png">
@@ -2622,7 +2622,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="3003" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="qFI-NE-DC0">
-                                <rect key="frame" x="494" y="449" width="119" height="66"/>
+                                <rect key="frame" x="494" y="449" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Quite a lot" backgroundImage="button.png">
@@ -2634,7 +2634,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="3004" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="JYW-vN-NqE">
-                                <rect key="frame" x="629" y="449" width="119" height="66"/>
+                                <rect key="frame" x="629" y="449" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="A great deal" backgroundImage="button.png">
@@ -2653,7 +2653,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="3101" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="uoP-Zt-lcd">
-                                <rect key="frame" x="226" y="535" width="119" height="66"/>
+                                <rect key="frame" x="226" y="535" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Not at all" backgroundImage="button.png">
@@ -2665,7 +2665,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="3102" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="7c8-Ni-cDj">
-                                <rect key="frame" x="360" y="535" width="119" height="66"/>
+                                <rect key="frame" x="360" y="535" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Only a little" backgroundImage="button.png">
@@ -2677,7 +2677,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="3103" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="G4d-Ce-pKf">
-                                <rect key="frame" x="494" y="535" width="119" height="66"/>
+                                <rect key="frame" x="494" y="535" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Quite a lot" backgroundImage="button.png">
@@ -2689,7 +2689,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="3104" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Tvv-LZ-uuf">
-                                <rect key="frame" x="629" y="535" width="119" height="66"/>
+                                <rect key="frame" x="629" y="535" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="A great deal" backgroundImage="button.png">
@@ -2736,7 +2736,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="3201" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="bKr-Cz-eMp">
-                                <rect key="frame" x="76" y="377" width="119" height="66"/>
+                                <rect key="frame" x="76" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Not at all" backgroundImage="button.png">
@@ -2748,7 +2748,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="3202" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8vf-oD-7cJ">
-                                <rect key="frame" x="256" y="377" width="119" height="66"/>
+                                <rect key="frame" x="256" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Only a little" backgroundImage="button.png">
@@ -2760,7 +2760,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="3203" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="esT-ak-KZe">
-                                <rect key="frame" x="418" y="377" width="119" height="66"/>
+                                <rect key="frame" x="418" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Quite a lot" backgroundImage="button.png">
@@ -2787,7 +2787,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="3204" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Js5-kv-mOi">
-                                <rect key="frame" x="577" y="377" width="119" height="66"/>
+                                <rect key="frame" x="577" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="A great deal" backgroundImage="button.png">
@@ -2827,7 +2827,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="3401" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="dOt-jj-ro1">
-                                <rect key="frame" x="111" y="377" width="119" height="66"/>
+                                <rect key="frame" x="111" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Not at all" backgroundImage="button.png">
@@ -2839,7 +2839,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="3402" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="YK2-sb-fra">
-                                <rect key="frame" x="258" y="377" width="119" height="66"/>
+                                <rect key="frame" x="258" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Only a little" backgroundImage="button.png">
@@ -2851,7 +2851,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="3403" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="gXW-6H-ywb">
-                                <rect key="frame" x="404" y="377" width="119" height="66"/>
+                                <rect key="frame" x="404" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Quite a lot" backgroundImage="button.png">
@@ -2878,7 +2878,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="3404" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="CCp-hd-JgA">
-                                <rect key="frame" x="548" y="377" width="119" height="66"/>
+                                <rect key="frame" x="548" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="A great deal" backgroundImage="button.png">
@@ -2933,7 +2933,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="3301" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="43w-xz-abS">
-                                <rect key="frame" x="48" y="307" width="119" height="66"/>
+                                <rect key="frame" x="48" y="307" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Much worse" backgroundImage="button.png">
@@ -2945,7 +2945,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="3302" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="FaC-yd-1es">
-                                <rect key="frame" x="184" y="307" width="119" height="66"/>
+                                <rect key="frame" x="184" y="307" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="A bit worse" backgroundImage="button.png">
@@ -2957,7 +2957,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="3303" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="c2t-Yg-hTg">
-                                <rect key="frame" x="321" y="307" width="135" height="66"/>
+                                <rect key="frame" x="321" y="307" width="83" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="About the same" backgroundImage="button.png">
@@ -2969,7 +2969,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="3304" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="H2s-dZ-hlJ">
-                                <rect key="frame" x="476" y="307" width="119" height="66"/>
+                                <rect key="frame" x="476" y="307" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="A bit better" backgroundImage="button.png">
@@ -2981,7 +2981,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="3305" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="dcV-mg-5OZ">
-                                <rect key="frame" x="612" y="307" width="119" height="66"/>
+                                <rect key="frame" x="612" y="307" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Much better" backgroundImage="button.png">
@@ -3022,7 +3022,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="3501" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="NOB-k1-BV0">
-                                <rect key="frame" x="14" y="377" width="155" height="66"/>
+                                <rect key="frame" x="14" y="377" width="101" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="No - No difficulties" backgroundImage="button.png">
@@ -3034,7 +3034,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="3502" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="CoJ-Pe-mby">
-                                <rect key="frame" x="175" y="377" width="180" height="66"/>
+                                <rect key="frame" x="175" y="377" width="124" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Yes - Minor difficulties" backgroundImage="button.png">
@@ -3046,7 +3046,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="3503" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="iUy-cV-Wvl">
-                                <rect key="frame" x="362" y="377" width="194" height="66"/>
+                                <rect key="frame" x="362" y="377" width="134" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Yes - Definite difficulties" backgroundImage="button.png">
@@ -3073,7 +3073,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="3504" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="VBc-3t-e9V">
-                                <rect key="frame" x="563" y="377" width="188" height="66"/>
+                                <rect key="frame" x="563" y="377" width="132" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Yes - Severe difficulties" backgroundImage="button.png">
@@ -3117,7 +3117,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="3601" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="lnL-9R-JY0">
-                                <rect key="frame" x="76" y="377" width="119" height="66"/>
+                                <rect key="frame" x="76" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Not at all" backgroundImage="button.png">
@@ -3129,7 +3129,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="3602" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="iBN-jr-53P">
-                                <rect key="frame" x="256" y="377" width="119" height="66"/>
+                                <rect key="frame" x="256" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Only a little" backgroundImage="button.png">
@@ -3141,7 +3141,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="3603" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="gnI-Iu-0gK">
-                                <rect key="frame" x="418" y="377" width="119" height="66"/>
+                                <rect key="frame" x="418" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Quite a lot" backgroundImage="button.png">
@@ -3168,7 +3168,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="3604" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="t4q-n9-HJx">
-                                <rect key="frame" x="577" y="377" width="119" height="66"/>
+                                <rect key="frame" x="577" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="A great deal" backgroundImage="button.png">
@@ -3208,7 +3208,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="3701" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="g53-Ck-1uK">
-                                <rect key="frame" x="226" y="281" width="119" height="66"/>
+                                <rect key="frame" x="226" y="281" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Not at all" backgroundImage="button.png">
@@ -3220,7 +3220,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="3702" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="cdb-dZ-SgL">
-                                <rect key="frame" x="360" y="281" width="119" height="66"/>
+                                <rect key="frame" x="360" y="281" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Only a little" backgroundImage="button.png">
@@ -3232,7 +3232,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="3703" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="17G-23-Ibr">
-                                <rect key="frame" x="494" y="281" width="119" height="66"/>
+                                <rect key="frame" x="494" y="281" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Quite a lot" backgroundImage="button.png">
@@ -3259,7 +3259,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="3704" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="UIp-L0-lBA">
-                                <rect key="frame" x="629" y="281" width="119" height="66"/>
+                                <rect key="frame" x="629" y="281" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="A great deal" backgroundImage="button.png">
@@ -3278,7 +3278,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="3801" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="0od-Ut-wsv">
-                                <rect key="frame" x="226" y="371" width="119" height="66"/>
+                                <rect key="frame" x="226" y="371" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Not at all" backgroundImage="button.png">
@@ -3290,7 +3290,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="3802" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="LBa-80-tPL">
-                                <rect key="frame" x="360" y="371" width="119" height="66"/>
+                                <rect key="frame" x="360" y="371" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Only a little" backgroundImage="button.png">
@@ -3302,7 +3302,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="3803" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="TaX-6v-S2d">
-                                <rect key="frame" x="494" y="371" width="119" height="66"/>
+                                <rect key="frame" x="494" y="371" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Quite a lot" backgroundImage="button.png">
@@ -3314,7 +3314,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="3804" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ISv-xa-yU1">
-                                <rect key="frame" x="629" y="371" width="119" height="66"/>
+                                <rect key="frame" x="629" y="371" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="A great deal" backgroundImage="button.png">
@@ -3333,7 +3333,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="3901" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="r7K-gz-Jeh">
-                                <rect key="frame" x="226" y="457" width="119" height="66"/>
+                                <rect key="frame" x="226" y="457" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Not at all" backgroundImage="button.png">
@@ -3345,7 +3345,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="3902" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="WmC-cB-Mwd">
-                                <rect key="frame" x="360" y="457" width="119" height="66"/>
+                                <rect key="frame" x="360" y="457" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Only a little" backgroundImage="button.png">
@@ -3357,7 +3357,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="3903" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="mV3-j9-yUf">
-                                <rect key="frame" x="494" y="457" width="119" height="66"/>
+                                <rect key="frame" x="494" y="457" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Quite a lot" backgroundImage="button.png">
@@ -3369,7 +3369,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="3904" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="z9K-67-2cq">
-                                <rect key="frame" x="629" y="457" width="119" height="66"/>
+                                <rect key="frame" x="629" y="457" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="A great deal" backgroundImage="button.png">
@@ -3388,7 +3388,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="4001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="L6X-b5-deW">
-                                <rect key="frame" x="226" y="543" width="119" height="66"/>
+                                <rect key="frame" x="226" y="543" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Not at all" backgroundImage="button.png">
@@ -3400,7 +3400,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="4002" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="WVN-ZP-LH0">
-                                <rect key="frame" x="360" y="543" width="119" height="66"/>
+                                <rect key="frame" x="360" y="543" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Only a little" backgroundImage="button.png">
@@ -3412,7 +3412,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="4003" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="YpB-BY-34r">
-                                <rect key="frame" x="494" y="543" width="119" height="66"/>
+                                <rect key="frame" x="494" y="543" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Quite a lot" backgroundImage="button.png">
@@ -3424,7 +3424,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="4004" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="TXJ-9W-gzN">
-                                <rect key="frame" x="629" y="543" width="119" height="66"/>
+                                <rect key="frame" x="629" y="543" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="A great deal" backgroundImage="button.png">
@@ -3471,7 +3471,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="4101" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Tlc-82-1rX">
-                                <rect key="frame" x="76" y="377" width="119" height="66"/>
+                                <rect key="frame" x="76" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Not at all" backgroundImage="button.png">
@@ -3483,7 +3483,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="4102" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="k6x-r0-q1a">
-                                <rect key="frame" x="256" y="377" width="119" height="66"/>
+                                <rect key="frame" x="256" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Only a little" backgroundImage="button.png">
@@ -3495,7 +3495,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="4103" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="kK1-rp-p1s">
-                                <rect key="frame" x="418" y="377" width="119" height="66"/>
+                                <rect key="frame" x="418" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Quite a lot" backgroundImage="button.png">
@@ -3522,7 +3522,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="4104" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="V8u-7l-VZl">
-                                <rect key="frame" x="577" y="377" width="119" height="66"/>
+                                <rect key="frame" x="577" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="A great deal" backgroundImage="button.png">
@@ -3638,7 +3638,7 @@
         <!--Navigation Controller-->
         <scene sceneID="mLz-ik-9QH">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="k1n-AG-N5p" sceneMemberID="viewController">
+                <navigationController id="k1n-AG-N5p" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="yPo-uE-351">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
@@ -3669,7 +3669,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="4201" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="BR2-S9-wQd">
-                                <rect key="frame" x="213" y="377" width="119" height="66"/>
+                                <rect key="frame" x="213" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="No" backgroundImage="button.png">
@@ -3681,7 +3681,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="4202" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="m1D-bf-Wre">
-                                <rect key="frame" x="360" y="377" width="119" height="66"/>
+                                <rect key="frame" x="360" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="A little" backgroundImage="button.png">
@@ -3693,7 +3693,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="4203" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="dLW-F3-zXK">
-                                <rect key="frame" x="507" y="377" width="119" height="66"/>
+                                <rect key="frame" x="507" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="A lot" backgroundImage="button.png">
@@ -3748,7 +3748,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="4301" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="WyV-cT-oCF">
-                                <rect key="frame" x="213" y="377" width="119" height="66"/>
+                                <rect key="frame" x="213" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="No" backgroundImage="button.png">
@@ -3760,7 +3760,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="4302" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="kb5-nb-QnA">
-                                <rect key="frame" x="360" y="377" width="119" height="66"/>
+                                <rect key="frame" x="360" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="A little" backgroundImage="button.png">
@@ -3772,7 +3772,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="4303" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="HUA-uK-rF2">
-                                <rect key="frame" x="507" y="377" width="119" height="66"/>
+                                <rect key="frame" x="507" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="A lot" backgroundImage="button.png">
@@ -3827,7 +3827,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="4401" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="uRX-Xf-EHO">
-                                <rect key="frame" x="213" y="377" width="119" height="66"/>
+                                <rect key="frame" x="213" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="No" backgroundImage="button.png">
@@ -3839,7 +3839,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="4402" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="P04-o1-lgh">
-                                <rect key="frame" x="360" y="377" width="119" height="66"/>
+                                <rect key="frame" x="360" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="A little" backgroundImage="button.png">
@@ -3851,7 +3851,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="4403" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="inY-cP-FSS">
-                                <rect key="frame" x="507" y="377" width="119" height="66"/>
+                                <rect key="frame" x="507" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="A lot" backgroundImage="button.png">
@@ -3906,7 +3906,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="4501" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="o8e-s6-zVv">
-                                <rect key="frame" x="213" y="377" width="119" height="66"/>
+                                <rect key="frame" x="213" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="No" backgroundImage="button.png">
@@ -3918,7 +3918,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="4502" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="7zr-4y-YzR">
-                                <rect key="frame" x="360" y="377" width="119" height="66"/>
+                                <rect key="frame" x="360" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="A little" backgroundImage="button.png">
@@ -3930,7 +3930,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="4503" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="9lW-Tx-djW">
-                                <rect key="frame" x="507" y="377" width="119" height="66"/>
+                                <rect key="frame" x="507" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="A lot" backgroundImage="button.png">
@@ -3942,7 +3942,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="tdJ-ii-T5B">
-                                <rect key="frame" x="618" y="839" width="119" height="66"/>
+                                <rect key="frame" x="618" y="839" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Next" backgroundImage="button (1).png">
@@ -3986,7 +3986,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="4601" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2do-o9-Dh5">
-                                <rect key="frame" x="14" y="377" width="155" height="66"/>
+                                <rect key="frame" x="14" y="377" width="101" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="No - No difficulties" backgroundImage="button.png">
@@ -3998,7 +3998,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="4602" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vcy-Wg-Qeu">
-                                <rect key="frame" x="175" y="377" width="180" height="66"/>
+                                <rect key="frame" x="175" y="377" width="124" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Yes - Minor difficulties" backgroundImage="button.png">
@@ -4010,7 +4010,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="4603" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="7Yr-1h-IJh">
-                                <rect key="frame" x="362" y="377" width="194" height="66"/>
+                                <rect key="frame" x="362" y="377" width="134" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Yes - Definite difficulties" backgroundImage="button.png">
@@ -4037,7 +4037,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="4604" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="RfF-sC-UY7">
-                                <rect key="frame" x="563" y="377" width="188" height="66"/>
+                                <rect key="frame" x="563" y="377" width="132" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Yes - Severe difficulties" backgroundImage="button.png">
@@ -4081,7 +4081,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="4701" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="slZ-QK-tRM">
-                                <rect key="frame" x="58" y="377" width="154" height="66"/>
+                                <rect key="frame" x="58" y="377" width="100" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Less than a month" backgroundImage="button.png">
@@ -4093,7 +4093,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="4702" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="R7y-qt-oyL">
-                                <rect key="frame" x="256" y="377" width="119" height="66"/>
+                                <rect key="frame" x="256" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="1-5 months" backgroundImage="button.png">
@@ -4105,7 +4105,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="4703" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1No-pi-hhc">
-                                <rect key="frame" x="418" y="377" width="119" height="66"/>
+                                <rect key="frame" x="418" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="6-12 months" backgroundImage="button.png">
@@ -4132,7 +4132,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="4704" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="u7r-ol-BBm">
-                                <rect key="frame" x="577" y="377" width="119" height="66"/>
+                                <rect key="frame" x="577" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Over a year" backgroundImage="button.png">
@@ -4172,7 +4172,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="4801" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6re-Nj-hr9">
-                                <rect key="frame" x="76" y="377" width="119" height="66"/>
+                                <rect key="frame" x="76" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Not at all" backgroundImage="button.png">
@@ -4184,7 +4184,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="4802" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="lYf-hj-1mo">
-                                <rect key="frame" x="256" y="377" width="119" height="66"/>
+                                <rect key="frame" x="256" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Only a little" backgroundImage="button.png">
@@ -4196,7 +4196,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="4803" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="HLd-g9-Tu8">
-                                <rect key="frame" x="418" y="377" width="119" height="66"/>
+                                <rect key="frame" x="418" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Quite a lot" backgroundImage="button.png">
@@ -4223,7 +4223,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="4804" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="eJb-7u-jN0">
-                                <rect key="frame" x="577" y="377" width="119" height="66"/>
+                                <rect key="frame" x="577" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="A great deal" backgroundImage="button.png">
@@ -4263,7 +4263,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="4901" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="NDo-Mf-gUt">
-                                <rect key="frame" x="226" y="273" width="119" height="66"/>
+                                <rect key="frame" x="226" y="273" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Not at all" backgroundImage="button.png">
@@ -4275,7 +4275,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="4902" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="y0O-XB-sF3">
-                                <rect key="frame" x="360" y="273" width="119" height="66"/>
+                                <rect key="frame" x="360" y="273" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Only a little" backgroundImage="button.png">
@@ -4287,7 +4287,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="4903" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="MDB-me-JB8">
-                                <rect key="frame" x="494" y="273" width="119" height="66"/>
+                                <rect key="frame" x="494" y="273" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Quite a lot" backgroundImage="button.png">
@@ -4314,7 +4314,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="4904" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="SwV-gy-IyA">
-                                <rect key="frame" x="629" y="273" width="119" height="66"/>
+                                <rect key="frame" x="629" y="273" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="A great deal" backgroundImage="button.png">
@@ -4333,7 +4333,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="5001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="jFL-F0-Na5">
-                                <rect key="frame" x="226" y="363" width="119" height="66"/>
+                                <rect key="frame" x="226" y="363" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Not at all" backgroundImage="button.png">
@@ -4345,7 +4345,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="5002" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="KcQ-Mj-9LT">
-                                <rect key="frame" x="360" y="363" width="119" height="66"/>
+                                <rect key="frame" x="360" y="363" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Only a little" backgroundImage="button.png">
@@ -4357,7 +4357,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="5003" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="l0I-X3-Ii3">
-                                <rect key="frame" x="494" y="363" width="119" height="66"/>
+                                <rect key="frame" x="494" y="363" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Quite a lot" backgroundImage="button.png">
@@ -4369,7 +4369,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="5004" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="wSo-rB-xZ2">
-                                <rect key="frame" x="629" y="363" width="119" height="66"/>
+                                <rect key="frame" x="629" y="363" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="A great deal" backgroundImage="button.png">
@@ -4388,7 +4388,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="5101" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="4Z5-vK-aP6">
-                                <rect key="frame" x="226" y="449" width="119" height="66"/>
+                                <rect key="frame" x="226" y="449" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Not at all" backgroundImage="button.png">
@@ -4400,7 +4400,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="5102" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Rjk-xU-6QO">
-                                <rect key="frame" x="360" y="449" width="119" height="66"/>
+                                <rect key="frame" x="360" y="449" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Only a little" backgroundImage="button.png">
@@ -4412,7 +4412,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="5103" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="whe-xZ-x8w">
-                                <rect key="frame" x="494" y="449" width="119" height="66"/>
+                                <rect key="frame" x="494" y="449" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Quite a lot" backgroundImage="button.png">
@@ -4424,7 +4424,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="5104" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Yx7-ta-7jR">
-                                <rect key="frame" x="629" y="449" width="119" height="66"/>
+                                <rect key="frame" x="629" y="449" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="A great deal" backgroundImage="button.png">
@@ -4443,7 +4443,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="5201" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="CKk-Io-lpF">
-                                <rect key="frame" x="226" y="535" width="119" height="66"/>
+                                <rect key="frame" x="226" y="535" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Not at all" backgroundImage="button.png">
@@ -4455,7 +4455,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="5202" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="phL-gv-ecd">
-                                <rect key="frame" x="360" y="535" width="119" height="66"/>
+                                <rect key="frame" x="360" y="535" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Only a little" backgroundImage="button.png">
@@ -4467,7 +4467,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="5203" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="uFd-Aa-yUV">
-                                <rect key="frame" x="494" y="535" width="119" height="66"/>
+                                <rect key="frame" x="494" y="535" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Quite a lot" backgroundImage="button.png">
@@ -4479,7 +4479,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="5204" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Xg8-rN-U1j">
-                                <rect key="frame" x="629" y="535" width="119" height="66"/>
+                                <rect key="frame" x="629" y="535" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="A great deal" backgroundImage="button.png">
@@ -4526,7 +4526,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="5301" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="lIG-fO-ACw">
-                                <rect key="frame" x="76" y="377" width="119" height="66"/>
+                                <rect key="frame" x="76" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Not at all" backgroundImage="button.png">
@@ -4538,7 +4538,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="5302" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="RQh-9S-KdF">
-                                <rect key="frame" x="256" y="377" width="119" height="66"/>
+                                <rect key="frame" x="256" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Only a little" backgroundImage="button.png">
@@ -4550,7 +4550,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="5303" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vJH-zN-6fM">
-                                <rect key="frame" x="418" y="377" width="119" height="66"/>
+                                <rect key="frame" x="418" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Quite a lot" backgroundImage="button.png">
@@ -4577,7 +4577,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="5304" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="PHn-xQ-r0I">
-                                <rect key="frame" x="577" y="377" width="119" height="66"/>
+                                <rect key="frame" x="577" y="377" width="71" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="A great deal" backgroundImage="button.png">

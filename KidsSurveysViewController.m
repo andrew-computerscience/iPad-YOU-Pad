@@ -7,6 +7,7 @@
 //
 
 #import "KidsSurveysViewController.h"
+#import "AppDelegate.h"
 
 BOOL runOnce = true;
 BOOL s1117ImpactSupplement = false;
@@ -29,6 +30,15 @@ NSString *researcherNameString;
 {
     [super didReceiveMemoryWarning];
     // Release any cached data, images, etc that aren't in use.
+}
+
+- (NSManagedObjectContext *)managedObjectContext {
+    NSManagedObjectContext *context = nil;
+    id delegate = [[UIApplication sharedApplication] delegate];
+    if ([delegate performSelector:@selector(managedObjectContext)]) {
+        context = [delegate managedObjectContext];
+    }
+    return context;
 }
 
 #pragma mark - View lifecycle
@@ -370,6 +380,24 @@ NSString *researcherNameString;
     [fm createFileAtPath:hiddenFilePath contents:nil attributes:nil];
     NSLog(@"file created at: %@",docDir);
     NSLog(@"hidden file created at: %@",hiddenDirectory);
+    
+    //Survey List change
+    NSManagedObjectContext *context = [self managedObjectContext];
+    NSManagedObject *survey = [NSEntityDescription insertNewObjectForEntityForName:@"Survey" inManagedObjectContext:context];
+    [survey setValue:researcherNameString forKey:@"researcher_name"];
+    [survey setValue:kidsNameString forKey:@"kid_name"];
+    [survey setValue:kidsID forKey:@"kid_id"];
+    [survey setValue:false forKey:@"uploaded"];
+    [survey setValue:[NSString stringWithFormat:@"%@-%@-%@", buttonTitle, researcherNameString, kidsIDString] forKey:@"file_name"];
+    NSError *error = nil;
+    // Save the object to persistent store
+    if (![context save:&error]) {
+        NSLog(@"Can't Save! %@ %@", error, [error localizedDescription]);
+    }else{
+        NSLog(@"Kids list updated successfully!");
+    }
+
+    
 }
 
 // handler to save identifying info entered by staff at start of new survey

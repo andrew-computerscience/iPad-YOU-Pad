@@ -10,7 +10,8 @@
 
 extern int pin;
 
-@interface MainMenuViewController : UIViewController <UITextFieldDelegate> {
+@interface MainMenuViewController : UIViewController{
+    
     IBOutlet UITextField *pinField;
 }
 

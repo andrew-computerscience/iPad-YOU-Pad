@@ -15,7 +15,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="CYy-Mx-UFQ">
-                                <rect key="frame" x="584" y="469" width="117" height="44"/>
+                                <rect key="frame" x="582" y="838" width="117" height="44"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Back to Main">
                                     <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
@@ -28,14 +28,14 @@
                                     <action selector="goToMainMenu" destination="Y3i-KE-YZz" eventType="touchUpInside" id="juJ-5U-M3j"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Parent" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="NXd-NE-o8y">
-                                <rect key="frame" x="169" y="67" width="136" height="36"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Parent Surveys" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="NXd-NE-o8y">
+                                <rect key="frame" x="264" y="67" width="240" height="42"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="XPQ-hD-I6f">
-                                <rect key="frame" x="235" y="181" width="274" height="45"/>
+                                <rect key="frame" x="247" y="179" width="274" height="45"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <state key="normal" title="Survey #4">
                                     <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
@@ -49,19 +49,8 @@
                                     <segue destination="Bb5-CL-YeS" kind="push" id="95s-CN-mF0"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="B1o-bG-ovh">
-                                <rect key="frame" x="90" y="182" width="36" height="34"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                <state key="normal" title="Survey #1" image="Bullet-Point.jpg" backgroundImage="Bullet-Point.jpg">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="JjX-KS-1xZ">
-                                <rect key="frame" x="247" y="281" width="274" height="45"/>
+                                <rect key="frame" x="247" y="250" width="274" height="45"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <state key="normal" title="Survey #5">
                                     <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
@@ -76,7 +65,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="isV-fl-7xs">
-                                <rect key="frame" x="247" y="410" width="274" height="45"/>
+                                <rect key="frame" x="247" y="318" width="274" height="45"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <state key="normal" title="Survey #6">
                                     <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
@@ -89,28 +78,6 @@
                                     <action selector="Survey3Action:" destination="Y3i-KE-YZz" eventType="touchUpInside" id="hVP-k5-ccw"/>
                                     <segue destination="Bb5-CL-YeS" kind="push" id="t18-OY-XAm"/>
                                 </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="pHF-J6-Kk2">
-                                <rect key="frame" x="90" y="249" width="36" height="34"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                <state key="normal" title="Survey #1" image="Bullet-Point.jpg">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="HYj-Zp-PxP">
-                                <rect key="frame" x="78" y="349" width="36" height="34"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                <state key="normal" title="Survey #1" image="Bullet-Point.jpg">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -1650,7 +1617,7 @@
                                 </connections>
                             </button>
                             <progressView opaque="NO" contentMode="scaleToFill" progress="0.59999999999999998" id="Ftp-jm-rey">
-                                <rect key="frame" x="33" y="954" width="703" height="9"/>
+                                <rect key="frame" x="33" y="955" width="703" height="9"/>
                             </progressView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Good attention span, sees chores or homework through to the end" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Pfp-gw-9Wv">
                                 <rect key="frame" x="25" y="749" width="455" height="42"/>
@@ -2038,7 +2005,7 @@
                                 </connections>
                             </button>
                             <progressView opaque="NO" contentMode="scaleToFill" progress="0.80000000000000004" id="0lA-lE-sdI">
-                                <rect key="frame" x="36" y="962" width="703" height="9"/>
+                                <rect key="frame" x="36" y="963" width="703" height="9"/>
                             </progressView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -2472,7 +2439,7 @@
                                 </connections>
                             </button>
                             <progressView opaque="NO" contentMode="scaleToFill" progress="1" id="9rf-bK-t4i">
-                                <rect key="frame" x="25" y="965" width="703" height="9"/>
+                                <rect key="frame" x="25" y="966" width="703" height="9"/>
                             </progressView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Parent Survey" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9sl-jS-Juf">
                                 <rect key="frame" x="42" y="20" width="108" height="21"/>
@@ -2558,116 +2525,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Bullet-Point.jpg" width="300" height="300"/>
-        <image name="Bullet-Point.jpg" width="300" height="300"/>
-        <image name="Bullet-Point.jpg" width="300" height="300"/>
-        <image name="Bullet-Point.jpg" width="300" height="300"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
-        <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
         <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

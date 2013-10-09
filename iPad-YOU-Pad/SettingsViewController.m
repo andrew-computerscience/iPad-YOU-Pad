@@ -15,7 +15,11 @@
 @implementation SettingsViewController
 
 -(void)goToMainMenu{
-    [self dismissModalViewControllerAnimated:YES];
+    NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+    [userDefaults setValue:self.userName.text forKey:@"email"];
+    [userDefaults setValue:self.password.text forKey:@"password"];
+    [userDefaults synchronize];
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -31,6 +35,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+    [self.userName setText:[userDefaults stringForKey:@"email"]];
+    [self.password setText:[userDefaults stringForKey:@"password"]];
 }
 
 - (void)didReceiveMemoryWarning
