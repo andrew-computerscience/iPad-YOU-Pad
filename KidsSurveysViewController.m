@@ -1,5 +1,5 @@
 //
-//  ViewController.m
+//  KidsSurveysViewController.m
 //
 //
 //  Created by Andrew Edwards on 23/09/13.
@@ -7,19 +7,23 @@
 //
 
 #import "KidsSurveysViewController.h"
+#import "AppDelegate.h"
 
 BOOL runOnce = true;
 BOOL s1117ImpactSupplement = false;
 BOOL s1117FollowUp = false;
-int answers[50];
-int selected[50];
+BOOL s1117YR1a = false;
+int answers[75];
+int selected[75];
 NSFileManager *fm;
 NSArray *paths;
 NSString *docDir;
 NSString *filePath;
+NSString *hiddenFilePath;
 NSString *kidsIDString;
 NSString *kidsNameString;
 NSString *researcherNameString;
+NSString *commentsString;
 
 @implementation KidsSurveysViewController
 
@@ -27,6 +31,15 @@ NSString *researcherNameString;
 {
     [super didReceiveMemoryWarning];
     // Release any cached data, images, etc that aren't in use.
+}
+
+- (NSManagedObjectContext *)managedObjectContext {
+    NSManagedObjectContext *context = nil;
+    id delegate = [[UIApplication sharedApplication] delegate];
+    if ([delegate performSelector:@selector(managedObjectContext)]) {
+        context = [delegate managedObjectContext];
+    }
+    return context;
 }
 
 #pragma mark - View lifecycle
@@ -42,7 +55,7 @@ NSString *researcherNameString;
     if(runOnce){
         
         //initialize answers and selected array
-        for(int i = 0; i < 50; i++){
+        for(int i = 0; i < 75; i++){
             answers[i] = -1;
             selected[i] = -1;
         }
@@ -63,7 +76,7 @@ NSString *researcherNameString;
 
     
     //recover state of previously selected answers when a user goes back to a previous question, then forward again to already answered questions
-    for(int i = 0; i < 50; i++){
+    for(int i = 0; i < 75; i++){
         if(selected[i] != -1){
             UIButton *temp = (UIButton *)[self.view viewWithTag:selected[i]];
             [temp setSelected:YES];
@@ -73,7 +86,7 @@ NSString *researcherNameString;
     }
     
     //when the impact supplement or follow up survey is chosen, change the title of the submit button for the last common question page to a next button
-    if(s1117ImpactSupplement || s1117FollowUp){
+    if(s1117ImpactSupplement || s1117FollowUp || s1117YR1a){
         UIButton *temp = (UIButton *)[self.view viewWithTag:998];
         [temp setTitle:@"Next" forState:UIControlStateNormal];
     }
@@ -175,6 +188,18 @@ NSString *researcherNameString;
         NSLog(@"Much better!");
         answers[button.tag / 100] = 34;
         selected[button.tag / 100] = button.tag;
+    }  else if([buttonTitle isEqualToString:@"No"]){
+        NSLog(@"No!");
+        answers[button.tag / 100] = 40;
+        selected[button.tag / 100] = button.tag;
+    }  else if([buttonTitle isEqualToString:@"A little"]){
+        NSLog(@"A little!");
+        answers[button.tag / 100] = 41;
+        selected[button.tag / 100] = button.tag;
+    }  else if([buttonTitle isEqualToString:@"A lot"]){
+        NSLog(@"A lot!");
+        answers[button.tag / 100] = 42;
+        selected[button.tag / 100] = button.tag;
     }
 }
 
@@ -185,6 +210,23 @@ NSString *researcherNameString;
     NSString *buttonTitle = button.currentTitle;
     
     if([buttonTitle isEqualToString:@"Submit"]){
+        
+        //concatenate answers into one single string, answerString
+        NSMutableString *answerString = [NSMutableString string];
+        int i = 0;
+        while(i < 75){
+            if(answers[i] != -1){
+                [answerString appendString:[NSString stringWithFormat:@"%d, ", answers[i]]];
+            }
+            answers[i] = -1;
+            selected[i] = -1;
+            i++;
+        }
+        
+        //add comments to end of answers string
+        [answerString appendString:commentsString];
+        
+        //write to user accessible file
         if ([fm fileExistsAtPath:filePath]) {
             //create file handle
             NSFileHandle *myHandle = [NSFileHandle fileHandleForWritingAtPath:filePath];
@@ -194,23 +236,30 @@ NSString *researcherNameString;
                 //failed to open file
             }
             
-            //concatenate answers into one single string, answerString
-            NSMutableString *answerString = [NSMutableString string];
-            int i = 0;
-            while(answers[i] < 50){
-                if(answers[i] != -1){
-                    [answerString appendString:[NSString stringWithFormat:@"%d, ", answers[i]]];
-                }
-                i++;
-            }
-            
-            //write the answers to file
             NSData *theData = [answerString dataUsingEncoding:NSUTF8StringEncoding];
             [myHandle seekToEndOfFile];
             [myHandle writeData:theData];
             [myHandle closeFile];
             
         }
+        
+        //write to hidden file
+        if([fm fileExistsAtPath:hiddenFilePath]){
+            NSFileHandle *myHiddenHandle =  [NSFileHandle fileHandleForWritingAtPath:hiddenFilePath];
+            
+            if(myHiddenHandle == nil){
+                exit(0);
+                //failed to open file
+            }
+            
+            NSData *theData = [answerString dataUsingEncoding:NSUTF8StringEncoding];
+            [myHiddenHandle seekToEndOfFile];
+            [myHiddenHandle writeData:theData];
+            [myHiddenHandle closeFile];
+        }
+        s1117YR1a = false;
+        s1117ImpactSupplement = false;
+        s1117FollowUp = false;
     }
 }
 
@@ -242,6 +291,8 @@ NSString *researcherNameString;
         [self performSegueWithIdentifier:@"yesImpactSupp" sender:self];
     } else if(s1117FollowUp){
         [self performSegueWithIdentifier:@"yesFollowUp" sender:self];
+    } else if (s1117YR1a){
+        [self performSegueWithIdentifier:@"yesYR1a" sender:self];
     }
     else {
         [self performSegueWithIdentifier:@"noImpactSuppOrFollowUp" sender:self];
@@ -251,6 +302,10 @@ NSString *researcherNameString;
 //handler to make sure the follow up module is loaded when follow up survey selected
 - (IBAction)s1117FollowUpButtonPress:(id)sender{
     s1117FollowUp = true;
+}
+
+- (IBAction)s1117YR1aButtonPress:(id)sender{
+    s1117YR1a = true;
 }
 
 //Handler to continue with additional follow up survey questions if yes is answered to question re: difficulties
@@ -264,6 +319,20 @@ NSString *researcherNameString;
         [self performSegueWithIdentifier:@"yesDifficultiesFollowUp" sender:self];
     } else if([noDifficulties isSelected]==YES){
         [self performSegueWithIdentifier:@"noDifficultiesFollowUp" sender:self];
+    }
+}
+
+//Handler to continue with additional YR1a survey questions if yes is answered to question re: difficulties
+- (IBAction)childDifficultiesNextYR1a:(id)sender {
+    UIButton *yesMinor = (UIButton *)[self.view viewWithTag:4602];
+    UIButton *yesDefinite = (UIButton *)[self.view viewWithTag:4603];
+    UIButton *yesSevere = (UIButton *)[self.view viewWithTag:4604];
+    UIButton *noDifficulties = (UIButton *)[self.view viewWithTag:4601];
+    
+    if(([yesMinor isSelected]==YES || [yesDefinite isSelected]==YES || [yesSevere isSelected]==YES)){
+        [self performSegueWithIdentifier:@"yesDifficultiesYR1a" sender:self];
+    } else if([noDifficulties isSelected]==YES){
+        [self performSegueWithIdentifier:@"noDifficultiesYR1a" sender:self];
     }
 }
 
@@ -307,14 +376,37 @@ NSString *researcherNameString;
     //create a file manager
     fm = [NSFileManager defaultManager];
     
-    //create the filepath
+    //create the filepath for both files
     paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSArray *hiddenPaths = NSSearchPathForDirectoriesInDomains(NSLibraryDirectory, NSUserDomainMask, YES);
     docDir = [paths objectAtIndex:0];
+    NSString *hiddenDirectory = [hiddenPaths objectAtIndex:0];
     filePath = [docDir stringByAppendingPathComponent: [NSString stringWithFormat:@"%@-%@-%@", buttonTitle, researcherNameString, kidsIDString]];
+    hiddenFilePath = [hiddenDirectory stringByAppendingPathComponent: [NSString stringWithFormat:@"%@-%@-%@", buttonTitle, researcherNameString, kidsIDString]];
     
     //create the answer file
     [fm createFileAtPath:filePath contents:nil attributes:nil];
+    [fm createFileAtPath:hiddenFilePath contents:nil attributes:nil];
     NSLog(@"file created at: %@",docDir);
+    NSLog(@"hidden file created at: %@",hiddenDirectory);
+    
+    //Survey List change
+    NSManagedObjectContext *context = [self managedObjectContext];
+    NSManagedObject *survey = [NSEntityDescription insertNewObjectForEntityForName:@"Survey" inManagedObjectContext:context];
+    [survey setValue:researcherNameString forKey:@"researcher_name"];
+    [survey setValue:kidsNameString forKey:@"kid_name"];
+    [survey setValue:kidsID forKey:@"kid_id"];
+    [survey setValue:false forKey:@"uploaded"];
+    [survey setValue:[NSString stringWithFormat:@"%@-%@-%@", buttonTitle, researcherNameString, kidsIDString] forKey:@"file_name"];
+    NSError *error = nil;
+    // Save the object to persistent store
+    if (![context save:&error]) {
+        NSLog(@"Can't Save! %@ %@", error, [error localizedDescription]);
+    }else{
+        NSLog(@"Kids list updated successfully!");
+    }
+
+    
 }
 
 // handler to save identifying info entered by staff at start of new survey
@@ -332,6 +424,11 @@ NSString *researcherNameString;
     } else {
         next.enabled = NO;
     }
+}
+
+//handler to save contents of comments textfield after view is changed
+- (IBAction)saveComments:(id)sender {
+    commentsString = comments.text;
 }
 
 - (void)viewDidUnload

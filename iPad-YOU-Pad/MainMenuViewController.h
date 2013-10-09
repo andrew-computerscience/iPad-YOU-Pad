@@ -10,7 +10,7 @@
 
 extern int pin;
 
-@interface MainMenuViewController : UIViewController{
+@interface MainMenuViewController : UIViewController <UITextFieldDelegate> {
     
     IBOutlet UITextField *pinField;
 }
@@ -21,5 +21,6 @@ extern int pin;
 -(IBAction)goToCompletedSurveys;
 -(IBAction)goToSettings;
 - (IBAction)checkPin:(id)sender;
+- (IBAction)lock:(id)sender;
 
 @end

@@ -1,22 +1,18 @@
 //
-//  ParetnsSurveysViewController.m
+//  EndPageViewController.m
 //  iPad-YOU-Pad
 //
-//  Created by Andrew Edwards on 3/10/13.
+//  Created by Yuki Robson on 8/10/13.
 //  Copyright (c) 2013 Andrew Edwards. All rights reserved.
 //
 
-#import "ParentsSurveysViewController.h"
+#import "EndPageViewController.h"
 
-@interface ParentsSurveysViewController ()
+@interface EndPageViewController ()
 
 @end
 
-@implementation ParentsSurveysViewController
-
-- (void)goToMainMenu{
-    [self dismissModalViewControllerAnimated:YES];
-}
+@implementation EndPageViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -37,6 +33,10 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(IBAction)finishButton:(id)sender {
+    [self dismissModalViewControllerAnimated:YES];
 }
 
 @end

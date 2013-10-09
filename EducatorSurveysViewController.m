@@ -7,6 +7,7 @@
 //
 
 #import "EducatorSurveysViewController.h"
+#import "AppDelegate.h"
 
 @interface EducatorSurveysViewController ()
 

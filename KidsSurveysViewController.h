@@ -1,9 +1,9 @@
 //
-//  ViewController.h
-//  radio
+//  KidsSurveysViewController.h
+//  iPad-YOU-Pad
 //
-//  Created by Admin on 23/09/13.
-//  Copyright (c) 2013 __MyCompanyName__. All rights reserved.
+//  Created by Andrew Edwards on 23/09/13.
+//  Copyright (c) 2013 Computer Science Student @ UWA. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -11,15 +11,18 @@
 extern BOOL runOnce;
 extern BOOL s1117ImpactSupplement;
 extern BOOL s1117FollowUp;
-extern int answers[50];
-extern int selected[50];
+extern BOOL s1117YR1a;
+extern int answers[75];
+extern int selected[75];
 extern NSFileManager *fm;
 extern NSArray *paths;
 extern NSString *docDir;
 extern NSString *filePath;
+extern NSString *hiddenFilePath;
 extern NSString *kidsID;
 extern NSString *kidsName;
 extern NSString *researcherName;
+extern NSString *commentsString;
 
 @interface KidsSurveysViewController : UIViewController
 {
@@ -28,6 +31,7 @@ extern NSString *researcherName;
     IBOutlet UITextField *kidsID;
     IBOutlet UITextField *kidsName;
     IBOutlet UITextField *researcherName;
+    IBOutlet UITextView *comments;
 }
 
 - (IBAction)answer:(id)sender;
@@ -40,6 +44,7 @@ extern NSString *researcherName;
 - (IBAction)createFile:(id)sender;
 - (IBAction)saveInfo:(id)sender;
 - (IBAction)infoEntered:(id)sender;
+- (IBAction)saveComments:(id)sender;
 
 
 @end
