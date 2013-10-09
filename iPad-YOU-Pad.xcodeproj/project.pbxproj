@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E6FBEBC1805C3C000AA303D /* iconbig.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E6FBEBB1805C3C000AA303D /* iconbig.png */; };
+		0E6FBEBE1805C3CE00AA303D /* iconmed.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E6FBEBD1805C3CE00AA303D /* iconmed.png */; };
+		0E6FBEC01805C42300AA303D /* iconsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E6FBEBF1805C42300AA303D /* iconsmall.png */; };
 		A26E6A7A17FC4D04006C9456 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26E6A7917FC4D04006C9456 /* Foundation.framework */; };
 		A26E6A7C17FC4D04006C9456 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26E6A7B17FC4D04006C9456 /* CoreGraphics.framework */; };
 		A26E6A7E17FC4D04006C9456 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26E6A7D17FC4D04006C9456 /* UIKit.framework */; };
@@ -62,6 +65,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E6FBEBB1805C3C000AA303D /* iconbig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconbig.png; sourceTree = "<group>"; };
+		0E6FBEBD1805C3CE00AA303D /* iconmed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconmed.png; sourceTree = "<group>"; };
+		0E6FBEBF1805C42300AA303D /* iconsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconsmall.png; sourceTree = "<group>"; };
 		A26E6A7617FC4D04006C9456 /* iPad-YOU-Pad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iPad-YOU-Pad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A26E6A7917FC4D04006C9456 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A26E6A7B17FC4D04006C9456 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -199,6 +205,9 @@
 		A26E6A8017FC4D04006C9456 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0E6FBEBF1805C42300AA303D /* iconsmall.png */,
+				0E6FBEBD1805C3CE00AA303D /* iconmed.png */,
+				0E6FBEBB1805C3C000AA303D /* iconbig.png */,
 				A26E6A8117FC4D04006C9456 /* iPad-YOU-Pad-Info.plist */,
 				A26E6A8217FC4D04006C9456 /* InfoPlist.strings */,
 				A26E6A8517FC4D04006C9456 /* main.m */,
@@ -399,6 +408,7 @@
 				A2E0DC5517FD167C004E7327 /* CompletedSurveys.storyboard in Resources */,
 				A26E6AB717FC4D3B006C9456 /* KidsSurveys.storyboard in Resources */,
 				A26E6A9217FC4D04006C9456 /* Images.xcassets in Resources */,
+				0E6FBEBC1805C3C000AA303D /* iconbig.png in Resources */,
 				A2E0DC5317FD166B004E7327 /* EducatorsSurveys.storyboard in Resources */,
 				A26E6AB417FC4D2C006C9456 /* button.png in Resources */,
 				A26E6A8417FC4D04006C9456 /* InfoPlist.strings in Resources */,
@@ -407,7 +417,9 @@
 				A289646117FD253C0071FC46 /* Settings.storyboard in Resources */,
 				FB27DA6C17FD4EE400FB049D /* bg.jpg in Resources */,
 				FBE43ADE1805231400F05B85 /* Bullet-Point.jpg in Resources */,
+				0E6FBEC01805C42300AA303D /* iconsmall.png in Resources */,
 				FBE43AE61805231400F05B85 /* ParentsSurveys.storyboard in Resources */,
+				0E6FBEBE1805C3CE00AA303D /* iconmed.png in Resources */,
 				FBE43AE71805231400F05B85 /* Very-Basic-Checked-checkbox-icon.png in Resources */,
 				FBE43AE81805231400F05B85 /* Very-Basic-Unchecked-checkbox-icon.png in Resources */,
 			);
