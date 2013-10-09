@@ -23,6 +23,7 @@ NSString *hiddenFilePath;
 NSString *kidsIDString;
 NSString *kidsNameString;
 NSString *researcherNameString;
+NSString *commentsString;
 
 @implementation KidsSurveysViewController
 
@@ -213,12 +214,17 @@ NSString *researcherNameString;
         //concatenate answers into one single string, answerString
         NSMutableString *answerString = [NSMutableString string];
         int i = 0;
-        while(answers[i] < 75){
+        while(i < 75){
             if(answers[i] != -1){
                 [answerString appendString:[NSString stringWithFormat:@"%d, ", answers[i]]];
             }
+            answers[i] = -1;
+            selected[i] = -1;
             i++;
         }
+        
+        //add comments to end of answers string
+        [answerString appendString:commentsString];
         
         //write to user accessible file
         if ([fm fileExistsAtPath:filePath]) {
@@ -251,6 +257,9 @@ NSString *researcherNameString;
             [myHiddenHandle writeData:theData];
             [myHiddenHandle closeFile];
         }
+        s1117YR1a = false;
+        s1117ImpactSupplement = false;
+        s1117FollowUp = false;
     }
 }
 
@@ -415,6 +424,11 @@ NSString *researcherNameString;
     } else {
         next.enabled = NO;
     }
+}
+
+//handler to save contents of comments textfield after view is changed
+- (IBAction)saveComments:(id)sender {
+    commentsString = comments.text;
 }
 
 - (void)viewDidUnload

@@ -22,6 +22,7 @@ extern NSString *hiddenFilePath;
 extern NSString *kidsID;
 extern NSString *kidsName;
 extern NSString *researcherName;
+extern NSString *commentsString;
 
 @interface KidsSurveysViewController : UIViewController
 {
@@ -30,6 +31,7 @@ extern NSString *researcherName;
     IBOutlet UITextField *kidsID;
     IBOutlet UITextField *kidsName;
     IBOutlet UITextField *researcherName;
+    IBOutlet UITextView *comments;
 }
 
 - (IBAction)answer:(id)sender;
@@ -42,6 +44,7 @@ extern NSString *researcherName;
 - (IBAction)createFile:(id)sender;
 - (IBAction)saveInfo:(id)sender;
 - (IBAction)infoEntered:(id)sender;
+- (IBAction)saveComments:(id)sender;
 
 
 @end
