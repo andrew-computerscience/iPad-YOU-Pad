@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<<<<<<< HEAD
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="4510" systemVersion="12F45" targetRuntime="iOS.CocoaTouch.iPad" variant="6xAndEarlier" propertyAccessControl="none" initialViewController="k1n-AG-N5p">
-=======
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12F37" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="k1n-AG-N5p">
->>>>>>> e13941fc01f43c220f44a16e5e461cea226ff73a
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12F45" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="k1n-AG-N5p">
     <dependencies>
         <deployment defaultVersion="1552" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
@@ -2870,7 +2866,7 @@
                                 </connections>
                             </textField>
                             <button opaque="NO" tag="998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="SH5-n2-iqw">
-                                <rect key="frame" x="646" y="656" width="102" height="57"/>
+                                <rect key="frame" x="619" y="856" width="102" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Next" backgroundImage="button (1).png">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -2914,8 +2910,6 @@
             </objects>
             <point key="canvasLocation" x="-1618" y="-319"/>
         </scene>
-<<<<<<< HEAD
-=======
         <!--Kids Surveys View Controller-->
         <scene sceneID="wYP-cf-Xmj">
             <objects>
@@ -3652,10 +3646,248 @@
             </objects>
             <point key="canvasLocation" x="27814" y="3664"/>
         </scene>
->>>>>>> e13941fc01f43c220f44a16e5e461cea226ff73a
     </scenes>
     <resources>
         <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
+        <image name="button.png" width="95" height="50"/>
         <image name="button.png" width="95" height="50"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

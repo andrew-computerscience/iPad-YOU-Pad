@@ -5,31 +5,19 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-<<<<<<< HEAD
-	<string>01E64EDA-64D9-4428-A7EE-AB4A82B88A7B</string>
-=======
 	<string>8DCC63C5-EEC6-476C-9F75-67209775E073</string>
->>>>>>> e13941fc01f43c220f44a16e5e461cea226ff73a
 	<key>IDESourceControlProjectName</key>
 	<string>iPad-YOU-Pad</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-<<<<<<< HEAD
-		<key>518605B3-6C91-40CF-BE2A-9771327DB6EB</key>
-=======
 		<key>0B121397-121B-4471-B1B5-4F06DDDBB019</key>
->>>>>>> e13941fc01f43c220f44a16e5e461cea226ff73a
 		<string>https://github.com/andrew-computerscience/iPad-YOU-Pad.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>iPad-YOU-Pad.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-<<<<<<< HEAD
-		<key>518605B3-6C91-40CF-BE2A-9771327DB6EB</key>
-=======
 		<key>0B121397-121B-4471-B1B5-4F06DDDBB019</key>
->>>>>>> e13941fc01f43c220f44a16e5e461cea226ff73a
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -37,26 +25,16 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-<<<<<<< HEAD
-	<string>518605B3-6C91-40CF-BE2A-9771327DB6EB</string>
-=======
 	<string>0B121397-121B-4471-B1B5-4F06DDDBB019</string>
->>>>>>> e13941fc01f43c220f44a16e5e461cea226ff73a
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-<<<<<<< HEAD
-			<string>518605B3-6C91-40CF-BE2A-9771327DB6EB</string>
-			<key>IDESourceControlWCCName</key>
-			<string>iPad-YOU-Pad</string>
-=======
 			<string>0B121397-121B-4471-B1B5-4F06DDDBB019</string>
 			<key>IDESourceControlWCCName</key>
 			<string>project</string>
->>>>>>> e13941fc01f43c220f44a16e5e461cea226ff73a
 		</dict>
 	</array>
 </dict>
