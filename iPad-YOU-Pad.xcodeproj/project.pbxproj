@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0998D1BF180567F0009A7E50 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0998D1BE180567F0009A7E50 /* AVFoundation.framework */; };
-		0998D1C11805681B009A7E50 /* 4019.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0998D1C01805681B009A7E50 /* 4019.mp3 */; };
 		0998D1C3180568F3009A7E50 /* 222-big.png in Resources */ = {isa = PBXBuildFile; fileRef = 0998D1C2180568F3009A7E50 /* 222-big.png */; };
+		0ECCE27B1805A247006AD009 /* 4019.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0ECCE27A1805A247006AD009 /* 4019.mp3 */; };
 		A26E6A7A17FC4D04006C9456 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26E6A7917FC4D04006C9456 /* Foundation.framework */; };
 		A26E6A7C17FC4D04006C9456 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26E6A7B17FC4D04006C9456 /* CoreGraphics.framework */; };
 		A26E6A7E17FC4D04006C9456 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26E6A7D17FC4D04006C9456 /* UIKit.framework */; };
@@ -66,8 +66,8 @@
 
 /* Begin PBXFileReference section */
 		0998D1BE180567F0009A7E50 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		0998D1C01805681B009A7E50 /* 4019.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 4019.mp3; path = ../../Soundplay/Soundplay/4019.mp3; sourceTree = "<group>"; };
 		0998D1C2180568F3009A7E50 /* 222-big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "222-big.png"; sourceTree = "<group>"; };
+		0ECCE27A1805A247006AD009 /* 4019.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 4019.mp3; sourceTree = "<group>"; };
 		A26E6A7617FC4D04006C9456 /* iPad-YOU-Pad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iPad-YOU-Pad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A26E6A7917FC4D04006C9456 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A26E6A7B17FC4D04006C9456 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -193,7 +193,7 @@
 		A26E6A7F17FC4D04006C9456 /* iPad-YOU-Pad */ = {
 			isa = PBXGroup;
 			children = (
-				0998D1C01805681B009A7E50 /* 4019.mp3 */,
+				0ECCE27A1805A247006AD009 /* 4019.mp3 */,
 				FBE43ACB1805231400F05B85 /* parentSurvey */,
 				A289645F17FD24220071FC46 /* Settings */,
 				A2E0DC5117FD1601004E7327 /* MainMenu */,
@@ -408,6 +408,7 @@
 			files = (
 				A2E0DC5517FD167C004E7327 /* CompletedSurveys.storyboard in Resources */,
 				A26E6AB717FC4D3B006C9456 /* KidsSurveys.storyboard in Resources */,
+				0ECCE27B1805A247006AD009 /* 4019.mp3 in Resources */,
 				A26E6A9217FC4D04006C9456 /* Images.xcassets in Resources */,
 				A2E0DC5317FD166B004E7327 /* EducatorsSurveys.storyboard in Resources */,
 				A26E6AB417FC4D2C006C9456 /* button.png in Resources */,
@@ -420,7 +421,6 @@
 				FBE43AE61805231400F05B85 /* ParentsSurveys.storyboard in Resources */,
 				FBE43AE71805231400F05B85 /* Very-Basic-Checked-checkbox-icon.png in Resources */,
 				FBE43AE81805231400F05B85 /* Very-Basic-Unchecked-checkbox-icon.png in Resources */,
-				0998D1C11805681B009A7E50 /* 4019.mp3 in Resources */,
 				0998D1C3180568F3009A7E50 /* 222-big.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
