@@ -1,29 +1,25 @@
 //
-//  Parents41ViewController.m
+//  ParentFollowup2ViewController.m
 //  iPad-YOU-Pad
 //
-//  Created by Yuki Robson on 3/10/13.
+//  Created by Yuki Robson on 9/10/13.
 //  Copyright (c) 2013 Andrew Edwards. All rights reserved.
 //
 
-#import "Parents41ViewController.h"
+#import "ParentFollowup2ViewController.h"
 #import "parentMenuViewController.h"
 
-bool optionQuestions;
-int checkBox[35];
-bool firstStartup;
-int questions;
-//NSString *survey;
-
-@interface Parents41ViewController ()
-
+@interface ParentFollowup2ViewController ()
 
 @end
 
-@implementation Parents41ViewController
+@implementation ParentFollowup2ViewController
+
+
+int checkBox[35];
+int questions;
 
 @synthesize nextButton;
-
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -36,41 +32,11 @@ int questions;
 
 - (void)viewDidLoad
 {
-    start = 0;
-    end = 7;
+    start = 8;
+    end = 15;
     questions = 8;
     nextButton.enabled = NO;
     nextButton.alpha = 0.3;
-    if(firstStartup)
-    {
-        firstStartup = FALSE;
-        fm = [NSFileManager defaultManager];
-        
-        //create the filepath
-        paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
-        docDir = [paths objectAtIndex:0];
-        //NSMutableString *fn;
-        //[fn appendString:[NSString stringWithFormat:@"%@%@%@%@.txt ", survey, researcherName, parentName, parentId]];
-        //NSString *filename = fn;
-        NSLog(@"Name : %@",[NSString stringWithFormat:@"%@-%@-%@-%@", survey, researcherName, parentName, parentId]);
-        filePath = [docDir stringByAppendingPathComponent:[NSString stringWithFormat:@"%@-%@-%@-%@.txt", survey, researcherName, parentName, parentId]];//dont know if it works
-        //create the answer file
-        [fm createFileAtPath:filePath contents:nil attributes:nil];
-        
-        NSLog(@"filepath %@", filePath);
-        
-        paths = NSSearchPathForDirectoriesInDomains(NSLibraryDirectory, NSUserDomainMask, YES);
-        docDir = [paths objectAtIndex:0];
-        hiddenFilePath = [docDir stringByAppendingPathComponent:[NSString stringWithFormat:@"%@-%@-%@-%@.txt", survey, researcherName, parentName, parentId]];
-        
-        
-        //create the answer file
-        [fm createFileAtPath:hiddenFilePath contents:nil attributes:nil];
-        
-        NSLog(@"filepath hidden %@", hiddenFilePath);
-        optionQuestions = false;
-
-    }
     
     for(int i = 0; i < 10000; i+=100){
         for(int j = 1; j < 4; j++){
@@ -84,11 +50,12 @@ int questions;
     {
         if(checkBox[i] != 0)
         {
-            int temp = checkBox[i]+((i+1)*100); //get correct checkbox tag
+            int counter = i-start;
+            int temp = checkBox[i]+((counter+1)*100); //get correct checkbox tag
             UIButton *tempButton = (UIButton *)[self.view viewWithTag:(temp)];
             [tempButton setBackgroundImage:[UIImage imageNamed:@"Very-Basic-Checked-checkbox-icon.png"] forState:UIControlStateSelected];
             [tempButton setSelected:YES];
-                                            
+            
         }
     }
     [self checkNextButton];
@@ -102,11 +69,10 @@ int questions;
     // Dispose of any resources that can be recreated.
 }
 
-//check if all checkboxes were answered
 - (void)checkNextButton {
     
     BOOL flag = YES;
-    for(int i = start; i <= end; i+=1)
+    for(int i = start; i <=end ; i+=1)
     {
         if(checkBox[i] <=0)
         {
@@ -124,12 +90,10 @@ int questions;
 
 -(IBAction)nextButton:(id)sender {
     //write to file
-    NSLog(@"nextbutton");
-    for(int i = start; i <= end; i++)
+    for(int i = start; i < end; i++)
     {
         NSLog(@"%d",checkBox[i]);
     }
-    NSLog(@"end of nextbutton");
     
 }
 
@@ -140,7 +104,7 @@ int questions;
     if([button isSelected]==YES) {
         [button setSelected:YES];
     } else {
-        int checkBoxRow = button.tag/100 - 1;
+        int checkBoxRow = (button.tag/100 - 1)+start;
         checkBox[checkBoxRow] = button.tag%100;
         int round = ((button.tag / 100) * 100) + 1;
         for(int i = round; i < (round + 3); i++){

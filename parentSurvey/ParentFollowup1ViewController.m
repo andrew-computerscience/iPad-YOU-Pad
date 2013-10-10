@@ -1,26 +1,25 @@
 //
-//  Parents41ViewController.m
+//  ParentFollowup1ViewController.m
 //  iPad-YOU-Pad
 //
-//  Created by Yuki Robson on 3/10/13.
+//  Created by Yuki Robson on 9/10/13.
 //  Copyright (c) 2013 Andrew Edwards. All rights reserved.
 //
 
-#import "Parents41ViewController.h"
+#import "ParentFollowup1ViewController.h"
 #import "parentMenuViewController.h"
 
-bool optionQuestions;
-int checkBox[35];
-bool firstStartup;
-int questions;
-//NSString *survey;
-
-@interface Parents41ViewController ()
-
+@interface ParentFollowup1ViewController ()
 
 @end
 
-@implementation Parents41ViewController
+@implementation ParentFollowup1ViewController
+
+
+int checkBox[35];
+bool firstStartup;
+int questions;
+
 
 @synthesize nextButton;
 
@@ -52,24 +51,24 @@ int questions;
         //NSMutableString *fn;
         //[fn appendString:[NSString stringWithFormat:@"%@%@%@%@.txt ", survey, researcherName, parentName, parentId]];
         //NSString *filename = fn;
-        NSLog(@"Name : %@",[NSString stringWithFormat:@"%@-%@-%@-%@", survey, researcherName, parentName, parentId]);
-        filePath = [docDir stringByAppendingPathComponent:[NSString stringWithFormat:@"%@-%@-%@-%@.txt", survey, researcherName, parentName, parentId]];//dont know if it works
+        filePath = [docDir stringByAppendingPathComponent: [NSString stringWithFormat:@"%@-%@-%@-%@.txt", survey, researcherName, parentName, parentId]];
+        //filePath = [docDir stringByAppendingPathComponent:@"2.txt"];//@"%@-%@-%@-%@.txt",survey, researcherName, parentName, parentId]];//dont know if it works
         //create the answer file
         [fm createFileAtPath:filePath contents:nil attributes:nil];
         
-        NSLog(@"filepath %@", filePath);
-        
         paths = NSSearchPathForDirectoriesInDomains(NSLibraryDirectory, NSUserDomainMask, YES);
-        docDir = [paths objectAtIndex:0];
+        
         hiddenFilePath = [docDir stringByAppendingPathComponent:[NSString stringWithFormat:@"%@-%@-%@-%@.txt", survey, researcherName, parentName, parentId]];
+        NSLog(@"filepath %@", docDir);
+        NSLog(@"filepath hidden %@", docDir);
         
         
         //create the answer file
+        [fm createFileAtPath:filePath contents:nil attributes:nil];
         [fm createFileAtPath:hiddenFilePath contents:nil attributes:nil];
         
-        NSLog(@"filepath hidden %@", hiddenFilePath);
-        optionQuestions = false;
-
+        
+        optionalQuestions = true;
     }
     
     for(int i = 0; i < 10000; i+=100){
@@ -88,7 +87,7 @@ int questions;
             UIButton *tempButton = (UIButton *)[self.view viewWithTag:(temp)];
             [tempButton setBackgroundImage:[UIImage imageNamed:@"Very-Basic-Checked-checkbox-icon.png"] forState:UIControlStateSelected];
             [tempButton setSelected:YES];
-                                            
+            
         }
     }
     [self checkNextButton];
@@ -153,5 +152,5 @@ int questions;
     [self checkNextButton];
 }
 
-
 @end
+
