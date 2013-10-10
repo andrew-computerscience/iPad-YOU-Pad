@@ -144,6 +144,55 @@ NSString *commentsString;
     [avPlayer play];
 }
 
+- (IBAction)playq2:(id)sender {
+    NSError *error;
+    
+    NSString *stringPath =[[NSBundle mainBundle]pathForResource:@"vo-2" ofType:@"wav"];
+    NSURL *url = [NSURL fileURLWithPath:stringPath];
+    avPlayer = [[AVAudioPlayer alloc]initWithContentsOfURL:url error:&error];
+    [avPlayer setNumberOfLoops:1];
+    
+    [avPlayer play];
+
+}
+
+- (IBAction)playq3:(id)sender {
+    NSError *error;
+    
+    NSString *stringPath =[[NSBundle mainBundle]pathForResource:@"vo-3" ofType:@"wav"];
+    NSURL *url = [NSURL fileURLWithPath:stringPath];
+    avPlayer = [[AVAudioPlayer alloc]initWithContentsOfURL:url error:&error];
+    [avPlayer setNumberOfLoops:1];
+    
+    [avPlayer play];
+}
+
+- (IBAction)playq4:(id)sender {
+    NSError *error;
+    
+    NSString *stringPath =[[NSBundle mainBundle]pathForResource:@"vo-4" ofType:@"wav"];
+    NSURL *url = [NSURL fileURLWithPath:stringPath];
+    avPlayer = [[AVAudioPlayer alloc]initWithContentsOfURL:url error:&error];
+    [avPlayer setNumberOfLoops:1];
+    
+    [avPlayer play];
+}
+
+- (IBAction)playq5:(id)sender {
+    NSError *error;
+    
+    NSString *stringPath =[[NSBundle mainBundle]pathForResource:@"vo-5" ofType:@"wav"];
+    NSURL *url = [NSURL fileURLWithPath:stringPath];
+    avPlayer = [[AVAudioPlayer alloc]initWithContentsOfURL:url error:&error];
+    [avPlayer setNumberOfLoops:1];
+    
+    [avPlayer play];
+}
+
+
+
+
+
 -(IBAction)answer:(id)sender
 {
     UIButton *button = (UIButton *)sender;
@@ -242,6 +291,9 @@ NSString *commentsString;
         answers[button.tag / 100] = 42;
         selected[button.tag / 100] = button.tag;
     }
+    [avPlayer stop];
+
+    
 }
 
 //event handler for when submit button is selected to write results to file.
@@ -302,6 +354,7 @@ NSString *commentsString;
         s1117ImpactSupplement = false;
         s1117FollowUp = false;
     }
+
 }
 
 //Handler to continue with impact supplement questions if yes is answered to question re: difficulties
@@ -400,6 +453,7 @@ NSString *commentsString;
     
     //call the answer action at the same time as an answer is selected
     [self answer:sender];
+
 }
 
 //handler to bring view back to the main menu
