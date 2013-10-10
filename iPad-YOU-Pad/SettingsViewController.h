@@ -13,5 +13,7 @@
 -(IBAction)goToMainMenu;
 @property (weak, nonatomic) IBOutlet UITextField *userName;
 @property (weak, nonatomic) IBOutlet UITextField *password;
+@property (weak, nonatomic) IBOutlet UITextField *website;
+
 
 @end
