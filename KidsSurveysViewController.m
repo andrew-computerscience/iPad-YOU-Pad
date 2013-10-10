@@ -109,14 +109,14 @@ NSString *commentsString;
     
     [super viewDidLoad];
     //-----josh was here
-    NSString *stringPath =[[NSBundle mainBundle]pathForResource:@"4019" ofType:@"mp3"];
+    /*NSString *stringPath =[[NSBundle mainBundle]pathForResource:@"4019" ofType:@"mp3"];
     NSURL *url = [NSURL fileURLWithPath:stringPath];
 
     
     NSError *error;
     
     avPlayer = [[AVAudioPlayer alloc]initWithContentsOfURL:url error:&error];
-    [avPlayer setNumberOfLoops:1];
+    [avPlayer setNumberOfLoops:1];*/
     //to ehre
 }
 

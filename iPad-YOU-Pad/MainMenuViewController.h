@@ -22,5 +22,6 @@ extern int pin;
 -(IBAction)goToSettings;
 - (IBAction)checkPin:(id)sender;
 - (IBAction)lock:(id)sender;
+- (IBAction)goToPictureSurveys:(id)sender;
 
 @end

@@ -14,13 +14,16 @@
 
 @implementation SettingsViewController
 
+
 -(void)goToMainMenu{
     NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
     [userDefaults setValue:self.userName.text forKey:@"email"];
     [userDefaults setValue:self.password.text forKey:@"password"];
+    [userDefaults setValue:self.website.text forKey:@"website"];
     [userDefaults synchronize];
     [self dismissViewControllerAnimated:YES completion:nil];
 }
+
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -38,6 +41,7 @@
     NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
     [self.userName setText:[userDefaults stringForKey:@"email"]];
     [self.password setText:[userDefaults stringForKey:@"password"]];
+    [self.website setText:[userDefaults stringForKey:@"website"]];
 }
 
 - (void)didReceiveMemoryWarning

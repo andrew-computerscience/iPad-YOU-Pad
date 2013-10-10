@@ -21,6 +21,10 @@
 
 @implementation SurveyListViewController
 
+NSMutableArray *uploadingArray;
+NSMutableArray *uploadedArray;
+NSMutableArray *surveyArray;
+
 - (id)initWithStyle:(UITableViewStyle)style
 {
     self = [super initWithStyle:style];
@@ -45,7 +49,17 @@
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
-
+- (void)updateTable
+{
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Congratulations"
+                                                    message:@"The survey is successfully uploaded!"
+                                                   delegate:self
+                                          cancelButtonTitle:@"Ok"
+                                          otherButtonTitles: nil];
+    [alert show];
+    
+    [self reloadTable];
+}
 
 - (void)viewDidLoad
 {
@@ -57,8 +71,27 @@
     NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:@"Survey"];
     self.surveys = [[managedObjectContext executeFetchRequest:fetchRequest error:nil] mutableCopy];
     
-    [self.tableView reloadData];
-
+    
+    /*
+     uploadedArray = [[NSMutableArray alloc] init];
+     uploadingArray = [[NSMutableArray alloc] init];
+     for (NSManagedObject *obj in self.surveys) {
+     if ([obj valueForKey:@"uploaded"]){
+     [uploadedArray addObject:obj];
+     NSLog(@"%@",[obj valueForKey:@"kid_name"]);
+     }else{
+     [uploadingArray addObject:obj];
+     NSLog(@"%@",[obj valueForKey:@"kid_name"]);
+     }
+     }
+     //[uploadedArray addObject:nil];
+     //[uploadingArray addObject:nil];
+     surveyArray = [[NSMutableArray alloc] initWithObjects:uploadingArray,uploadedArray, nil];
+     
+     [self.tableView reloadData];
+     */
+    
+    [self reloadTable];
     self.navigationItem.title=@"Kid's List";
     
     //self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"back" style:UIBarButtonItemStylePlain target:self action:@selector(goToMainMenu)];
@@ -72,7 +105,7 @@
     UIBarButtonItem* backItem = [[UIBarButtonItem alloc] initWithCustomView:backButton];
     self.navigationItem.leftBarButtonItem = backItem;
     
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reloadTable) name:@"surveyUploaded" object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(updateTable) name:@"surveyUploaded" object:nil];
    
 }
 
@@ -81,8 +114,24 @@
 {
     NSError *error = nil;
     [self.managedObjectContext save:&error];
+    
+    uploadedArray = [[NSMutableArray alloc] init];
+    uploadingArray = [[NSMutableArray alloc] init];
+    for (NSManagedObject *obj in self.surveys) {
+        if ([obj valueForKey:@"uploaded"]){
+            [uploadedArray addObject:obj];
+            NSLog(@"%@",[obj valueForKey:@"kid_name"]);
+        }else{
+            [uploadingArray addObject:obj];
+            NSLog(@"%@",[obj valueForKey:@"kid_name"]);
+        }
+    }
+    
+    surveyArray = [[NSMutableArray alloc] initWithObjects:uploadingArray,uploadedArray, nil];
+    
     [self.tableView reloadData];
 }
+
 
 - (void)didReceiveMemoryWarning
 {
@@ -94,16 +143,18 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-
+    
     // Return the number of sections.
-    return 1;
+    //return 1;
+    return [surveyArray count];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-
+    
     // Return the number of rows in the section.
-    return self.surveys.count;
+    //return self.surveys.count;
+    return [[surveyArray objectAtIndex:section] count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -115,7 +166,8 @@
     // Configure the cell...
     
     //CoreData
-    NSManagedObject *survey = [self.surveys objectAtIndex:indexPath.row];
+    //NSManagedObject *survey = [self.surveys objectAtIndex:indexPath.row];
+    NSManagedObject *survey = [[surveyArray objectAtIndex:indexPath.section] objectAtIndex:indexPath.row];
     
     [cell.kidName setText:[survey valueForKey:@"kid_name"]];
     if ([survey valueForKey:@"uploaded"]) {
@@ -126,6 +178,23 @@
     
     [cell.surveyKind setText:[survey valueForKey:@"file_name"]];
     return cell;
+}
+
+//設定分類開頭標題
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
+    switch (section) {
+        case 0:
+            return @"Unuploaded";
+            break;
+            
+        case 1:
+            return @"Uploaded";
+            break;
+            
+        default:
+            return @"";
+            break;
+    }
 }
 
 /*
@@ -185,8 +254,11 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     if ([segue.identifier isEqualToString:@"uploadSurvey"]) {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+        
+        
+        
         SurveyUploadViewController *destViewController = segue.destinationViewController;
-        Survey *survey = [self.surveys objectAtIndex:indexPath.row];
+        Survey *survey = [[surveyArray objectAtIndex:indexPath.section] objectAtIndex:indexPath.row];
         destViewController.survey = survey;
         //NSLog([NSString stringWithFormat:@"%@",survey.kid_name]);
         

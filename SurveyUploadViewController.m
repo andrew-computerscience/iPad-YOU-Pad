@@ -75,17 +75,10 @@ NSMutableData *responseData;
         survey.uploaded = [NSNumber numberWithBool:YES] ;
         [[NSNotificationCenter defaultCenter] postNotificationName:@"surveyUploaded" object:self];
         
-        NSLog(@"Core data?");
-        /*
-         UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Congratulations"
-         message:@"The survey is successfully uploaded!"
-         delegate:self
-         cancelButtonTitle:@"Ok"
-         otherButtonTitles: nil];
-         [alert show];
+        //NSLog(@"Core data?");
          
          [self dismissViewControllerAnimated:YES completion:nil];
-         */
+         
     }
     else{
         [self.message setText:msg];
@@ -174,7 +167,6 @@ NSMutableData *responseData;
     
     // Create url connection and fire request
     //NSURLConnection *conn = [[NSURLConnection alloc] initWithRequest:request delegate:self];
-    
     
    
     [NSURLConnection connectionWithRequest:request delegate:self];

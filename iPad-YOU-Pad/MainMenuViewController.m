@@ -42,6 +42,13 @@ int pin = 1968;
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
+- (IBAction)goToPictureSurveys:(id)sender {
+    UIStoryboard *picturesStoryboard = [UIStoryboard storyboardWithName:@"PictureSurveys" bundle:nil];
+    UIViewController *initialPicturesVC = [picturesStoryboard instantiateInitialViewController];
+    initialPicturesVC.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
+    [self presentModalViewController:initialPicturesVC animated:YES];
+}
+
 -(void)goToKidsSurveys{
     UIStoryboard *kidsStoryboard = [UIStoryboard storyboardWithName:@"KidsSurveys" bundle:nil];
     UIViewController *initialKidsVC = [kidsStoryboard instantiateInitialViewController];
