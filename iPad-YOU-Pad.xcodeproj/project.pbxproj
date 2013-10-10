@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09E4A02518067F2C0092A0E8 /* 4019.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 09E4A02418067F2C0092A0E8 /* 4019.mp3 */; };
 		0E6FBEBC1805C3C000AA303D /* iconbig.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E6FBEBB1805C3C000AA303D /* iconbig.png */; };
 		0E6FBEBE1805C3CE00AA303D /* iconmed.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E6FBEBD1805C3CE00AA303D /* iconmed.png */; };
 		0E6FBEC01805C42300AA303D /* iconsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E6FBEBF1805C42300AA303D /* iconsmall.png */; };
@@ -67,6 +68,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09E4A02418067F2C0092A0E8 /* 4019.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 4019.mp3; sourceTree = "<group>"; };
 		0E6FBEBB1805C3C000AA303D /* iconbig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconbig.png; sourceTree = "<group>"; };
 		0E6FBEBD1805C3CE00AA303D /* iconmed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconmed.png; sourceTree = "<group>"; };
 		0E6FBEBF1805C42300AA303D /* iconsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconsmall.png; sourceTree = "<group>"; };
@@ -197,6 +199,7 @@
 		A26E6A7F17FC4D04006C9456 /* iPad-YOU-Pad */ = {
 			isa = PBXGroup;
 			children = (
+				09E4A02418067F2C0092A0E8 /* 4019.mp3 */,
 				FBE43ACB1805231400F05B85 /* parentSurvey */,
 				A289645F17FD24220071FC46 /* Settings */,
 				A2E0DC5117FD1601004E7327 /* MainMenu */,
@@ -430,6 +433,7 @@
 				0E6FBEC41805C92900AA303D /* vo-1.wav in Resources */,
 				FBE43AE71805231400F05B85 /* Very-Basic-Checked-checkbox-icon.png in Resources */,
 				FBE43AE81805231400F05B85 /* Very-Basic-Unchecked-checkbox-icon.png in Resources */,
+				09E4A02518067F2C0092A0E8 /* 4019.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
