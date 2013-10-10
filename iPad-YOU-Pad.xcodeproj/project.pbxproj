@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09E4A028180690370092A0E8 /* logo-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 09E4A026180690370092A0E8 /* logo-72.png */; };
+		09E4A029180690370092A0E8 /* logo-144.png in Resources */ = {isa = PBXBuildFile; fileRef = 09E4A027180690370092A0E8 /* logo-144.png */; };
+		09E4A02B1806907B0092A0E8 /* vo-3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 09E4A02A1806907B0092A0E8 /* vo-3.wav */; };
+		09E4A02D180690820092A0E8 /* vo-4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 09E4A02C180690820092A0E8 /* vo-4.wav */; };
+		09E4A02F180690890092A0E8 /* vo-5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 09E4A02E180690890092A0E8 /* vo-5.wav */; };
+		09E4A031180690920092A0E8 /* vo-2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 09E4A030180690920092A0E8 /* vo-2.wav */; };
 		0E6FBEBC1805C3C000AA303D /* iconbig.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E6FBEBB1805C3C000AA303D /* iconbig.png */; };
 		0E6FBEBE1805C3CE00AA303D /* iconmed.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E6FBEBD1805C3CE00AA303D /* iconmed.png */; };
 		0E6FBEC01805C42300AA303D /* iconsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E6FBEBF1805C42300AA303D /* iconsmall.png */; };
@@ -97,6 +103,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09E4A026180690370092A0E8 /* logo-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-72.png"; sourceTree = "<group>"; };
+		09E4A027180690370092A0E8 /* logo-144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-144.png"; sourceTree = "<group>"; };
+		09E4A02A1806907B0092A0E8 /* vo-3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "vo-3.wav"; sourceTree = "<group>"; };
+		09E4A02C180690820092A0E8 /* vo-4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "vo-4.wav"; sourceTree = "<group>"; };
+		09E4A02E180690890092A0E8 /* vo-5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "vo-5.wav"; sourceTree = "<group>"; };
+		09E4A030180690920092A0E8 /* vo-2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "vo-2.wav"; sourceTree = "<group>"; };
 		0E6FBEBB1805C3C000AA303D /* iconbig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconbig.png; sourceTree = "<group>"; };
 		0E6FBEBD1805C3CE00AA303D /* iconmed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconmed.png; sourceTree = "<group>"; };
 		0E6FBEBF1805C42300AA303D /* iconsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconsmall.png; sourceTree = "<group>"; };
@@ -275,9 +287,15 @@
 			isa = PBXGroup;
 			children = (
 				0E6FBEBF1805C42300AA303D /* iconsmall.png */,
+				09E4A02E180690890092A0E8 /* vo-5.wav */,
 				0E6FBEC31805C92900AA303D /* vo-1.wav */,
+				09E4A02C180690820092A0E8 /* vo-4.wav */,
+				09E4A026180690370092A0E8 /* logo-72.png */,
+				09E4A030180690920092A0E8 /* vo-2.wav */,
+				09E4A027180690370092A0E8 /* logo-144.png */,
 				0E6FBEBD1805C3CE00AA303D /* iconmed.png */,
 				0E6FBEBB1805C3C000AA303D /* iconbig.png */,
+				09E4A02A1806907B0092A0E8 /* vo-3.wav */,
 				A26E6A8117FC4D04006C9456 /* iPad-YOU-Pad-Info.plist */,
 				A26E6A8217FC4D04006C9456 /* InfoPlist.strings */,
 				A26E6A8517FC4D04006C9456 /* main.m */,
@@ -569,6 +587,12 @@
 				A2847B8C180685FC00461AE5 /* Image 10ab telling off father angry child afraid.jpg in Resources */,
 				A2847B86180685FC00461AE5 /* Angry.jpg in Resources */,
 				A2847B93180685FC00461AE5 /* Image 6 jack in the box surprised.jpg in Resources */,
+				09E4A028180690370092A0E8 /* logo-72.png in Resources */,
+				09E4A029180690370092A0E8 /* logo-144.png in Resources */,
+				09E4A02B1806907B0092A0E8 /* vo-3.wav in Resources */,
+				09E4A02D180690820092A0E8 /* vo-4.wav in Resources */,
+				09E4A02F180690890092A0E8 /* vo-5.wav in Resources */,
+				09E4A031180690920092A0E8 /* vo-2.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
