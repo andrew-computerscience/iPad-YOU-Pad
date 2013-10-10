@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="4510" systemVersion="12F45" targetRuntime="iOS.CocoaTouch.iPad" variant="6xAndEarlier" propertyAccessControl="none" initialViewController="k1n-AG-N5p">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12C60" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="k1n-AG-N5p">
     <dependencies>
         <deployment defaultVersion="1552" identifier="iOS"/>
         <development version="4600" identifier="xcode"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
     <scenes>
         <!--Kids Surveys View Controller-->
@@ -22,7 +22,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vgB-q0-LWU">
-                                <rect key="frame" x="183" y="373" width="71" height="34"/>
+                                <rect key="frame" x="183" y="373" width="110" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Not True" backgroundImage="button.png">
@@ -34,7 +34,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Odr-VV-0C5">
-                                <rect key="frame" x="318" y="373" width="81" height="34"/>
+                                <rect key="frame" x="318" y="373" width="123" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Somewhat True" backgroundImage="button.png">
@@ -46,7 +46,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="HUZ-L0-cli">
-                                <rect key="frame" x="468" y="373" width="72" height="34"/>
+                                <rect key="frame" x="468" y="373" width="129" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Certaintly True" backgroundImage="button.png">
@@ -76,25 +76,11 @@
                                 <rect key="frame" x="291" y="874" width="150" height="9"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </progressView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8Dk-U5-Gtb">
-                                <rect key="frame" x="69" y="111" width="208" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Elephant noise of success">
-                                    <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="playButton:" destination="2" eventType="touchUpInside" id="QB2-Au-t6o"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="JXx-ge-mOx">
                                 <rect key="frame" x="331" y="111" width="107" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Question">
+                                <state key="normal" title="Audio">
                                     <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -141,7 +127,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1jR-pI-PjG">
-                                <rect key="frame" x="176" y="375" width="71" height="34"/>
+                                <rect key="frame" x="176" y="375" width="130" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Not True" backgroundImage="button.png">
@@ -153,7 +139,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="102" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Bt2-Ro-74n">
-                                <rect key="frame" x="316" y="375" width="81" height="34"/>
+                                <rect key="frame" x="316" y="375" width="130" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Somewhat True" backgroundImage="button.png">
@@ -165,7 +151,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="103" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="LjF-OH-ena">
-                                <rect key="frame" x="466" y="375" width="72" height="34"/>
+                                <rect key="frame" x="466" y="375" width="130" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Certaintly True" backgroundImage="button.png">
@@ -220,7 +206,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="201" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="zoz-ql-bnP">
-                                <rect key="frame" x="173" y="370" width="71" height="34"/>
+                                <rect key="frame" x="173" y="370" width="130" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Not True" backgroundImage="button.png">
@@ -232,7 +218,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="202" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="RUp-hr-1qC">
-                                <rect key="frame" x="313" y="370" width="81" height="34"/>
+                                <rect key="frame" x="313" y="370" width="130" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Somewhat True" backgroundImage="button.png">
@@ -244,7 +230,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="203" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="VRu-3x-w1F">
-                                <rect key="frame" x="463" y="370" width="72" height="34"/>
+                                <rect key="frame" x="463" y="370" width="130" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Certaintly True" backgroundImage="button.png">
@@ -291,7 +277,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="301" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="XBP-dY-hLA">
-                                <rect key="frame" x="212" y="365" width="71" height="34"/>
+                                <rect key="frame" x="212" y="365" width="130" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Not True" backgroundImage="button.png">
@@ -303,7 +289,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="302" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="3ZB-MQ-F1j">
-                                <rect key="frame" x="352" y="365" width="81" height="34"/>
+                                <rect key="frame" x="352" y="365" width="130" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Somewhat True" backgroundImage="button.png">
@@ -315,7 +301,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="303" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="u8u-Iv-zy2">
-                                <rect key="frame" x="502" y="365" width="72" height="34"/>
+                                <rect key="frame" x="502" y="365" width="130" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Certaintly True" backgroundImage="button.png">
@@ -370,7 +356,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="401" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="4ng-Gs-Vth">
-                                <rect key="frame" x="151" y="366" width="71" height="34"/>
+                                <rect key="frame" x="151" y="366" width="130" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Not True" backgroundImage="button.png">
@@ -382,7 +368,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="402" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="w1j-Ec-MDh">
-                                <rect key="frame" x="291" y="366" width="81" height="34"/>
+                                <rect key="frame" x="291" y="366" width="130" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Somewhat True" backgroundImage="button.png">
@@ -394,7 +380,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="403" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8PR-RC-Bbl">
-                                <rect key="frame" x="441" y="366" width="72" height="34"/>
+                                <rect key="frame" x="441" y="366" width="130" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Certaintly True" backgroundImage="button.png">
@@ -449,7 +435,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="501" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="SWe-Aw-2mL">
-                                <rect key="frame" x="213" y="379" width="71" height="34"/>
+                                <rect key="frame" x="213" y="379" width="130" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Not True" backgroundImage="button.png">
@@ -461,7 +447,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="502" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="MWW-Oe-nfC">
-                                <rect key="frame" x="353" y="379" width="81" height="34"/>
+                                <rect key="frame" x="353" y="379" width="130" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Somewhat True" backgroundImage="button.png">
@@ -473,7 +459,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="503" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="aJj-dl-xZR">
-                                <rect key="frame" x="503" y="379" width="72" height="34"/>
+                                <rect key="frame" x="503" y="379" width="130" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Certaintly True" backgroundImage="button.png">
@@ -4650,6 +4636,35 @@
         <image name="button (1).png" width="95" height="50"/>
         <image name="button.png" width="95" height="50"/>
     </resources>
+    <classes>
+        <class className="KidsSurveysViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/KidsSurveysViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="answer:"/>
+                <relationship kind="action" name="childDifficultiesNext:"/>
+                <relationship kind="action" name="childDifficultiesNextFollowUp:"/>
+                <relationship kind="action" name="childDifficultiesNextYR1a:"/>
+                <relationship kind="action" name="createFile:"/>
+                <relationship kind="action" name="forkNext:"/>
+                <relationship kind="action" name="goToMainMenu"/>
+                <relationship kind="action" name="infoEntered:"/>
+                <relationship kind="action" name="playButton:"/>
+                <relationship kind="action" name="playq1:"/>
+                <relationship kind="action" name="s1117FollowUpButtonPress:"/>
+                <relationship kind="action" name="s1117ImpactSuppButtonPress:"/>
+                <relationship kind="action" name="s1117YR1aButtonPress:"/>
+                <relationship kind="action" name="saveComments:"/>
+                <relationship kind="action" name="saveInfo:"/>
+                <relationship kind="action" name="submit:"/>
+                <relationship kind="outlet" name="comments" candidateClass="UITextView"/>
+                <relationship kind="outlet" name="endOfSurvey" candidateClass="UINavigationItem"/>
+                <relationship kind="outlet" name="firstQuestionNavBar" candidateClass="UINavigationItem"/>
+                <relationship kind="outlet" name="kidsID" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="kidsName" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="researcherName" candidateClass="UITextField"/>
+            </relationships>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
         <simulatedOrientationMetrics key="orientation"/>
