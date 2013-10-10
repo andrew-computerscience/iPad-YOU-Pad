@@ -8,6 +8,7 @@
 
 #import "ParentFollowup1ViewController.h"
 #import "parentMenuViewController.h"
+#import "AppDelegate.h"
 
 @interface ParentFollowup1ViewController ()
 
@@ -23,6 +24,15 @@ int questions;
 
 @synthesize nextButton;
 
+// Core Data
+- (NSManagedObjectContext *)managedObjectContext {
+    NSManagedObjectContext *context = nil;
+    id delegate = [[UIApplication sharedApplication] delegate];
+    if ([delegate performSelector:@selector(managedObjectContext)]) {
+        context = [delegate managedObjectContext];
+    }
+    return context;
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -51,14 +61,14 @@ int questions;
         //NSMutableString *fn;
         //[fn appendString:[NSString stringWithFormat:@"%@%@%@%@.txt ", survey, researcherName, parentName, parentId]];
         //NSString *filename = fn;
-        filePath = [docDir stringByAppendingPathComponent: [NSString stringWithFormat:@"%@-%@-%@-%@.txt", survey, researcherName, parentName, parentId]];
+        filePath = [docDir stringByAppendingPathComponent: [NSString stringWithFormat:@"%@-%@-%@-%@", survey, researcherName, parentName, parentId]];
         //filePath = [docDir stringByAppendingPathComponent:@"2.txt"];//@"%@-%@-%@-%@.txt",survey, researcherName, parentName, parentId]];//dont know if it works
         //create the answer file
         [fm createFileAtPath:filePath contents:nil attributes:nil];
         
         paths = NSSearchPathForDirectoriesInDomains(NSLibraryDirectory, NSUserDomainMask, YES);
         
-        hiddenFilePath = [docDir stringByAppendingPathComponent:[NSString stringWithFormat:@"%@-%@-%@-%@.txt", survey, researcherName, parentName, parentId]];
+        hiddenFilePath = [docDir stringByAppendingPathComponent:[NSString stringWithFormat:@"%@-%@-%@-%@", survey, researcherName, parentName, parentId]];
         NSLog(@"filepath %@", docDir);
         NSLog(@"filepath hidden %@", docDir);
         
@@ -67,6 +77,21 @@ int questions;
         [fm createFileAtPath:filePath contents:nil attributes:nil];
         [fm createFileAtPath:hiddenFilePath contents:nil attributes:nil];
         
+        //Survey List change
+        NSManagedObjectContext *context = [self managedObjectContext];
+        NSManagedObject *survey = [NSEntityDescription insertNewObjectForEntityForName:@"Survey" inManagedObjectContext:context];
+        [survey setValue:researcherName forKey:@"researcher_name"];
+        [survey setValue:parentName forKey:@"kid_name"];
+        [survey setValue:parentId forKey:@"kid_id"];
+        [survey setValue:false forKey:@"uploaded"];
+        [survey setValue:[NSString stringWithFormat:@"%@-%@-%@-%@", survey, researcherName, parentName, parentId] forKey:@"file_name"];
+        NSError *error = nil;
+        // Save the object to persistent store
+        if (![context save:&error]) {
+            NSLog(@"Can't Save! %@ %@", error, [error localizedDescription]);
+        }else{
+            NSLog(@"Kids list updated successfully!");
+        }
         
         optionalQuestions = true;
     }
