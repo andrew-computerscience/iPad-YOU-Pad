@@ -1,25 +1,27 @@
 //
-//  Parents45ViewController.m
+//  ParentFollowup5ViewController.m
 //  iPad-YOU-Pad
 //
-//  Created by Yuki Robson on 3/10/13.
+//  Created by Yuki Robson on 9/10/13.
 //  Copyright (c) 2013 Andrew Edwards. All rights reserved.
 //
 
-#import "Parents45ViewController.h"
+#import "ParentFollowup5ViewController.h"
 #import "parentMenuViewController.h"
 
-bool optionQuestions;
+@interface ParentFollowup5ViewController ()
+
+@end
+
+@implementation ParentFollowup5ViewController
+
+
+
+bool optionalQuestions;
 int questions;
 int numOptions;
 NSString *comment;
 NSMutableString *answerString;
-
-@interface Parents45ViewController ()
-
-@end
-
-@implementation Parents45ViewController
 
 @synthesize finishButton;
 @synthesize commentTextField;
@@ -41,37 +43,34 @@ NSMutableString *answerString;
     numOptions = 4;
     finishButton.enabled = NO;
     finishButton.alpha = 0.3;
-    CGRect frame = commentTextField.frame;
-    frame.size.height = 50;
-    commentTextField.frame = frame;
     
-    if(!optionQuestions){
+    if(!optionalQuestions){
         [self disableQustions];
     } else {
-    
-    for(int i = 0; i < 10000; i+=100){
-        for(int j = 1; j < numOptions+1; j++){
-            UIButton * temp = (UIButton *)[self.view viewWithTag:(i+j)];
-            [temp setBackgroundImage:[UIImage imageNamed:@"Very-Basic-Checked-checkbox-icon.png"] forState:UIControlStateSelected];
-            [temp addTarget:self action:@selector(buttonClicked:) forControlEvents:UIControlEventTouchUpInside];
+        
+        for(int i = 0; i < 10000; i+=100){
+            for(int j = 1; j < numOptions+1; j++){
+                UIButton * temp = (UIButton *)[self.view viewWithTag:(i+j)];
+                [temp setBackgroundImage:[UIImage imageNamed:@"Very-Basic-Checked-checkbox-icon.png"] forState:UIControlStateSelected];
+                [temp addTarget:self action:@selector(buttonClicked:) forControlEvents:UIControlEventTouchUpInside];
+            }
         }
-    }
-    //check if already answered checkBox
-    for(int i = start; i <=end; i++)
-    {
-        if(checkBox[i] != 0)
+        //check if already answered checkBox
+        for(int i = start; i <=end; i++)
         {
-            int counter = i-start;
-            int temp = checkBox[i]+((counter+1)*100); //get correct checkbox tag
-            UIButton *tempButton = (UIButton *)[self.view viewWithTag:(temp)];
-            [tempButton setBackgroundImage:[UIImage imageNamed:@"Very-Basic-Checked-checkbox-icon.png"] forState:UIControlStateSelected];
-            [tempButton setSelected:YES];
-            
+            if(checkBox[i] != 0)
+            {
+                int counter = i-start;
+                int temp = checkBox[i]+((counter+1)*100); //get correct checkbox tag
+                UIButton *tempButton = (UIButton *)[self.view viewWithTag:(temp)];
+                [tempButton setBackgroundImage:[UIImage imageNamed:@"Very-Basic-Checked-checkbox-icon.png"] forState:UIControlStateSelected];
+                [tempButton setSelected:YES];
+                
+            }
         }
-    }
     }
     [self checkNextButton];
-        
+    
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
 }
@@ -83,7 +82,7 @@ NSMutableString *answerString;
 }
 
 -(void)disableQustions {
-    for(int i = 100; i < 600; i+=100) {
+    for(int i = 100; i < 700; i+=100) {
         for(int j = 1; j < 5; j++) {
             UIButton *temp = (UIButton*)[self.view viewWithTag:(i+j)];
             [temp setBackgroundImage:[UIImage imageNamed:@"Very-Basic-Unchecked-checkbox-icon.png"] forState:UIControlStateSelected];
@@ -104,8 +103,7 @@ NSMutableString *answerString;
 - (void)checkNextButton {
     
     BOOL flag = YES;
-    if(optionQuestions){
-        printf("checking");
+    if(optionalQuestions){
         for(int i = start; i <=end; i++)
         {
             if(checkBox[i] <=0)
@@ -114,12 +112,12 @@ NSMutableString *answerString;
             }
             
         }
-
+        
     }
-        if(flag) {
+    if(flag) {
         finishButton.enabled = YES;
         finishButton.alpha = 1;
-        }
+    }
     
     //NSLog(@"%f", 2.0);
 }
@@ -128,20 +126,12 @@ NSMutableString *answerString;
     //write to file
     NSMutableString *answerString = [NSMutableString string];
     [answerString appendString:[NSString stringWithFormat:@"%@, %@, %@, ", researcherName, parentName, parentId]];
-
-    for(int i = 0; i <= end; i++){
-        if(i == 0)
-        {
-            [answerString appendString:[NSString stringWithFormat:@"%d ", checkBox[i]]];
-        } else {
-            [answerString appendString:[NSString stringWithFormat:@",%d ", checkBox[i]]];
-        }
-    }
-    NSString *temp = commentTextField.text;
-    if([temp length] != 0){
-        [answerString appendString:[NSString stringWithFormat:@"%@ ", temp]];
-    }
     
+    for(int i = 0; i <= end; i++){
+            [answerString appendString:[NSString stringWithFormat:@"%d, ", checkBox[i]]];
+        
+    }
+    //[answerString appendString:[NSString stringWithFormat:@"%@ ", commentTextField.text]];
     
     //write to user accessible file
     if ([fm fileExistsAtPath:filePath]) {
@@ -174,14 +164,8 @@ NSMutableString *answerString;
         [myHiddenHandle writeData:theData];
         [myHiddenHandle closeFile];
     }
-
-    for(int i = 0; i <= end; i++)
-    {
-        checkBox[i] = 0;
-    }
-    parentId = @"";
-    researcherName = @"";
-    parentName = @"";
+    
+    
 }
 
 
@@ -204,8 +188,5 @@ NSMutableString *answerString;
     }
     [self checkNextButton];
 }
-
-
-
 
 @end

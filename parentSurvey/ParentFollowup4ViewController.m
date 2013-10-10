@@ -1,23 +1,26 @@
 //
-//  Parents44ViewController.m
+//  ParentFollowup4ViewController.m
 //  iPad-YOU-Pad
 //
-//  Created by Yuki Robson on 3/10/13.
+//  Created by Yuki Robson on 9/10/13.
 //  Copyright (c) 2013 Andrew Edwards. All rights reserved.
 //
 
-#import "Parents44ViewController.h"
+#import "ParentFollowup4ViewController.h"
 #import "parentMenuViewController.h"
 
-bool optionQuestions;
-int questions;
-int numOptions;
-
-@interface Parents44ViewController ()
+@interface ParentFollowup4ViewController ()
 
 @end
 
-@implementation Parents44ViewController
+@implementation ParentFollowup4ViewController
+
+
+bool optionalQuestions;
+int questions;
+int numOptions;
+
+
 @synthesize nextButton;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -34,10 +37,10 @@ int numOptions;
     start = 25;
     end = 27;
     questions = 3;
-    numOptions = 4;
+    numOptions = 5;
     nextButton.enabled = NO;
     nextButton.alpha = 0.3;
-
+    
     for(int i = 0; i < 10000; i+=100){
         for(int j = 1; j < numOptions+1; j++){
             UIButton * temp = (UIButton *)[self.view viewWithTag:(i+j)];
@@ -60,7 +63,7 @@ int numOptions;
         }
     }
     [self checkNextButton];
-
+    
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
 }
@@ -72,77 +75,29 @@ int numOptions;
 }
 
 -(void)checkOptionQuestion {
-    if(checkBox[start] > 1)
+    if(checkBox[end] > 1)
     {
-        printf("show checkboxes");
-        for(int i = 200; i < 400; i+=100) {
-            for(int j = 1; j < 5; j++) {
-                UIButton *temp = (UIButton*)[self.view viewWithTag:(i+j)];
-                temp.enabled = YES;
-                temp.alpha = 1.0;
-            }
-            
-        }
-        optionQuestions = true;
-
-    } else if(checkBox[start] == 1){
-        optionQuestions = false;
-        printf("hide checkboxes");
-        for(int i = 200; i < 400; i+=100) {
-            for(int j = 1; j < 5; j++) {
-                UIButton *temp = (UIButton*)[self.view viewWithTag:(i+j)];
-                [temp setBackgroundImage:[UIImage imageNamed:@"Very-Basic-Unchecked-checkbox-icon.png"] forState:UIControlStateSelected];
-                [temp setSelected:NO];
-                temp.enabled = NO;
-                temp.alpha = 0.3;
-            }
-        }
-    } else {
+        optionalQuestions = true;
         
-        printf("hide checkboxes");
-        for(int i = 200; i < 400; i+=100) {
-            for(int j = 1; j < 5; j++) {
-                UIButton *temp = (UIButton*)[self.view viewWithTag:(i+j)];
-                [temp setBackgroundImage:[UIImage imageNamed:@"Very-Basic-Unchecked-checkbox-icon.png"] forState:UIControlStateSelected];
-                [temp setSelected:NO];
-                temp.enabled = NO;
-                temp.alpha = 0.3;
-            }
-        }
-        optionQuestions = false;
-        for(int i = start; i <= end; i++)
-        {
-            checkBox[i] = 0;
-        }
+    } else {
+        optionalQuestions = false;
     }
 }
 
 - (void)checkNextButton {
-    
     BOOL flag = YES;
-    if(checkBox[start] > 2){ //answer was "yes"
-        for(int i = start; i <= end; i+=1)
+    for(int i = start; i <=end; i+=1)
+    {
+        if(checkBox[i] <=0)
         {
-            if(checkBox[i] <=0)
-            {
-                flag = NO;
-            }
-            
-        }
-    } else {
-        if(checkBox[start] == 0)
             flag = NO;
+        }
+        
     }
-    
     if(flag) {
         nextButton.enabled = YES;
         nextButton.alpha = 1;
-    } else {
-        nextButton.enabled = NO;
-        nextButton.alpha = 0.3;
     }
-    
-    //NSLog(@"%f", 2.0);
 }
 
 -(IBAction)nextButton:(id)sender {
@@ -159,19 +114,19 @@ int numOptions;
     UIButton *button = (UIButton *)sender;
     
     if([button isSelected]==YES ) {
-            [button setSelected:YES];
+        [button setSelected:YES];
         [self checkOptionQuestion];
         
     } else {
         int checkBoxRow = (button.tag/100 - 1)+start ;
         checkBox[checkBoxRow] = button.tag%100;
-        printf(" checkboxStart%d %d",checkBoxRow, checkBox[checkBoxRow]);
+        //printf(" checkboxStart%d %d",checkBoxRow, checkBox[checkBoxRow]);
         int round = ((button.tag / 100) * 100) + 1;
         for(int i = round; i < (round + numOptions); i++){
             UIButton * temp = (UIButton *)[self.view viewWithTag:i];
             [temp setSelected:NO];
         }
-        if(checkBoxRow == start){
+        if(checkBoxRow == end){
             [self checkOptionQuestion];
         }
         [button setSelected:YES];
