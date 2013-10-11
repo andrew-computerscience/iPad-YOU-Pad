@@ -8,11 +8,13 @@
 
 #import "Parents41ViewController.h"
 #import "parentMenuViewController.h"
+#import "AppDelegate.h"
 
 bool optionQuestions;
 int checkBox[35];
 bool firstStartup;
 int questions;
+//NSString *survey;
 
 @interface Parents41ViewController ()
 
@@ -23,6 +25,17 @@ int questions;
 
 @synthesize nextButton;
 
+/*
+// Core Data
+- (NSManagedObjectContext *)managedObjectContext {
+    NSManagedObjectContext *context = nil;
+    id delegate = [[UIApplication sharedApplication] delegate];
+    if ([delegate performSelector:@selector(managedObjectContext)]) {
+        context = [delegate managedObjectContext];
+    }
+    return context;
+}
+ */
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -48,11 +61,51 @@ int questions;
         //create the filepath
         paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
         docDir = [paths objectAtIndex:0];
-        filePath = [docDir stringByAppendingPathComponent:@"answers.txt"];
+        //NSMutableString *fn;
+        //[fn appendString:[NSString stringWithFormat:@"%@%@%@%@.txt ", survey, researcherName, parentName, parentId]];
+        //NSString *filename = fn;
+        
+        NSDate *localDate = [NSDate date];
+        NSString *timeSp = [NSString stringWithFormat:@"%ld", (long)[localDate timeIntervalSince1970]];
+        //NSLog(@"timeSp:%@",timeSp);
+        
+        NSLog(@"Name : %@",[NSString stringWithFormat:@"%@-%@-%@-%@-%@", survey, researcherName, parentName, parentId,timeSp]);
+        filePath = [docDir stringByAppendingPathComponent:[NSString stringWithFormat:@"%@-%@-%@-%@", survey, researcherName, parentName, parentId]];//dont know if it works
         //create the answer file
         [fm createFileAtPath:filePath contents:nil attributes:nil];
         
-        bool optionalQuestions = false;
+        NSLog(@"filepath %@", filePath);
+        
+        paths = NSSearchPathForDirectoriesInDomains(NSLibraryDirectory, NSUserDomainMask, YES);
+        docDir = [paths objectAtIndex:0];
+        hiddenFilePath = [docDir stringByAppendingPathComponent:[NSString stringWithFormat:@"%@-%@-%@-%@", survey, researcherName, parentName, parentId]];
+        
+        
+        //create the answer file
+        [fm createFileAtPath:hiddenFilePath contents:nil attributes:nil];
+        
+        NSLog(@"filepath hidden %@", hiddenFilePath);
+        optionQuestions = false;
+        
+        
+        //Survey List change
+        //NSManagedObjectContext *context = [self managedObjectContext];
+        NSManagedObject *parentSurvey = [NSEntityDescription insertNewObjectForEntityForName:@"Survey" inManagedObjectContext:context];
+        [parentSurvey setValue:researcherName forKey:@"researcher_name"];
+        [parentSurvey setValue:parentName forKey:@"kid_name"];
+        [parentSurvey setValue:parentId forKey:@"kid_id"];
+        [parentSurvey setValue:false forKey:@"uploaded"];
+        [parentSurvey setValue:[NSString stringWithFormat:@"%@-%@-%@-%@", survey, researcherName, parentName, parentId] forKey:@"file_name"];
+        NSLog(@"File Name:%@",[NSString stringWithFormat:@"%@-%@-%@-%@", survey, researcherName, parentName, parentId]);
+        NSError *error = nil;
+        // Save the object to persistent store
+        if (![context save:&error]) {
+            NSLog(@"Can't Save! %@ %@", error, [error localizedDescription]);
+        }else{
+            NSLog(@"Kids list updated successfully!");
+        }
+
+
     }
     
     for(int i = 0; i < 10000; i+=100){

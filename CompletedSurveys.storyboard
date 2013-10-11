@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12C60" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="Unb-uO-GFX">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12D78" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="Unb-uO-GFX">
     <dependencies>
         <development version="4600" identifier="xcode"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
@@ -104,19 +104,16 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="file name" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="400" translatesAutoresizingMaskIntoConstraints="NO" id="qci-V4-Io0">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="file name" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="369" translatesAutoresizingMaskIntoConstraints="NO" id="qci-V4-Io0">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="400" id="RVR-GR-fTS"/>
-                                    <constraint firstAttribute="height" constant="92" id="WoZ-eS-N88"/>
+                                    <constraint firstAttribute="width" constant="369" id="g0Q-zK-2qr"/>
+                                    <constraint firstAttribute="height" constant="106" id="snt-sN-edU"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <color key="textColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="kid name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vg0-tg-Yu6">
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="369" id="hac-cm-YLN"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <color key="textColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -146,7 +143,7 @@
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="486" translatesAutoresizingMaskIntoConstraints="NO" id="Xxg-F7-YI8">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="76" id="223-y5-P71"/>
-                                    <constraint firstAttribute="width" constant="486" id="CRg-86-b2a"/>
+                                    <constraint firstAttribute="width" constant="486" id="I4X-VQ-9Vc"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" red="0.18823531269999999" green="0.31372550129999999" blue="0.50588238240000005" alpha="1" colorSpace="deviceRGB"/>
@@ -169,27 +166,28 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="dpt-cg-b91" firstAttribute="baseline" secondItem="e24-x7-UPm" secondAttribute="baseline" type="default" id="0o4-mE-4Ng"/>
-                            <constraint firstItem="1ix-rd-qoL" firstAttribute="top" secondItem="OHJ-ml-VLG" secondAttribute="top" constant="33" id="DR6-vK-Gwf"/>
-                            <constraint firstAttribute="trailing" secondItem="qci-V4-Io0" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="Keq-Ug-sjZ"/>
-                            <constraint firstItem="wpR-9B-fzr" firstAttribute="top" secondItem="qci-V4-Io0" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="LGg-RK-Smk"/>
+                            <constraint firstItem="wpR-9B-fzr" firstAttribute="top" secondItem="OHJ-ml-VLG" secondAttribute="top" constant="120" id="B4B-Ej-JSZ"/>
+                            <constraint firstItem="qci-V4-Io0" firstAttribute="trailing" secondItem="Vg0-tg-Yu6" secondAttribute="trailing" type="default" id="HHb-gS-KpL"/>
                             <constraint firstItem="Vg0-tg-Yu6" firstAttribute="leading" secondItem="GEd-Rq-rbe" secondAttribute="leading" type="default" id="Ntr-YV-rb1"/>
                             <constraint firstItem="wpR-9B-fzr" firstAttribute="trailing" secondItem="1ix-rd-qoL" secondAttribute="trailing" type="default" id="PzI-0s-DiD"/>
+                            <constraint firstItem="qci-V4-Io0" firstAttribute="top" secondItem="OHJ-ml-VLG" secondAttribute="top" type="default" id="QIh-jX-fuB"/>
+                            <constraint firstItem="qci-V4-Io0" firstAttribute="leading" secondItem="OHJ-ml-VLG" secondAttribute="leading" constant="281" id="R2l-3J-24L"/>
+                            <constraint firstItem="FRe-uA-bs9" firstAttribute="centerX" secondItem="OHJ-ml-VLG" secondAttribute="centerX" type="default" id="T75-uT-cn9"/>
+                            <constraint firstItem="1ix-rd-qoL" firstAttribute="centerY" secondItem="qci-V4-Io0" secondAttribute="centerY" type="default" id="Y7J-Mc-lwh"/>
                             <constraint firstItem="GEd-Rq-rbe" firstAttribute="top" secondItem="OHJ-ml-VLG" secondAttribute="top" constant="207" id="ZMa-4O-8tY"/>
                             <constraint firstAttribute="bottom" secondItem="Xxg-F7-YI8" secondAttribute="bottom" constant="178" id="eJj-fA-J2c"/>
+                            <constraint firstItem="Vg0-tg-Yu6" firstAttribute="top" secondItem="wpR-9B-fzr" secondAttribute="top" type="default" id="ehL-zR-kWn"/>
                             <constraint firstItem="Vg0-tg-Yu6" firstAttribute="bottom" secondItem="wpR-9B-fzr" secondAttribute="bottom" type="default" id="ete-Vc-QBz"/>
                             <constraint firstItem="jlB-XD-XGa" firstAttribute="top" secondItem="OHJ-ml-VLG" secondAttribute="top" constant="184" id="gpW-6Q-b2x"/>
                             <constraint firstItem="jlB-XD-XGa" firstAttribute="leading" secondItem="Xxg-F7-YI8" secondAttribute="leading" type="default" id="h2U-6h-YGq"/>
                             <constraint firstAttribute="bottom" secondItem="FRe-uA-bs9" secondAttribute="bottom" constant="274" id="hMc-cX-CNe"/>
-                            <constraint firstItem="qci-V4-Io0" firstAttribute="top" secondItem="OHJ-ml-VLG" secondAttribute="top" constant="20" symbolic="YES" type="default" id="iOV-U0-PVj"/>
                             <constraint firstItem="Xxg-F7-YI8" firstAttribute="centerX" secondItem="FRe-uA-bs9" secondAttribute="centerX" type="default" id="jcY-vM-qoG"/>
                             <constraint firstAttribute="trailing" secondItem="dpt-cg-b91" secondAttribute="trailing" constant="162" id="nVS-D2-cxP"/>
                             <constraint firstItem="e24-x7-UPm" firstAttribute="leading" secondItem="OHJ-ml-VLG" secondAttribute="leading" constant="145" id="pRI-Ug-0Gn"/>
-                            <constraint firstItem="Vg0-tg-Yu6" firstAttribute="top" secondItem="qci-V4-Io0" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="pYB-8U-1Kw"/>
+                            <constraint firstItem="qci-V4-Io0" firstAttribute="leading" secondItem="Vg0-tg-Yu6" secondAttribute="leading" type="default" id="qmE-Eh-7S6"/>
                             <constraint firstAttribute="bottom" secondItem="e24-x7-UPm" secondAttribute="bottom" constant="93" id="r69-oa-BSh"/>
                             <constraint firstItem="Vg0-tg-Yu6" firstAttribute="trailing" secondItem="GEd-Rq-rbe" secondAttribute="trailing" type="default" id="s3t-Ma-dYw"/>
                             <constraint firstItem="wpR-9B-fzr" firstAttribute="leading" secondItem="1ix-rd-qoL" secondAttribute="leading" type="default" id="shu-Ed-Qeq"/>
-                            <constraint firstItem="Vg0-tg-Yu6" firstAttribute="leading" secondItem="OHJ-ml-VLG" secondAttribute="leading" constant="281" id="smr-1i-ERf"/>
-                            <constraint firstItem="Xxg-F7-YI8" firstAttribute="centerX" secondItem="OHJ-ml-VLG" secondAttribute="centerX" type="default" id="yWr-Gb-DFu"/>
                             <constraint firstItem="jlB-XD-XGa" firstAttribute="leading" secondItem="wpR-9B-fzr" secondAttribute="leading" type="default" id="zMe-er-HFE"/>
                         </constraints>
                     </view>
@@ -281,7 +279,6 @@
         <class className="SurveyUploadViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/SurveyUploadViewController.h"/>
             <relationships>
-                <relationship kind="action" name="cancel:"/>
                 <relationship kind="action" name="upload:"/>
                 <relationship kind="outlet" name="activity" candidateClass="UIActivityIndicatorView"/>
                 <relationship kind="outlet" name="fileName" candidateClass="UILabel"/>

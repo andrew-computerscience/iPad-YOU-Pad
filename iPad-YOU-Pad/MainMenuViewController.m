@@ -42,6 +42,13 @@ int pin = 1968;
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
+- (IBAction)goToPictureSurveys:(id)sender {
+    UIStoryboard *picturesStoryboard = [UIStoryboard storyboardWithName:@"PictureSurveys" bundle:nil];
+    UIViewController *initialPicturesVC = [picturesStoryboard instantiateInitialViewController];
+    initialPicturesVC.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
+    [self presentModalViewController:initialPicturesVC animated:YES];
+}
+
 -(void)goToKidsSurveys{
     UIStoryboard *kidsStoryboard = [UIStoryboard storyboardWithName:@"KidsSurveys" bundle:nil];
     UIViewController *initialKidsVC = [kidsStoryboard instantiateInitialViewController];
@@ -74,19 +81,22 @@ int pin = 1968;
 - (void)viewDidLoad
 {
     pinField.keyboardType = UIKeyboardTypeNumberPad;
-    UIColor * circleColorPattern = [UIColor colorWithPatternImage: [UIImage imageNamed:@"bg.jpg"]];
-    [self.view setBackgroundColor:circleColorPattern];
+    
+    //UIColor * circleColorPattern = [UIColor colorWithPatternImage: [UIImage imageNamed:@"bg.jpg"]];
+    //[self.view setBackgroundColor:circleColorPattern];
     
     pinField.delegate = self;
     pinField.secureTextEntry = YES;
     
+    
+    
     [super viewDidLoad];
     
     
-    
-    //UIImageView* imageView = [[UIImageView alloc] initWithFrame:self.view.bounds];
-    //imageView.image = [[UIImage imageNamed:@"bg.jpg"] stretchableImageWithLeftCapWidth:0 topCapHeight:0];
-    //[self.view addSubview:imageView];
+    UIImageView* imageView = [[UIImageView alloc] initWithFrame:self.view.bounds];
+    imageView.image = [[UIImage imageNamed:@"bg.jpg"] stretchableImageWithLeftCapWidth:0 topCapHeight:0];
+    [self.view addSubview:imageView];
+    [self.view sendSubviewToBack:imageView];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

@@ -30,6 +30,8 @@
     return _managedObjectContext;
 }
 
+
+
 // CoreData Model
 - (NSManagedObjectModel *)managedObjectModel {
     if (_managedObjectModel != nil) {
@@ -73,6 +75,10 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    context = [self managedObjectContext];
+    
+    
     return YES;
 }
 							

@@ -41,6 +41,9 @@ NSMutableString *answerString;
     numOptions = 4;
     finishButton.enabled = NO;
     finishButton.alpha = 0.3;
+    CGRect frame = commentTextField.frame;
+    frame.size.height = 50;
+    commentTextField.frame = frame;
     
     if(!optionQuestions){
         [self disableQustions];
@@ -125,11 +128,20 @@ NSMutableString *answerString;
     //write to file
     NSMutableString *answerString = [NSMutableString string];
     [answerString appendString:[NSString stringWithFormat:@"%@, %@, %@, ", researcherName, parentName, parentId]];
-
+    [answerString appendString:[NSString stringWithFormat:@"%@, %@, ", childName,date]];
     for(int i = 0; i <= end; i++){
-            [answerString appendString:[NSString stringWithFormat:@"%d, ", checkBox[i]]];
+        if(i == 0)
+        {
+            [answerString appendString:[NSString stringWithFormat:@"%d ", checkBox[i]]];
+        } else {
+            [answerString appendString:[NSString stringWithFormat:@",%d ", checkBox[i]]];
+        }
     }
-    [answerString appendString:[NSString stringWithFormat:@"%@, ", commentTextField.text]];
+    NSString *temp = commentTextField.text;
+    if([temp length] != 0){
+        [answerString appendString:[NSString stringWithFormat:@"%@ ", temp]];
+    }
+    
     
     //write to user accessible file
     if ([fm fileExistsAtPath:filePath]) {
@@ -163,7 +175,13 @@ NSMutableString *answerString;
         [myHiddenHandle closeFile];
     }
 
-    
+    for(int i = 0; i <= end; i++)
+    {
+        checkBox[i] = 0;
+    }
+    parentId = @"";
+    researcherName = @"";
+    parentName = @"";
 }
 
 
@@ -186,6 +204,7 @@ NSMutableString *answerString;
     }
     [self checkNextButton];
 }
+
 
 
 

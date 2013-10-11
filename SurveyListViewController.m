@@ -57,6 +57,7 @@ NSMutableArray *surveyArray;
                                           cancelButtonTitle:@"Ok"
                                           otherButtonTitles: nil];
     [alert show];
+    
     [self reloadTable];
 }
 

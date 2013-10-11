@@ -104,19 +104,21 @@ NSString *commentsString;
     [endOfSurvey setHidesBackButton:YES];
     
     //set the background
-    UIColor * circleColorPattern = [UIColor colorWithPatternImage: [UIImage imageNamed:@"bg.jpg"]];
-    [self.view setBackgroundColor:circleColorPattern];
+    UIImageView* imageView = [[UIImageView alloc] initWithFrame:self.view.bounds];
+    imageView.image = [[UIImage imageNamed:@"bg.jpg"] stretchableImageWithLeftCapWidth:0 topCapHeight:0];
+    [self.view addSubview:imageView];
+    [self.view sendSubviewToBack:imageView];
     
     [super viewDidLoad];
     //-----josh was here
-    NSString *stringPath =[[NSBundle mainBundle]pathForResource:@"4019" ofType:@"mp3"];
+    /*NSString *stringPath =[[NSBundle mainBundle]pathForResource:@"4019" ofType:@"mp3"];
     NSURL *url = [NSURL fileURLWithPath:stringPath];
 
     
     NSError *error;
     
     avPlayer = [[AVAudioPlayer alloc]initWithContentsOfURL:url error:&error];
-    [avPlayer setNumberOfLoops:1];
+    [avPlayer setNumberOfLoops:1];*/
     //to ehre
 }
 
@@ -475,6 +477,8 @@ NSString *commentsString;
 - (void)viewDidUnload
 {
     [super viewDidUnload];
+    
+    
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
 }

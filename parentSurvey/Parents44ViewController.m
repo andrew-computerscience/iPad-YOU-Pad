@@ -72,7 +72,7 @@ int numOptions;
 }
 
 -(void)checkOptionQuestion {
-    if(checkBox[start] != 0)
+    if(checkBox[start] > 1)
     {
         printf("show checkboxes");
         for(int i = 200; i < 400; i+=100) {
@@ -83,9 +83,22 @@ int numOptions;
             }
             
         }
-optionQuestions = true;
+        optionQuestions = true;
 
+    } else if(checkBox[start] == 1){
+        optionQuestions = false;
+        printf("hide checkboxes");
+        for(int i = 200; i < 400; i+=100) {
+            for(int j = 1; j < 5; j++) {
+                UIButton *temp = (UIButton*)[self.view viewWithTag:(i+j)];
+                [temp setBackgroundImage:[UIImage imageNamed:@"Very-Basic-Unchecked-checkbox-icon.png"] forState:UIControlStateSelected];
+                [temp setSelected:NO];
+                temp.enabled = NO;
+                temp.alpha = 0.3;
+            }
+        }
     } else {
+        
         printf("hide checkboxes");
         for(int i = 200; i < 400; i+=100) {
             for(int j = 1; j < 5; j++) {
@@ -107,7 +120,7 @@ optionQuestions = true;
 - (void)checkNextButton {
     
     BOOL flag = YES;
-    if(checkBox[start] != 0){
+    if(checkBox[start] > 2){ //answer was "yes"
         for(int i = start; i <= end; i+=1)
         {
             if(checkBox[i] <=0)
@@ -116,6 +129,9 @@ optionQuestions = true;
             }
             
         }
+    } else {
+        if(checkBox[start] == 0)
+            flag = NO;
     }
     
     if(flag) {
@@ -143,16 +159,9 @@ optionQuestions = true;
     UIButton *button = (UIButton *)sender;
     
     if([button isSelected]==YES ) {
-        int getButtonRow = button.tag/100;
-        printf("%d",getButtonRow);
-        if(getButtonRow == 1){
-            [button setSelected:NO];
-            checkBox[start] = 0;
-            [button setBackgroundImage:[UIImage imageNamed:@"Very-Basic-Unchecked-checkbox-icon.png"] forState:UIControlStateSelected];
-            [self checkOptionQuestion];
-        } else {
             [button setSelected:YES];
-        }
+        [self checkOptionQuestion];
+        
     } else {
         int checkBoxRow = (button.tag/100 - 1)+start ;
         checkBox[checkBoxRow] = button.tag%100;
