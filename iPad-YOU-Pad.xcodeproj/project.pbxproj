@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		010E8EE4180BB19300E8F1ED /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 010E8EE3180BB19300E8F1ED /* logo.jpg */; };
 		0E6FBEBC1805C3C000AA303D /* iconbig.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E6FBEBB1805C3C000AA303D /* iconbig.png */; };
 		0E6FBEBE1805C3CE00AA303D /* iconmed.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E6FBEBD1805C3CE00AA303D /* iconmed.png */; };
 		0E6FBEC01805C42300AA303D /* iconsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E6FBEBF1805C42300AA303D /* iconsmall.png */; };
@@ -77,6 +78,8 @@
 		BB9B9F9718069A0900F03C96 /* ParentFollowup3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9B9F9018069A0900F03C96 /* ParentFollowup3ViewController.m */; };
 		BB9B9F9818069A0900F03C96 /* ParentFollowup4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9B9F9218069A0900F03C96 /* ParentFollowup4ViewController.m */; };
 		BB9B9F9918069A0900F03C96 /* ParentFollowup5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9B9F9418069A0900F03C96 /* ParentFollowup5ViewController.m */; };
+		BB9B9F9B1807B1B100F03C96 /* logo-72.png in Resources */ = {isa = PBXBuildFile; fileRef = BB9B9F9A1807B1B100F03C96 /* logo-72.png */; };
+		BB9B9F9D1807B1B600F03C96 /* logo-144.png in Resources */ = {isa = PBXBuildFile; fileRef = BB9B9F9C1807B1B600F03C96 /* logo-144.png */; };
 		FB27DA6C17FD4EE400FB049D /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB27DA6B17FD4EE400FB049D /* bg.jpg */; };
 		FBE43ADE1805231400F05B85 /* Bullet-Point.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBE43ACC1805231400F05B85 /* Bullet-Point.jpg */; };
 		FBE43ADF1805231400F05B85 /* EndPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE43ACE1805231400F05B85 /* EndPageViewController.m */; };
@@ -102,6 +105,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		010E8EE3180BB19300E8F1ED /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpg; sourceTree = "<group>"; };
 		0E6FBEBB1805C3C000AA303D /* iconbig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconbig.png; sourceTree = "<group>"; };
 		0E6FBEBD1805C3CE00AA303D /* iconmed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconmed.png; sourceTree = "<group>"; };
 		0E6FBEBF1805C42300AA303D /* iconsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconsmall.png; sourceTree = "<group>"; };
@@ -192,6 +196,8 @@
 		BB9B9F9218069A0900F03C96 /* ParentFollowup4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParentFollowup4ViewController.m; sourceTree = "<group>"; };
 		BB9B9F9318069A0900F03C96 /* ParentFollowup5ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParentFollowup5ViewController.h; sourceTree = "<group>"; };
 		BB9B9F9418069A0900F03C96 /* ParentFollowup5ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParentFollowup5ViewController.m; sourceTree = "<group>"; };
+		BB9B9F9A1807B1B100F03C96 /* logo-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-72.png"; sourceTree = "<group>"; };
+		BB9B9F9C1807B1B600F03C96 /* logo-144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-144.png"; sourceTree = "<group>"; };
 		FB27DA6B17FD4EE400FB049D /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
 		FBE43ACC1805231400F05B85 /* Bullet-Point.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bullet-Point.jpg"; sourceTree = "<group>"; };
 		FBE43ACD1805231400F05B85 /* EndPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EndPageViewController.h; sourceTree = "<group>"; };
@@ -242,6 +248,9 @@
 		A26E6A6D17FC4D04006C9456 = {
 			isa = PBXGroup;
 			children = (
+				BB9B9F9C1807B1B600F03C96 /* logo-144.png */,
+				010E8EE3180BB19300E8F1ED /* logo.jpg */,
+				BB9B9F9A1807B1B100F03C96 /* logo-72.png */,
 				BB5FA5A81800354300F08104 /* CoreData.framework */,
 				A26E6A7F17FC4D04006C9456 /* iPad-YOU-Pad */,
 				A26E6A9E17FC4D04006C9456 /* iPad-YOU-PadTests */,
@@ -594,6 +603,9 @@
 				A2847B8C180685FC00461AE5 /* Image 10ab telling off father angry child afraid.jpg in Resources */,
 				A2847B86180685FC00461AE5 /* Angry.jpg in Resources */,
 				A2847B93180685FC00461AE5 /* Image 6 jack in the box surprised.jpg in Resources */,
+				BB9B9F9B1807B1B100F03C96 /* logo-72.png in Resources */,
+				BB9B9F9D1807B1B600F03C96 /* logo-144.png in Resources */,
+				010E8EE4180BB19300E8F1ED /* logo.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

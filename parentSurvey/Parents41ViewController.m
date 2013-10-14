@@ -25,7 +25,7 @@ int questions;
 
 @synthesize nextButton;
 
-
+/*
 // Core Data
 - (NSManagedObjectContext *)managedObjectContext {
     NSManagedObjectContext *context = nil;
@@ -35,6 +35,7 @@ int questions;
     }
     return context;
 }
+ */
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -63,7 +64,12 @@ int questions;
         //NSMutableString *fn;
         //[fn appendString:[NSString stringWithFormat:@"%@%@%@%@.txt ", survey, researcherName, parentName, parentId]];
         //NSString *filename = fn;
-        NSLog(@"Name : %@",[NSString stringWithFormat:@"%@-%@-%@-%@", survey, researcherName, parentName, parentId]);
+        
+        NSDate *localDate = [NSDate date];
+        NSString *timeSp = [NSString stringWithFormat:@"%ld", (long)[localDate timeIntervalSince1970]];
+        //NSLog(@"timeSp:%@",timeSp);
+        
+        NSLog(@"Name : %@",[NSString stringWithFormat:@"%@-%@-%@-%@-%@", survey, researcherName, parentName, parentId,timeSp]);
         filePath = [docDir stringByAppendingPathComponent:[NSString stringWithFormat:@"%@-%@-%@-%@", survey, researcherName, parentName, parentId]];//dont know if it works
         //create the answer file
         [fm createFileAtPath:filePath contents:nil attributes:nil];
@@ -81,14 +87,16 @@ int questions;
         NSLog(@"filepath hidden %@", hiddenFilePath);
         optionQuestions = false;
         
+        
         //Survey List change
-        NSManagedObjectContext *context = [self managedObjectContext];
-        NSManagedObject *survey = [NSEntityDescription insertNewObjectForEntityForName:@"Survey" inManagedObjectContext:context];
-        [survey setValue:researcherName forKey:@"researcher_name"];
-        [survey setValue:parentName forKey:@"kid_name"];
-        [survey setValue:parentId forKey:@"kid_id"];
-        [survey setValue:false forKey:@"uploaded"];
-        [survey setValue:[NSString stringWithFormat:@"%@-%@-%@-%@", survey, researcherName, parentName, parentId] forKey:@"file_name"];
+        //NSManagedObjectContext *context = [self managedObjectContext];
+        NSManagedObject *parentSurvey = [NSEntityDescription insertNewObjectForEntityForName:@"Survey" inManagedObjectContext:context];
+        [parentSurvey setValue:researcherName forKey:@"researcher_name"];
+        [parentSurvey setValue:parentName forKey:@"kid_name"];
+        [parentSurvey setValue:parentId forKey:@"kid_id"];
+        [parentSurvey setValue:false forKey:@"uploaded"];
+        [parentSurvey setValue:[NSString stringWithFormat:@"%@-%@-%@-%@", survey, researcherName, parentName, parentId] forKey:@"file_name"];
+        NSLog(@"File Name:%@",[NSString stringWithFormat:@"%@-%@-%@-%@", survey, researcherName, parentName, parentId]);
         NSError *error = nil;
         // Save the object to persistent store
         if (![context save:&error]) {

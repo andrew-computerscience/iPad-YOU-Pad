@@ -137,7 +137,14 @@ NSString *date;
     
 - (IBAction)nextButtonAction2:(id)sender {
     childName = childNameTextField.text;
-    date = [NSString stringWithFormat:@"%@, %@, %@, ", day.text, month.text, year.text];
+    
+    NSDate *dob = [self.timePicker date];
+    NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
+    [dateFormat setDateFormat: @"yyyy, MM, dd"]; 
+    NSString *dobString = [dateFormat stringFromDate:dob];
+    
+    date = dobString;
+    //[NSString stringWithFormat:@"%@, %@, %@, ", day.text, month.text, year.text];
     if(surveyNum < 4){
         [self performSegueWithIdentifier:@"2" sender:self]; //full
     } else {

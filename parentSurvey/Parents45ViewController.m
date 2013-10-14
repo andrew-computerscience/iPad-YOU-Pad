@@ -128,7 +128,7 @@ NSMutableString *answerString;
     //write to file
     NSMutableString *answerString = [NSMutableString string];
     [answerString appendString:[NSString stringWithFormat:@"%@, %@, %@, ", researcherName, parentName, parentId]];
-
+    [answerString appendString:[NSString stringWithFormat:@"%@, %@, ", childName,date]];
     for(int i = 0; i <= end; i++){
         if(i == 0)
         {
@@ -204,6 +204,7 @@ NSMutableString *answerString;
     }
     [self checkNextButton];
 }
+
 
 
 

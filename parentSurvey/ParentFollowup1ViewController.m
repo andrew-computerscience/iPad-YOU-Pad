@@ -67,10 +67,10 @@ int questions;
         [fm createFileAtPath:filePath contents:nil attributes:nil];
         
         paths = NSSearchPathForDirectoriesInDomains(NSLibraryDirectory, NSUserDomainMask, YES);
-        
+        docDir = [paths objectAtIndex:0];
         hiddenFilePath = [docDir stringByAppendingPathComponent:[NSString stringWithFormat:@"%@-%@-%@-%@", survey, researcherName, parentName, parentId]];
-        NSLog(@"filepath %@", docDir);
-        NSLog(@"filepath hidden %@", docDir);
+        NSLog(@"filepath %@", filePath);
+        NSLog(@"filepath hidden %@", hiddenFilePath);
         
         
         //create the answer file
@@ -79,12 +79,12 @@ int questions;
         
         //Survey List change
         NSManagedObjectContext *context = [self managedObjectContext];
-        NSManagedObject *survey = [NSEntityDescription insertNewObjectForEntityForName:@"Survey" inManagedObjectContext:context];
-        [survey setValue:researcherName forKey:@"researcher_name"];
-        [survey setValue:parentName forKey:@"kid_name"];
-        [survey setValue:parentId forKey:@"kid_id"];
-        [survey setValue:false forKey:@"uploaded"];
-        [survey setValue:[NSString stringWithFormat:@"%@-%@-%@-%@", survey, researcherName, parentName, parentId] forKey:@"file_name"];
+        NSManagedObject *parentSurvey = [NSEntityDescription insertNewObjectForEntityForName:@"Survey" inManagedObjectContext:context];
+        [parentSurvey setValue:researcherName forKey:@"researcher_name"];
+        [parentSurvey setValue:parentName forKey:@"kid_name"];
+        [parentSurvey setValue:parentId forKey:@"kid_id"];
+        [parentSurvey setValue:false forKey:@"uploaded"];
+        [parentSurvey setValue:[NSString stringWithFormat:@"%@-%@-%@-%@", survey, researcherName, parentName, parentId] forKey:@"file_name"];
         NSError *error = nil;
         // Save the object to persistent store
         if (![context save:&error]) {

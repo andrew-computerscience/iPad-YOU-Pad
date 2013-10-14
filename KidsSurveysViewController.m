@@ -104,8 +104,10 @@ NSString *commentsString;
     [endOfSurvey setHidesBackButton:YES];
     
     //set the background
-    UIColor * circleColorPattern = [UIColor colorWithPatternImage: [UIImage imageNamed:@"bg.jpg"]];
-    [self.view setBackgroundColor:circleColorPattern];
+    UIImageView* imageView = [[UIImageView alloc] initWithFrame:self.view.bounds];
+    imageView.image = [[UIImage imageNamed:@"bg.jpg"] stretchableImageWithLeftCapWidth:0 topCapHeight:0];
+    [self.view addSubview:imageView];
+    [self.view sendSubviewToBack:imageView];
     
     [super viewDidLoad];
     //-----josh was here
@@ -475,6 +477,8 @@ NSString *commentsString;
 - (void)viewDidUnload
 {
     [super viewDidUnload];
+    
+    
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
 }

@@ -34,6 +34,7 @@ extern bool firstStartup;
 @interface parentMenuViewController : UIViewController {
     //NSFileManager *fm;
 }
+@property (weak, nonatomic) IBOutlet UIDatePicker *timePicker;
 
 @property (weak, nonatomic) IBOutlet UIButton *Survey1;
 - (IBAction)Survey1Action:(id)sender;
