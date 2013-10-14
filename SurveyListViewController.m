@@ -9,7 +9,7 @@
 #import "SurveyListViewController.h"
 #import "SurveyListCell.h"
 #import "SurveyUploadViewController.h"
-#import "AppDelegate.h"
+
 #import "Survey.h"
 
 
@@ -21,6 +21,8 @@
 
 @implementation SurveyListViewController
 
+
+@synthesize fetchedResultsController = _fetchedResultsController;
 NSMutableArray *uploadingArray;
 NSMutableArray *uploadedArray;
 NSMutableArray *surveyArray;
@@ -35,6 +37,8 @@ NSMutableArray *surveyArray;
 }
 
 //CoreData
+
+
 - (NSManagedObjectContext *)managedObjectContext
 {
     NSManagedObjectContext *context = nil;
@@ -45,12 +49,48 @@ NSMutableArray *surveyArray;
     return context;
 }
 
+- (NSFetchedResultsController *)fetchedResultsController {
+    
+    if (_fetchedResultsController != nil) {
+        return _fetchedResultsController;
+    }
+    
+    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
+    NSEntityDescription *entity = [NSEntityDescription
+                                   entityForName:@"Survey" inManagedObjectContext:context];
+    [fetchRequest setEntity:entity];
+    
+    NSSortDescriptor *sort = [[NSSortDescriptor alloc]
+                              initWithKey:@"uploaded" ascending:NO];
+    [fetchRequest setSortDescriptors:[NSArray arrayWithObject:sort]];
+    
+    [fetchRequest setFetchBatchSize:20];
+    
+    NSFetchedResultsController *theFetchedResultsController =
+    [[NSFetchedResultsController alloc] initWithFetchRequest:fetchRequest
+                                        managedObjectContext:context sectionNameKeyPath:@"sectionPath"
+                                                   cacheName:@"Root"];
+    self.fetchedResultsController = theFetchedResultsController;
+    _fetchedResultsController.delegate = self;
+    
+    return _fetchedResultsController;
+    
+}
+
 - (void)goToMainMenu{
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
+
+// After upload the table
 - (void)updateTable
 {
+    
+    // Save
+    NSError *error;
+    if ([context save:&error] == NO) {
+        NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
+    }    
     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Congratulations"
                                                     message:@"The survey is successfully uploaded!"
                                                    delegate:self
@@ -58,43 +98,25 @@ NSMutableArray *surveyArray;
                                           otherButtonTitles: nil];
     [alert show];
     
-    [self reloadTable];
+    //[self reloadTable];
+}
+
+- (void)viewDidUnload {
+    self.fetchedResultsController = nil;
 }
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     
+    NSError *error;
+    if (![[self fetchedResultsController] performFetch:&error]) {
+        // Update to handle the error appropriately.
+        NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
+        exit(-1);  // Fail
+    }
     
-
-    NSManagedObjectContext *managedObjectContext = [self managedObjectContext];
-    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:@"Survey"];
-    self.surveys = [[managedObjectContext executeFetchRequest:fetchRequest error:nil] mutableCopy];
-    
-    
-    /*
-     uploadedArray = [[NSMutableArray alloc] init];
-     uploadingArray = [[NSMutableArray alloc] init];
-     for (NSManagedObject *obj in self.surveys) {
-     if ([obj valueForKey:@"uploaded"]){
-     [uploadedArray addObject:obj];
-     NSLog(@"%@",[obj valueForKey:@"kid_name"]);
-     }else{
-     [uploadingArray addObject:obj];
-     NSLog(@"%@",[obj valueForKey:@"kid_name"]);
-     }
-     }
-     //[uploadedArray addObject:nil];
-     //[uploadingArray addObject:nil];
-     surveyArray = [[NSMutableArray alloc] initWithObjects:uploadingArray,uploadedArray, nil];
-     
-     [self.tableView reloadData];
-     */
-    
-    [self reloadTable];
     self.navigationItem.title=@"Kid's List";
-    
-    //self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"back" style:UIBarButtonItemStylePlain target:self action:@selector(goToMainMenu)];
     
     
     UIButton* backButton = [UIButton buttonWithType:101]; // left-pointing shape!
@@ -105,10 +127,42 @@ NSMutableArray *surveyArray;
     UIBarButtonItem* backItem = [[UIBarButtonItem alloc] initWithCustomView:backButton];
     self.navigationItem.leftBarButtonItem = backItem;
     
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(updateTable) name:@"surveyUploaded" object:nil];
-   
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(updateTable) name:@"updateTable" object:nil];
+    /*
+     
+     NSManagedObjectContext *managedObjectContext = [self managedObjectContext];
+     NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:@"Survey"];
+     self.surveys = [[managedObjectContext executeFetchRequest:fetchRequest error:nil] mutableCopy];
+     
+     
+     [self reloadTable];
+     self.navigationItem.title=@"Kid's List";
+     
+     
+     UIButton* backButton = [UIButton buttonWithType:101]; // left-pointing shape!
+     [backButton addTarget:self action:@selector(goToMainMenu) forControlEvents:UIControlEventTouchUpInside];
+     [backButton setTitle:@"Back" forState:UIControlStateNormal];
+     
+     // create button item -- possible because UIButton subclasses UIView!
+     UIBarButtonItem* backItem = [[UIBarButtonItem alloc] initWithCustomView:backButton];
+     self.navigationItem.leftBarButtonItem = backItem;
+     
+     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(updateTable) name:@"surveyUploaded" object:nil];
+     */
+    
 }
 
+- (void)controllerWillChangeContent:(NSFetchedResultsController *)controller {
+    // The fetch controller is about to start sending change notifications, so prepare the table view for updates.
+    [self.tableView beginUpdates];
+}
+- (void)controllerDidChangeContent:(NSFetchedResultsController *)controller {
+    // The fetch controller has sent all current change notifications, so tell the table view to process all updates.
+    [self.tableView endUpdates];
+}
+
+/*
 // Reload the data of table
 - (void)reloadTable
 {
@@ -131,6 +185,7 @@ NSMutableArray *surveyArray;
     
     [self.tableView reloadData];
 }
+ */
 
 
 - (void)didReceiveMemoryWarning
@@ -145,16 +200,30 @@ NSMutableArray *surveyArray;
 {
     
     // Return the number of sections.
-    //return 1;
-    return [surveyArray count];
+    //return [surveyArray count];
+    return [[self.fetchedResultsController sections] count];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     
     // Return the number of rows in the section.
-    //return self.surveys.count;
-    return [[surveyArray objectAtIndex:section] count];
+    //return [[surveyArray objectAtIndex:section] count];
+    id <NSFetchedResultsSectionInfo> sectionInfo =
+    [[[self fetchedResultsController] sections] objectAtIndex:section];
+    
+    return [sectionInfo numberOfObjects];
+}
+
+- (void)configureCell:(SurveyListCell *)cell atIndexPath:(NSIndexPath *)indexPath {
+    
+    Survey *survey = [self.fetchedResultsController objectAtIndexPath:indexPath];
+    [cell.kidName setText:[survey valueForKey:@"kid_name"]];
+    if ([survey valueForKey:@"uploaded"]) {
+        [cell.kidName setAlpha:(CGFloat)0.5];
+    }
+    [cell.researcherName setText:[survey valueForKey:@"researcher_name"]];
+    [cell.surveyKind setText:[survey valueForKey:@"file_name"]];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -166,75 +235,106 @@ NSMutableArray *surveyArray;
     // Configure the cell...
     
     //CoreData
-    //NSManagedObject *survey = [self.surveys objectAtIndex:indexPath.row];
-    NSManagedObject *survey = [[surveyArray objectAtIndex:indexPath.section] objectAtIndex:indexPath.row];
+    //NSManagedObject *survey = [[surveyArray objectAtIndex:indexPath.section] objectAtIndex:indexPath.row];
     
-    [cell.kidName setText:[survey valueForKey:@"kid_name"]];
-    if ([survey valueForKey:@"uploaded"]) {
-        [cell.kidName setAlpha:(CGFloat)0.5];
-    }
-    
-    [cell.researcherName setText:[survey valueForKey:@"researcher_name"]];
-    
-    [cell.surveyKind setText:[survey valueForKey:@"file_name"]];
+    [self configureCell:cell atIndexPath:indexPath];
     return cell;
 }
 
 //設定分類開頭標題
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
-    switch (section) {
-        case 0:
-            return @"Unuploaded";
+    NSArray *sections = [[self fetchedResultsController] sections]; id <NSFetchedResultsSectionInfo> sectionInfo = nil;
+    sectionInfo = [sections objectAtIndex:section];
+    
+    return [sectionInfo name];
+}
+
+/*
+ // Override to support conditional editing of the table view.
+ - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
+ {
+ // Return NO if you do not want the specified item to be editable.
+ return YES;
+ }
+ */
+
+- (void)controller:(NSFetchedResultsController *)controller didChangeObject:(id)anObject atIndexPath:(NSIndexPath *)indexPath forChangeType:(NSFetchedResultsChangeType)type newIndexPath:(NSIndexPath *)newIndexPath {
+    
+    UITableView *tableView = self.tableView;
+    
+    switch(type) {
+            
+        case NSFetchedResultsChangeInsert:
+            [tableView insertRowsAtIndexPaths:[NSArray arrayWithObject:newIndexPath] withRowAnimation:UITableViewRowAnimationFade];
             break;
             
-        case 1:
-            return @"Uploaded";
+        case NSFetchedResultsChangeDelete:
+            [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
             break;
             
-        default:
-            return @"";
+        case NSFetchedResultsChangeUpdate:
+            [self configureCell:(SurveyListCell *)[tableView cellForRowAtIndexPath:indexPath] atIndexPath:indexPath];
+            break;
+            
+        case NSFetchedResultsChangeMove:
+            [tableView deleteRowsAtIndexPaths:[NSArray
+                                               arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
+            [tableView insertRowsAtIndexPaths:[NSArray
+                                               arrayWithObject:newIndexPath] withRowAnimation:UITableViewRowAnimationFade];
+            break;
+            
+    }
+}
+
+- (void)controller:(NSFetchedResultsController *)controller didChangeSection:(id )sectionInfo atIndex:(NSUInteger)sectionIndex forChangeType:(NSFetchedResultsChangeType)type {
+    switch(type) {
+            
+        case NSFetchedResultsChangeInsert:
+            [self.tableView insertSections:[NSIndexSet indexSetWithIndex:sectionIndex] withRowAnimation:UITableViewRowAnimationFade];
+            break;
+            
+        case NSFetchedResultsChangeDelete:
+            [self.tableView deleteSections:[NSIndexSet indexSetWithIndex:sectionIndex] withRowAnimation:UITableViewRowAnimationFade];
             break;
     }
 }
 
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
-}
-*/
+
+ // Override to support editing the table view.
+ - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
+ {
+ if (editingStyle == UITableViewCellEditingStyleDelete) {
+ // Delete the row from the data source
+     NSManagedObject *object = [self.fetchedResultsController objectAtIndexPath:indexPath];
+     [context deleteObject:object];
+     
+     // Save
+     NSError *error;
+     if ([context save:&error] == NO) {
+         // Handle Error.
+     }
+ }
+ else if (editingStyle == UITableViewCellEditingStyleInsert) {
+ // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
+ }
+ }
+ 
 
 /*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
-        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    }   
-    else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-    }   
-}
-*/
+ // Override to support rearranging the table view.
+ - (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath
+ {
+ }
+ */
 
 /*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath
-{
-}
-*/
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
+ // Override to support conditional rearranging of the table view.
+ - (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath
+ {
+ // Return NO if you do not want the item to be re-orderable.
+ return YES;
+ }
+ */
 
 #pragma mark - Table view delegate
 
@@ -258,12 +358,14 @@ NSMutableArray *surveyArray;
         
         
         SurveyUploadViewController *destViewController = segue.destinationViewController;
-        Survey *survey = [[surveyArray objectAtIndex:indexPath.section] objectAtIndex:indexPath.row];
+        //Survey *survey = [[surveyArray objectAtIndex:indexPath.section] objectAtIndex:indexPath.row];
+        
+        Survey *survey = [self.fetchedResultsController objectAtIndexPath:indexPath];
         destViewController.survey = survey;
         //NSLog([NSString stringWithFormat:@"%@",survey.kid_name]);
         
     }
 }
- 
+
 
 @end

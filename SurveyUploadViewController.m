@@ -111,13 +111,13 @@ NSMutableData *responseData;
                                               otherButtonTitles: nil];
         [alert show];
     }
-    
-    
-    if([[userDefaults stringForKey:@"website"] isEqualToString:@""]){
-        
-    }else{
-        
-        NSURL *myURL = [NSURL URLWithString:[userDefaults stringForKey:@"website"]];
+    else{
+        NSURL *myURL;
+        if([[userDefaults stringForKey:@"website"] isEqualToString:@""]){
+            myURL = [NSURL URLWithString:@"http://research.projectkids.com.au/php/iPad-upload.php"];
+        }else{            
+            myURL = [NSURL URLWithString:[userDefaults stringForKey:@"website"]];
+        }
         // Create the request.
         NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:myURL cachePolicy:NSURLRequestReloadIgnoringLocalCacheData timeoutInterval:60];
         
@@ -191,6 +191,7 @@ NSMutableData *responseData;
         // Network indicator
         [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:YES];
         [self.activity startAnimating];
+        
     }
     
 }

@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AppDelegate.h"
 
 @interface SurveyListViewController : UITableViewController
 
-
+@property (nonatomic, retain) NSFetchedResultsController *fetchedResultsController;
 @end
