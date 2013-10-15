@@ -43,6 +43,7 @@ extern NSString *commentsString;
 - (IBAction)playq4:(id)sender;
 - (IBAction)playq5:(id)sender;
 - (IBAction)playq6:(id)sender;
+- (IBAction)playq7:(id)sender;
 
 - (IBAction)answer:(id)sender;
 - (IBAction)submit:(id)sender;

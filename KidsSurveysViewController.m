@@ -169,6 +169,9 @@ NSString *commentsString;
     [avPlayer play];
 }
 
+- (IBAction)playq7:(id)sender {
+}
+
 
 -(IBAction)answer:(id)sender
 {
