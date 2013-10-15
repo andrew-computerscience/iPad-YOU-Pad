@@ -1,4 +1,4 @@
-//
+
 //  KidsSurveysViewController.h
 //  iPad-YOU-Pad
 //
@@ -48,6 +48,20 @@ extern NSString *commentsString;
 - (IBAction)playq9:(id)sender;
 - (IBAction)playq10:(id)sender;
 - (IBAction)playq11:(id)sender;
+- (IBAction)playq12:(id)sender;
+- (IBAction)playq13:(id)sender;
+- (IBAction)playq14:(id)sender;
+- (IBAction)playq15:(id)sender;
+- (IBAction)playq16:(id)sender;
+- (IBAction)playq17:(id)sender;
+- (IBAction)playq18:(id)sender;
+- (IBAction)playq19:(id)sender;
+- (IBAction)playq20:(id)sender;
+- (IBAction)playq21:(id)sender;
+- (IBAction)playq22:(id)sender;
+- (IBAction)playq23:(id)sender;
+- (IBAction)playq24:(id)sender;
+- (IBAction)playq25:(id)sender;
 
 - (IBAction)answer:(id)sender;
 - (IBAction)submit:(id)sender;

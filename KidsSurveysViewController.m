@@ -199,7 +199,7 @@ NSString *commentsString;
 - (IBAction)playq10:(id)sender {
     NSError *error;
     
-    NSString *stringPath =[[NSBundle mainBundle]pathForResource:@"vo-10" ofType:@"wav"];
+    NSString *stringPath =[[NSBundle mainBundle]pathForResource:@"vo-11" ofType:@"wav"];
     NSURL *url = [NSURL fileURLWithPath:stringPath];
     avPlayer = [[AVAudioPlayer alloc]initWithContentsOfURL:url error:&error];
     [avPlayer play];
@@ -208,11 +208,139 @@ NSString *commentsString;
 - (IBAction)playq11:(id)sender {
     NSError *error;
     
-    NSString *stringPath =[[NSBundle mainBundle]pathForResource:@"vo-11" ofType:@"wav"];
+    NSString *stringPath =[[NSBundle mainBundle]pathForResource:@"vo-12" ofType:@"wav"];
     NSURL *url = [NSURL fileURLWithPath:stringPath];
     avPlayer = [[AVAudioPlayer alloc]initWithContentsOfURL:url error:&error];
     [avPlayer play];
 }
+
+- (IBAction)playq12:(id)sender {
+    NSError *error;
+    
+    NSString *stringPath =[[NSBundle mainBundle]pathForResource:@"vo-13" ofType:@"wav"];
+    NSURL *url = [NSURL fileURLWithPath:stringPath];
+    avPlayer = [[AVAudioPlayer alloc]initWithContentsOfURL:url error:&error];
+    [avPlayer play];
+}
+
+- (IBAction)playq13:(id)sender {
+    NSError *error;
+    
+    NSString *stringPath =[[NSBundle mainBundle]pathForResource:@"vo-14" ofType:@"wav"];
+    NSURL *url = [NSURL fileURLWithPath:stringPath];
+    avPlayer = [[AVAudioPlayer alloc]initWithContentsOfURL:url error:&error];
+    [avPlayer play];
+}
+
+- (IBAction)playq14:(id)sender {
+    NSError *error;
+    
+    NSString *stringPath =[[NSBundle mainBundle]pathForResource:@"vo-15" ofType:@"wav"];
+    NSURL *url = [NSURL fileURLWithPath:stringPath];
+    avPlayer = [[AVAudioPlayer alloc]initWithContentsOfURL:url error:&error];
+    [avPlayer play];
+    
+}
+
+- (IBAction)playq15:(id)sender {
+    NSError *error;
+    
+    NSString *stringPath =[[NSBundle mainBundle]pathForResource:@"vo-16" ofType:@"wav"];
+    NSURL *url = [NSURL fileURLWithPath:stringPath];
+    avPlayer = [[AVAudioPlayer alloc]initWithContentsOfURL:url error:&error];
+    [avPlayer play];
+}
+
+- (IBAction)playq16:(id)sender {
+    NSError *error;
+    
+    NSString *stringPath =[[NSBundle mainBundle]pathForResource:@"vo-17" ofType:@"wav"];
+    NSURL *url = [NSURL fileURLWithPath:stringPath];
+    avPlayer = [[AVAudioPlayer alloc]initWithContentsOfURL:url error:&error];
+    [avPlayer play];
+}
+
+- (IBAction)playq17:(id)sender {
+    NSError *error;
+    
+    NSString *stringPath =[[NSBundle mainBundle]pathForResource:@"vo-18" ofType:@"wav"];
+    NSURL *url = [NSURL fileURLWithPath:stringPath];
+    avPlayer = [[AVAudioPlayer alloc]initWithContentsOfURL:url error:&error];
+    [avPlayer play];
+}
+
+- (IBAction)playq18:(id)sender {
+    NSError *error;
+    
+    NSString *stringPath =[[NSBundle mainBundle]pathForResource:@"vo-19" ofType:@"wav"];
+    NSURL *url = [NSURL fileURLWithPath:stringPath];
+    avPlayer = [[AVAudioPlayer alloc]initWithContentsOfURL:url error:&error];
+    [avPlayer play];
+}
+
+- (IBAction)playq19:(id)sender {
+    NSError *error;
+    
+    NSString *stringPath =[[NSBundle mainBundle]pathForResource:@"vo-20" ofType:@"wav"];
+    NSURL *url = [NSURL fileURLWithPath:stringPath];
+    avPlayer = [[AVAudioPlayer alloc]initWithContentsOfURL:url error:&error];
+    [avPlayer play];
+}
+
+- (IBAction)playq20:(id)sender {
+    NSError *error;
+    
+    NSString *stringPath =[[NSBundle mainBundle]pathForResource:@"vo-21" ofType:@"wav"];
+    NSURL *url = [NSURL fileURLWithPath:stringPath];
+    avPlayer = [[AVAudioPlayer alloc]initWithContentsOfURL:url error:&error];
+    [avPlayer play];
+}
+
+- (IBAction)playq21:(id)sender {
+    NSError *error;
+    
+    NSString *stringPath =[[NSBundle mainBundle]pathForResource:@"vo-22" ofType:@"wav"];
+    NSURL *url = [NSURL fileURLWithPath:stringPath];
+    avPlayer = [[AVAudioPlayer alloc]initWithContentsOfURL:url error:&error];
+    [avPlayer play];
+}
+
+- (IBAction)playq22:(id)sender {
+    NSError *error;
+    
+    NSString *stringPath =[[NSBundle mainBundle]pathForResource:@"vo-23" ofType:@"wav"];
+    NSURL *url = [NSURL fileURLWithPath:stringPath];
+    avPlayer = [[AVAudioPlayer alloc]initWithContentsOfURL:url error:&error];
+    [avPlayer play];
+}
+
+- (IBAction)playq23:(id)sender {
+    NSError *error;
+    
+    NSString *stringPath =[[NSBundle mainBundle]pathForResource:@"vo-24" ofType:@"wav"];
+    NSURL *url = [NSURL fileURLWithPath:stringPath];
+    avPlayer = [[AVAudioPlayer alloc]initWithContentsOfURL:url error:&error];
+    [avPlayer play];
+}
+
+- (IBAction)playq24:(id)sender {
+    NSError *error;
+    
+    NSString *stringPath =[[NSBundle mainBundle]pathForResource:@"vo-25" ofType:@"wav"];
+    NSURL *url = [NSURL fileURLWithPath:stringPath];
+    avPlayer = [[AVAudioPlayer alloc]initWithContentsOfURL:url error:&error];
+    [avPlayer play];
+}
+
+- (IBAction)playq25:(id)sender {
+    NSError *error;
+    
+    NSString *stringPath =[[NSBundle mainBundle]pathForResource:@"vo-26" ofType:@"wav"];
+    NSURL *url = [NSURL fileURLWithPath:stringPath];
+    avPlayer = [[AVAudioPlayer alloc]initWithContentsOfURL:url error:&error];
+    [avPlayer play];
+}
+
 
 
 
