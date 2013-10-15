@@ -110,30 +110,10 @@ NSString *commentsString;
     [self.view sendSubviewToBack:imageView];
     
     [super viewDidLoad];
-    //-----josh was here
-    /*NSString *stringPath =[[NSBundle mainBundle]pathForResource:@"4019" ofType:@"mp3"];
-    NSURL *url = [NSURL fileURLWithPath:stringPath];
-
     
-    NSError *error;
-    
-    avPlayer = [[AVAudioPlayer alloc]initWithContentsOfURL:url error:&error];
-    [avPlayer setNumberOfLoops:1];*/
-    //to ehre
 }
 
 //event handler for recording answer when an answer button is selected.
-- (IBAction)playButton:(id)sender {
-    NSString *stringPath =[[NSBundle mainBundle]pathForResource:@"4019" ofType:@"mp3"];
-    NSURL *url = [NSURL fileURLWithPath:stringPath];
-    
-    
-    NSError *error;
-    
-    avPlayer = [[AVAudioPlayer alloc]initWithContentsOfURL:url error:&error];
-    [avPlayer setNumberOfLoops:1];
-     [avPlayer play];
-}
 
 - (IBAction)playq1:(id)sender {
     NSError *error;
@@ -141,10 +121,27 @@ NSString *commentsString;
     NSString *stringPath =[[NSBundle mainBundle]pathForResource:@"vo-1" ofType:@"wav"];
     NSURL *url = [NSURL fileURLWithPath:stringPath];
     avPlayer = [[AVAudioPlayer alloc]initWithContentsOfURL:url error:&error];
-    [avPlayer setNumberOfLoops:1];
-
     [avPlayer play];
 }
+
+- (IBAction)playq2:(id)sender {
+    NSError *error;
+    
+    NSString *stringPath =[[NSBundle mainBundle]pathForResource:@"vo-2" ofType:@"wav"];
+    NSURL *url = [NSURL fileURLWithPath:stringPath];
+    avPlayer = [[AVAudioPlayer alloc]initWithContentsOfURL:url error:&error];
+    [avPlayer play];
+}
+
+- (IBAction)playq3:(id)sender {
+    NSError *error;
+    
+    NSString *stringPath =[[NSBundle mainBundle]pathForResource:@"vo-3" ofType:@"wav"];
+    NSURL *url = [NSURL fileURLWithPath:stringPath];
+    avPlayer = [[AVAudioPlayer alloc]initWithContentsOfURL:url error:&error];
+    [avPlayer play];
+}
+
 
 -(IBAction)answer:(id)sender
 {

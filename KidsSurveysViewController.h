@@ -34,8 +34,12 @@ extern NSString *commentsString;
     IBOutlet UITextField *researcherName;
     IBOutlet UITextView *comments;
 }
+@property (weak, nonatomic) IBOutlet UIProgressView *myProgressView;
+
 - (IBAction)playButton:(id)sender;
 - (IBAction)playq1:(id)sender;
+- (IBAction)playq2:(id)sender;
+- (IBAction)playq3:(id)sender;
 
 - (IBAction)answer:(id)sender;
 - (IBAction)submit:(id)sender;

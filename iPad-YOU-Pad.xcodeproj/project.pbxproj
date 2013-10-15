@@ -13,6 +13,35 @@
 		0E6FBEC01805C42300AA303D /* iconsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E6FBEBF1805C42300AA303D /* iconsmall.png */; };
 		0E6FBEC21805C74900AA303D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E6FBEC11805C74900AA303D /* AVFoundation.framework */; };
 		0E6FBEC41805C92900AA303D /* vo-1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0E6FBEC31805C92900AA303D /* vo-1.wav */; };
+		0EE1A78B180CE704001B14BE /* audio.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EE1A78A180CE704001B14BE /* audio.png */; };
+		0EE1A78E180CE816001B14BE /* Speaker_Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EE1A78D180CE816001B14BE /* Speaker_Icon.png */; };
+		0EE1A7A1180CE9F1001B14BE /* vo-2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0EE1A791180CE9F1001B14BE /* vo-2.wav */; };
+		0EE1A7A2180CE9F1001B14BE /* vo-3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0EE1A792180CE9F1001B14BE /* vo-3.wav */; };
+		0EE1A7A3180CE9F1001B14BE /* vo-4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0EE1A793180CE9F1001B14BE /* vo-4.wav */; };
+		0EE1A7A4180CE9F1001B14BE /* vo-5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0EE1A794180CE9F1001B14BE /* vo-5.wav */; };
+		0EE1A7A5180CE9F1001B14BE /* vo-6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0EE1A795180CE9F1001B14BE /* vo-6.wav */; };
+		0EE1A7A6180CE9F1001B14BE /* vo-7.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0EE1A796180CE9F1001B14BE /* vo-7.wav */; };
+		0EE1A7A7180CE9F1001B14BE /* vo-8.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0EE1A797180CE9F1001B14BE /* vo-8.wav */; };
+		0EE1A7A8180CE9F1001B14BE /* vo-9.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0EE1A798180CE9F1001B14BE /* vo-9.wav */; };
+		0EE1A7A9180CE9F1001B14BE /* vo-10.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0EE1A799180CE9F1001B14BE /* vo-10.wav */; };
+		0EE1A7AA180CE9F1001B14BE /* vo-11.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0EE1A79A180CE9F1001B14BE /* vo-11.wav */; };
+		0EE1A7AB180CE9F1001B14BE /* vo-12.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0EE1A79B180CE9F1001B14BE /* vo-12.wav */; };
+		0EE1A7AC180CE9F1001B14BE /* vo-13.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0EE1A79C180CE9F1001B14BE /* vo-13.wav */; };
+		0EE1A7AD180CE9F1001B14BE /* vo-14.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0EE1A79D180CE9F1001B14BE /* vo-14.wav */; };
+		0EE1A7AE180CE9F1001B14BE /* vo-15.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0EE1A79E180CE9F1001B14BE /* vo-15.wav */; };
+		0EE1A7AF180CE9F1001B14BE /* vo-16.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0EE1A79F180CE9F1001B14BE /* vo-16.wav */; };
+		0EE1A7B1180CEA05001B14BE /* vo-1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0EE1A7B0180CEA05001B14BE /* vo-1.wav */; };
+		0EE1A7BC180CEA19001B14BE /* vo-17.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0EE1A7B2180CEA19001B14BE /* vo-17.wav */; };
+		0EE1A7BD180CEA19001B14BE /* vo-18.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0EE1A7B3180CEA19001B14BE /* vo-18.wav */; };
+		0EE1A7BE180CEA19001B14BE /* vo-19.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0EE1A7B4180CEA19001B14BE /* vo-19.wav */; };
+		0EE1A7BF180CEA19001B14BE /* vo-20.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0EE1A7B5180CEA19001B14BE /* vo-20.wav */; };
+		0EE1A7C0180CEA19001B14BE /* vo-21.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0EE1A7B6180CEA19001B14BE /* vo-21.wav */; };
+		0EE1A7C1180CEA19001B14BE /* vo-22.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0EE1A7B7180CEA19001B14BE /* vo-22.wav */; };
+		0EE1A7C2180CEA19001B14BE /* vo-23.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0EE1A7B8180CEA19001B14BE /* vo-23.wav */; };
+		0EE1A7C3180CEA19001B14BE /* vo-24.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0EE1A7B9180CEA19001B14BE /* vo-24.wav */; };
+		0EE1A7C4180CEA19001B14BE /* vo-25.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0EE1A7BA180CEA19001B14BE /* vo-25.wav */; };
+		0EE1A7C5180CEA19001B14BE /* vo-26.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0EE1A7BB180CEA19001B14BE /* vo-26.wav */; };
+		0EE1A7C7180CEA86001B14BE /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0EE1A7C6180CEA86001B14BE /* logo.jpg */; };
 		A26E6A7A17FC4D04006C9456 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26E6A7917FC4D04006C9456 /* Foundation.framework */; };
 		A26E6A7C17FC4D04006C9456 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26E6A7B17FC4D04006C9456 /* CoreGraphics.framework */; };
 		A26E6A7E17FC4D04006C9456 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26E6A7D17FC4D04006C9456 /* UIKit.framework */; };
@@ -111,6 +140,35 @@
 		0E6FBEBF1805C42300AA303D /* iconsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconsmall.png; sourceTree = "<group>"; };
 		0E6FBEC11805C74900AA303D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		0E6FBEC31805C92900AA303D /* vo-1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "vo-1.wav"; sourceTree = "<group>"; };
+		0EE1A78A180CE704001B14BE /* audio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = audio.png; sourceTree = "<group>"; };
+		0EE1A78D180CE816001B14BE /* Speaker_Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Speaker_Icon.png; sourceTree = "<group>"; };
+		0EE1A791180CE9F1001B14BE /* vo-2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "vo-2.wav"; sourceTree = "<group>"; };
+		0EE1A792180CE9F1001B14BE /* vo-3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "vo-3.wav"; sourceTree = "<group>"; };
+		0EE1A793180CE9F1001B14BE /* vo-4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "vo-4.wav"; sourceTree = "<group>"; };
+		0EE1A794180CE9F1001B14BE /* vo-5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "vo-5.wav"; sourceTree = "<group>"; };
+		0EE1A795180CE9F1001B14BE /* vo-6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "vo-6.wav"; sourceTree = "<group>"; };
+		0EE1A796180CE9F1001B14BE /* vo-7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "vo-7.wav"; sourceTree = "<group>"; };
+		0EE1A797180CE9F1001B14BE /* vo-8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "vo-8.wav"; sourceTree = "<group>"; };
+		0EE1A798180CE9F1001B14BE /* vo-9.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "vo-9.wav"; sourceTree = "<group>"; };
+		0EE1A799180CE9F1001B14BE /* vo-10.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "vo-10.wav"; sourceTree = "<group>"; };
+		0EE1A79A180CE9F1001B14BE /* vo-11.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "vo-11.wav"; sourceTree = "<group>"; };
+		0EE1A79B180CE9F1001B14BE /* vo-12.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "vo-12.wav"; sourceTree = "<group>"; };
+		0EE1A79C180CE9F1001B14BE /* vo-13.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "vo-13.wav"; sourceTree = "<group>"; };
+		0EE1A79D180CE9F1001B14BE /* vo-14.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "vo-14.wav"; sourceTree = "<group>"; };
+		0EE1A79E180CE9F1001B14BE /* vo-15.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "vo-15.wav"; sourceTree = "<group>"; };
+		0EE1A79F180CE9F1001B14BE /* vo-16.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "vo-16.wav"; sourceTree = "<group>"; };
+		0EE1A7B0180CEA05001B14BE /* vo-1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "vo-1.wav"; sourceTree = "<group>"; };
+		0EE1A7B2180CEA19001B14BE /* vo-17.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "vo-17.wav"; sourceTree = "<group>"; };
+		0EE1A7B3180CEA19001B14BE /* vo-18.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "vo-18.wav"; sourceTree = "<group>"; };
+		0EE1A7B4180CEA19001B14BE /* vo-19.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "vo-19.wav"; sourceTree = "<group>"; };
+		0EE1A7B5180CEA19001B14BE /* vo-20.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "vo-20.wav"; sourceTree = "<group>"; };
+		0EE1A7B6180CEA19001B14BE /* vo-21.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "vo-21.wav"; sourceTree = "<group>"; };
+		0EE1A7B7180CEA19001B14BE /* vo-22.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "vo-22.wav"; sourceTree = "<group>"; };
+		0EE1A7B8180CEA19001B14BE /* vo-23.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "vo-23.wav"; sourceTree = "<group>"; };
+		0EE1A7B9180CEA19001B14BE /* vo-24.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "vo-24.wav"; sourceTree = "<group>"; };
+		0EE1A7BA180CEA19001B14BE /* vo-25.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "vo-25.wav"; sourceTree = "<group>"; };
+		0EE1A7BB180CEA19001B14BE /* vo-26.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "vo-26.wav"; sourceTree = "<group>"; };
+		0EE1A7C6180CEA86001B14BE /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpg; sourceTree = "<group>"; };
 		A26E6A7617FC4D04006C9456 /* iPad-YOU-Pad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iPad-YOU-Pad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A26E6A7917FC4D04006C9456 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A26E6A7B17FC4D04006C9456 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -245,6 +303,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0EE1A78F180CE905001B14BE /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				0EE1A791180CE9F1001B14BE /* vo-2.wav */,
+				0EE1A792180CE9F1001B14BE /* vo-3.wav */,
+				0EE1A793180CE9F1001B14BE /* vo-4.wav */,
+				0EE1A794180CE9F1001B14BE /* vo-5.wav */,
+				0EE1A795180CE9F1001B14BE /* vo-6.wav */,
+				0EE1A796180CE9F1001B14BE /* vo-7.wav */,
+				0EE1A797180CE9F1001B14BE /* vo-8.wav */,
+				0EE1A798180CE9F1001B14BE /* vo-9.wav */,
+				0EE1A799180CE9F1001B14BE /* vo-10.wav */,
+				0EE1A79A180CE9F1001B14BE /* vo-11.wav */,
+				0EE1A79B180CE9F1001B14BE /* vo-12.wav */,
+				0EE1A79C180CE9F1001B14BE /* vo-13.wav */,
+				0EE1A7B0180CEA05001B14BE /* vo-1.wav */,
+				0EE1A79D180CE9F1001B14BE /* vo-14.wav */,
+				0EE1A79E180CE9F1001B14BE /* vo-15.wav */,
+				0EE1A79F180CE9F1001B14BE /* vo-16.wav */,
+				0E6FBEC31805C92900AA303D /* vo-1.wav */,
+				0EE1A7B2180CEA19001B14BE /* vo-17.wav */,
+				0EE1A7B3180CEA19001B14BE /* vo-18.wav */,
+				0EE1A7B4180CEA19001B14BE /* vo-19.wav */,
+				0EE1A7B5180CEA19001B14BE /* vo-20.wav */,
+				0EE1A7B6180CEA19001B14BE /* vo-21.wav */,
+				0EE1A7B7180CEA19001B14BE /* vo-22.wav */,
+				0EE1A7B8180CEA19001B14BE /* vo-23.wav */,
+				0EE1A7B9180CEA19001B14BE /* vo-24.wav */,
+				0EE1A7BA180CEA19001B14BE /* vo-25.wav */,
+				0EE1A7BB180CEA19001B14BE /* vo-26.wav */,
+			);
+			name = Audio;
+			sourceTree = "<group>";
+		};
 		A26E6A6D17FC4D04006C9456 = {
 			isa = PBXGroup;
 			children = (
@@ -298,11 +390,14 @@
 		A26E6A8017FC4D04006C9456 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0EE1A78F180CE905001B14BE /* Audio */,
 				0E6FBEBF1805C42300AA303D /* iconsmall.png */,
-				0E6FBEC31805C92900AA303D /* vo-1.wav */,
 				0E6FBEBD1805C3CE00AA303D /* iconmed.png */,
+				0EE1A78A180CE704001B14BE /* audio.png */,
 				0E6FBEBB1805C3C000AA303D /* iconbig.png */,
 				A26E6A8117FC4D04006C9456 /* iPad-YOU-Pad-Info.plist */,
+				0EE1A78D180CE816001B14BE /* Speaker_Icon.png */,
+				0EE1A7C6180CEA86001B14BE /* logo.jpg */,
 				A26E6A8217FC4D04006C9456 /* InfoPlist.strings */,
 				A26E6A8517FC4D04006C9456 /* main.m */,
 				A26E6A8717FC4D04006C9456 /* iPad-YOU-Pad-Prefix.pch */,
@@ -560,9 +655,11 @@
 				A2847B9B180685FC00461AE5 /* Sad.jpg in Resources */,
 				A2847B99180685FC00461AE5 /* Relaxed.jpg in Resources */,
 				A2847B8F180685FC00461AE5 /* Image 2 broken arm sad.jpg in Resources */,
+				0EE1A7BF180CEA19001B14BE /* vo-20.wav in Resources */,
 				A2847B84180685FC00461AE5 /* Afraid.jpg in Resources */,
 				A2847B8E180685FC00461AE5 /* Image 12ab sandcastle victim sad vandal happy.jpg in Resources */,
 				A2847B8D180685FC00461AE5 /* Image 11 unwarpping gift surprised.jpg in Resources */,
+				0EE1A7AE180CE9F1001B14BE /* vo-15.wav in Resources */,
 				A2E0DC5517FD167C004E7327 /* CompletedSurveys.storyboard in Resources */,
 				A2847B90180685FC00461AE5 /* Image 3 dark afraid.jpg in Resources */,
 				A2847B82180685FC00461AE5 /* PictureSurveys.storyboard in Resources */,
@@ -571,6 +668,9 @@
 				A2847B9E180685FC00461AE5 /* Surprise_Selected.jpg in Resources */,
 				A2847B89180685FC00461AE5 /* Happy.jpg in Resources */,
 				A2847B91180685FC00461AE5 /* Image 4ab toy fight girl angry boy angry.jpg in Resources */,
+				0EE1A7BC180CEA19001B14BE /* vo-17.wav in Resources */,
+				0EE1A7A8180CE9F1001B14BE /* vo-9.wav in Resources */,
+				0EE1A78B180CE704001B14BE /* audio.png in Resources */,
 				A2847B9A180685FC00461AE5 /* Relaxed_Selected.jpg in Resources */,
 				A2847B95180685FC00461AE5 /* Image 8ab child kicks child floor afraid standing angry.jpg in Resources */,
 				0E6FBEBC1805C3C000AA303D /* iconbig.png in Resources */,
@@ -579,32 +679,56 @@
 				A2847B87180685FC00461AE5 /* Angry_Selected.jpg in Resources */,
 				A2847B9C180685FC00461AE5 /* Sad_Selected.jpg in Resources */,
 				A2847B97180685FC00461AE5 /* Item Sample hair pulling.jpg in Resources */,
+				0EE1A7AA180CE9F1001B14BE /* vo-11.wav in Resources */,
 				A26E6A8417FC4D04006C9456 /* InfoPlist.strings in Resources */,
+				0EE1A7A6180CE9F1001B14BE /* vo-7.wav in Resources */,
 				A2847B98180685FC00461AE5 /* KEDS - Instructions 2012.pdf in Resources */,
 				A2847B96180685FC00461AE5 /* Image 9 rocking chair relaxed.jpg in Resources */,
 				A2847B92180685FC00461AE5 /* Image 5 watching TV relaxed.jpg in Resources */,
+				0EE1A7C5180CEA19001B14BE /* vo-26.wav in Resources */,
 				A2847B94180685FC00461AE5 /* Image 7ab ring a rosie outcast sad circle happy.jpg in Resources */,
 				A26E6A8D17FC4D04006C9456 /* MainMenu.storyboard in Resources */,
 				A26E6AB317FC4D2C006C9456 /* button (1).png in Resources */,
 				A289646117FD253C0071FC46 /* Settings.storyboard in Resources */,
 				A2847B85180685FC00461AE5 /* Afraid_Selected.jpg in Resources */,
+				0EE1A7BE180CEA19001B14BE /* vo-19.wav in Resources */,
+				0EE1A7A9180CE9F1001B14BE /* vo-10.wav in Resources */,
 				FB27DA6C17FD4EE400FB049D /* bg.jpg in Resources */,
 				FBE43ADE1805231400F05B85 /* Bullet-Point.jpg in Resources */,
 				0E6FBEC01805C42300AA303D /* iconsmall.png in Resources */,
 				FBE43AE61805231400F05B85 /* ParentsSurveys.storyboard in Resources */,
+				0EE1A7B1180CEA05001B14BE /* vo-1.wav in Resources */,
 				A2847B8A180685FC00461AE5 /* Happy_Selected.jpg in Resources */,
 				0E6FBEBE1805C3CE00AA303D /* iconmed.png in Resources */,
 				0E6FBEC41805C92900AA303D /* vo-1.wav in Resources */,
 				A2847B8B180685FC00461AE5 /* Image 1 swinging happy.jpg in Resources */,
+				0EE1A78E180CE816001B14BE /* Speaker_Icon.png in Resources */,
 				FBE43AE71805231400F05B85 /* Very-Basic-Checked-checkbox-icon.png in Resources */,
 				A2847B9D180685FC00461AE5 /* Surprise.jpg in Resources */,
+				0EE1A7C3180CEA19001B14BE /* vo-24.wav in Resources */,
 				A2847B88180685FC00461AE5 /* Emotional perspectives card.jpg in Resources */,
+				0EE1A7C4180CEA19001B14BE /* vo-25.wav in Resources */,
 				FBE43AE81805231400F05B85 /* Very-Basic-Unchecked-checkbox-icon.png in Resources */,
 				A2847B8C180685FC00461AE5 /* Image 10ab telling off father angry child afraid.jpg in Resources */,
 				A2847B86180685FC00461AE5 /* Angry.jpg in Resources */,
+				0EE1A7AD180CE9F1001B14BE /* vo-14.wav in Resources */,
+				0EE1A7BD180CEA19001B14BE /* vo-18.wav in Resources */,
+				0EE1A7C0180CEA19001B14BE /* vo-21.wav in Resources */,
+				0EE1A7A5180CE9F1001B14BE /* vo-6.wav in Resources */,
+				0EE1A7C2180CEA19001B14BE /* vo-23.wav in Resources */,
 				A2847B93180685FC00461AE5 /* Image 6 jack in the box surprised.jpg in Resources */,
 				BB9B9F9B1807B1B100F03C96 /* logo-72.png in Resources */,
+				0EE1A7A7180CE9F1001B14BE /* vo-8.wav in Resources */,
+				0EE1A7A3180CE9F1001B14BE /* vo-4.wav in Resources */,
+				0EE1A7A4180CE9F1001B14BE /* vo-5.wav in Resources */,
+				0EE1A7AB180CE9F1001B14BE /* vo-12.wav in Resources */,
+				0EE1A7AC180CE9F1001B14BE /* vo-13.wav in Resources */,
+				0EE1A7A1180CE9F1001B14BE /* vo-2.wav in Resources */,
+				0EE1A7AF180CE9F1001B14BE /* vo-16.wav in Resources */,
+				0EE1A7A2180CE9F1001B14BE /* vo-3.wav in Resources */,
+				0EE1A7C1180CEA19001B14BE /* vo-22.wav in Resources */,
 				BB9B9F9D1807B1B600F03C96 /* logo-144.png in Resources */,
+				0EE1A7C7180CEA86001B14BE /* logo.jpg in Resources */,
 				010E8EE4180BB19300E8F1ED /* logo.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
