@@ -122,6 +122,10 @@ NSString *date;
     }
 }*/
 
+-(IBAction)backToMainMenu:(id)sender {
+    [self dismissModalViewControllerAnimated:YES];
+}
+
 - (IBAction)nextButtonAction:(id)sender {
     researcherName = researcherNameTextField.text;
     parentName = parentNameTextField.text;

@@ -13,8 +13,10 @@
 int start;
 int end;
 }
-@property (weak, nonatomic) IBOutlet UIButton *finishButton;
--(IBAction)finishButton:(id)sender;
+@property (weak, nonatomic) IBOutlet UIButton *nextButton;
+-(IBAction)nextButton:(id)sender;
 @property(weak, nonatomic) IBOutlet UITextField *commentTextField;
+
+-(IBAction)backButton:(id)sender;
 @end
 

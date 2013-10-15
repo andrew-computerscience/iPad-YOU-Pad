@@ -96,6 +96,10 @@ int numOptions;
                 temp.enabled = NO;
                 temp.alpha = 0.3;
             }
+            for(int i = start+1; i<=end; i++)
+            {
+                checkBox[i] = 0;
+            }
         }
     } else {
         
@@ -120,7 +124,7 @@ int numOptions;
 - (void)checkNextButton {
     
     BOOL flag = YES;
-    if(checkBox[start] > 2){ //answer was "yes"
+    if(checkBox[start] > 1){ //answer was "yes"
         for(int i = start; i <= end; i+=1)
         {
             if(checkBox[i] <=0)
@@ -179,6 +183,5 @@ int numOptions;
     }
     [self checkNextButton];
 }
-
 
 @end

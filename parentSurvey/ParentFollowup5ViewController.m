@@ -23,7 +23,7 @@ int numOptions;
 NSString *comment;
 NSMutableString *answerString;
 
-@synthesize finishButton;
+@synthesize nextButton;
 @synthesize commentTextField;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -38,11 +38,11 @@ NSMutableString *answerString;
 - (void)viewDidLoad
 {
     start = 28;
-    end = 32;
+    end = 33;
     questions = 5;
     numOptions = 4;
-    finishButton.enabled = NO;
-    finishButton.alpha = 0.3;
+    nextButton.enabled = NO;
+    nextButton.alpha = 0.3;
     
     if(!optionalQuestions){
         [self disableQustions];
@@ -115,14 +115,17 @@ NSMutableString *answerString;
         
     }
     if(flag) {
-        finishButton.enabled = YES;
-        finishButton.alpha = 1;
+        nextButton.enabled = YES;
+        nextButton.alpha = 1;
+    } else {
+        nextButton.enabled = NO;
+        nextButton.alpha = 0.3;
     }
     
     //NSLog(@"%f", 2.0);
 }
 
--(IBAction)finishButton:(id)sender {
+-(IBAction)nextButton:(id)sender {
     //write to file
     NSMutableString *answerString = [NSMutableString string];
     [answerString appendString:[NSString stringWithFormat:@"%@, %@, %@, ", researcherName, parentName, parentId]];
@@ -188,5 +191,6 @@ NSMutableString *answerString;
     }
     [self checkNextButton];
 }
+
 
 @end

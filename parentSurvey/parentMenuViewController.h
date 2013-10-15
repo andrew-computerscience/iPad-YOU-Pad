@@ -51,6 +51,8 @@ extern bool firstStartup;
 @property (weak, nonatomic) IBOutlet UIButton *nextButton2;
 - (IBAction)nextButtonAction2:(id)sender;
 
+-(IBAction)backToMainMenu:(id)sender;
+
 @property(weak,nonatomic) IBOutlet UITextField *researcherNameTextField;
 @property(weak,nonatomic) IBOutlet UITextField *parentNameTextField;
 @property(weak,nonatomic) IBOutlet UITextField *parentIdTextField;

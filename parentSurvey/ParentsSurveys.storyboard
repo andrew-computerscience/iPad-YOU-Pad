@@ -123,7 +123,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Zbw-pJ-g80">
-                                <rect key="frame" x="587" y="896" width="161" height="44"/>
+                                <rect key="frame" x="587" y="865" width="161" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Back to Main Menu" backgroundImage="button.png">
@@ -133,6 +133,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="backToMainMenu:" destination="Y3i-KE-YZz" eventType="touchUpInside" id="zxt-nj-kNL"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" cyan="0.20000000000000001" magenta="0.0" yellow="0.0" black="0.0" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
@@ -784,6 +787,21 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="eHs-NT-9WZ">
+                                <rect key="frame" x="359" y="879" width="73" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Ak9-t2-70D" kind="push" id="PJl-jv-EJF"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" cyan="0.20000000000000001" magenta="0.0" yellow="0.0" black="0.0" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
                     </view>
@@ -3350,6 +3368,7 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="nextButton:" destination="tbX-ki-wyO" eventType="touchUpInside" id="8it-Zw-XaE"/>
                                     <segue destination="Kxp-71-XJI" kind="push" id="fTp-lY-l6i"/>
                                 </connections>
                             </button>
@@ -3386,6 +3405,9 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                         <color key="backgroundColor" cyan="0.20000000000000001" magenta="0.0" yellow="0.0" black="0.0" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
                     </view>
                     <navigationItem key="navigationItem" id="iie-rW-ltA"/>
+                    <connections>
+                        <outlet property="nextButton" destination="dtX-Wo-Gsq" id="SYV-W9-xAi"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qzD-eq-xcp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -3836,6 +3858,21 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
                                     <action selector="nextButton:" destination="ybF-da-YW4" eventType="touchUpInside" id="3HS-pv-xav"/>
                                     <action selector="nextButton:" destination="kJ9-JC-0Ql" eventType="touchUpInside" id="KoR-tw-Veq"/>
                                     <segue destination="YaB-og-Cn8" kind="push" id="LYA-Q9-Lw7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="VzM-N9-MtL">
+                                <rect key="frame" x="315" y="878" width="73" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="1kL-vN-n3q" kind="push" id="u6o-aS-5NE"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -4858,127 +4895,21 @@ AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
         <image name="Very-Basic-Unchecked-checkbox-icon.png" width="512" height="512"/>
         <image name="button.png" width="95" height="50"/>
     </resources>
-    <classes>
-        <class className="EndPageViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/EndPageViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="finishButton:"/>
-            </relationships>
-        </class>
-        <class className="Parent42ViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/Parent42ViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="nextButton:"/>
-                <relationship kind="outlet" name="nextButton" candidateClass="UIButton"/>
-            </relationships>
-        </class>
-        <class className="ParentFollowup1ViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ParentFollowup1ViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="nextButton:"/>
-                <relationship kind="outlet" name="nextButton" candidateClass="UIButton"/>
-            </relationships>
-        </class>
-        <class className="ParentFollowup2ViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ParentFollowup2ViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="nextButton:"/>
-                <relationship kind="outlet" name="nextButton" candidateClass="UIButton"/>
-            </relationships>
-        </class>
-        <class className="ParentFollowup3ViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ParentFollowup3ViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="nextButton:"/>
-                <relationship kind="outlet" name="nextButton" candidateClass="UIButton"/>
-            </relationships>
-        </class>
-        <class className="ParentFollowup4ViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ParentFollowup4ViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="nextButton:"/>
-                <relationship kind="outlet" name="nextButton" candidateClass="UIButton"/>
-            </relationships>
-        </class>
-        <class className="ParentFollowup5ViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ParentFollowup5ViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="finishButton:"/>
-                <relationship kind="outlet" name="commentTextField" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="finishButton" candidateClass="UIButton"/>
-            </relationships>
-        </class>
-        <class className="Parents41ViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/Parents41ViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="nextButton:"/>
-                <relationship kind="outlet" name="nextButton" candidateClass="UIButton"/>
-            </relationships>
-        </class>
-        <class className="Parents43ViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/Parents43ViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="nextButton:"/>
-                <relationship kind="outlet" name="nextButton" candidateClass="UIButton"/>
-            </relationships>
-        </class>
-        <class className="Parents44ViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/Parents44ViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="nextButton:"/>
-                <relationship kind="outlet" name="nextButton" candidateClass="UIButton"/>
-            </relationships>
-        </class>
-        <class className="Parents45ViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/Parents45ViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="finishButton:"/>
-                <relationship kind="outlet" name="commentTextField" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="finishButton" candidateClass="UIButton"/>
-            </relationships>
-        </class>
-        <class className="parentMenuViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/parentMenuViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="Survey1Action:"/>
-                <relationship kind="action" name="Survey2Action:"/>
-                <relationship kind="action" name="Survey3Action:"/>
-                <relationship kind="action" name="Survey4Action:"/>
-                <relationship kind="action" name="Survey5Action:"/>
-                <relationship kind="action" name="Survey6Action:"/>
-                <relationship kind="action" name="nextButtonAction2:"/>
-                <relationship kind="action" name="nextButtonAction:"/>
-                <relationship kind="outlet" name="Survey1" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="Survey2" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="Survey3" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="childNameTextField" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="day" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="month" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="nextButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="nextButton2" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="parentIdTextField" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="parentNameTextField" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="researcherNameTextField" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="timePicker" candidateClass="UIDatePicker"/>
-                <relationship kind="outlet" name="year" candidateClass="UITextField"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="foz-IL-rgF"/>
-        <segue reference="nbN-gz-Pec"/>
-        <segue reference="GvK-8q-Ib6"/>
-        <segue reference="GN0-RM-lKl"/>
-        <segue reference="DUm-wZ-DFB"/>
         <segue reference="t2P-OS-Dhr"/>
-        <segue reference="5xQ-1H-pOn"/>
-        <segue reference="Iy1-lr-gJ1"/>
+        <segue reference="GvK-8q-Ib6"/>
+        <segue reference="nbN-gz-Pec"/>
+        <segue reference="foz-IL-rgF"/>
+        <segue reference="DUm-wZ-DFB"/>
         <segue reference="huU-W2-4Ak"/>
+        <segue reference="Iy1-lr-gJ1"/>
         <segue reference="aWJ-bt-Wd8"/>
+        <segue reference="Ivg-51-2Y4"/>
+        <segue reference="fTp-lY-l6i"/>
     </inferredMetricsTieBreakers>
 </document>
