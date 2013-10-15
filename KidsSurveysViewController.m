@@ -142,6 +142,33 @@ NSString *commentsString;
     [avPlayer play];
 }
 
+- (IBAction)playq4:(id)sender {
+    NSError *error;
+    
+    NSString *stringPath =[[NSBundle mainBundle]pathForResource:@"vo-4" ofType:@"wav"];
+    NSURL *url = [NSURL fileURLWithPath:stringPath];
+    avPlayer = [[AVAudioPlayer alloc]initWithContentsOfURL:url error:&error];
+    [avPlayer play];
+}
+
+- (IBAction)playq5:(id)sender {
+    NSError *error;
+    
+    NSString *stringPath =[[NSBundle mainBundle]pathForResource:@"vo-5" ofType:@"wav"];
+    NSURL *url = [NSURL fileURLWithPath:stringPath];
+    avPlayer = [[AVAudioPlayer alloc]initWithContentsOfURL:url error:&error];
+    [avPlayer play];
+}
+
+- (IBAction)playq6:(id)sender {
+    NSError *error;
+    
+    NSString *stringPath =[[NSBundle mainBundle]pathForResource:@"vo-6" ofType:@"wav"];
+    NSURL *url = [NSURL fileURLWithPath:stringPath];
+    avPlayer = [[AVAudioPlayer alloc]initWithContentsOfURL:url error:&error];
+    [avPlayer play];
+}
+
 
 -(IBAction)answer:(id)sender
 {
