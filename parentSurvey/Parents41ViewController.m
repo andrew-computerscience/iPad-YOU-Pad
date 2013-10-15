@@ -24,6 +24,7 @@ int questions;
 @implementation Parents41ViewController
 
 @synthesize nextButton;
+@synthesize progressBar;
 
 /*
 // Core Data
@@ -53,6 +54,10 @@ int questions;
     questions = 8;
     nextButton.enabled = NO;
     nextButton.alpha = 0.3;
+    //[self.progressBar setFrame:CGRectMake(0,0,300,25)];
+    CGRect progressFrame = progressBar.frame;
+    progressFrame.size.height = 300;
+    progressBar.frame = progressFrame;
     if(firstStartup)
     {
         firstStartup = FALSE;

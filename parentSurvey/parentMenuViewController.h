@@ -27,6 +27,7 @@ extern NSString *hiddenFilePath;
 extern NSString *hiddenDocDir;
 extern NSString *childName;
 extern NSString *date;
+extern NSString *gender;
 
 
 extern bool firstStartup;
@@ -52,6 +53,8 @@ extern bool firstStartup;
 - (IBAction)nextButtonAction2:(id)sender;
 
 -(IBAction)backToMainMenu:(id)sender;
+
+@property (weak, nonatomic) IBOutlet UISegmentedControl *genderOption;
 
 @property(weak,nonatomic) IBOutlet UITextField *researcherNameTextField;
 @property(weak,nonatomic) IBOutlet UITextField *parentNameTextField;

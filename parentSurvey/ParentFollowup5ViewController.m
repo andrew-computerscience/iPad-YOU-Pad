@@ -125,7 +125,7 @@ NSMutableString *answerString;
     //NSLog(@"%f", 2.0);
 }
 
--(IBAction)nextButton:(id)sender {
+/*-(IBAction)nextButton:(id)sender {
     //write to file
     NSMutableString *answerString = [NSMutableString string];
     [answerString appendString:[NSString stringWithFormat:@"%@, %@, %@, ", researcherName, parentName, parentId]];
@@ -169,7 +169,7 @@ NSMutableString *answerString;
     }
     
     
-}
+}*/
 
 
 - (void)buttonClicked:(UIButton *)sender {

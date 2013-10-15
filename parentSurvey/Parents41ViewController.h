@@ -20,4 +20,6 @@ extern bool optionalQuestions;
 @property (weak, nonatomic) IBOutlet UIButton *nextButton;
 -(IBAction)nextButton:(id)sender;
 
+@property (weak, nonatomic) IBOutlet UIProgressView *progressBar;
+
 @end

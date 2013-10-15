@@ -12,4 +12,7 @@
 
 -(IBAction)finishButton:(id)sender;
 
+@property(weak, nonatomic) IBOutlet UITextField *comment;
+
+
 @end

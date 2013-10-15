@@ -14,5 +14,6 @@
 }
 @property (weak, nonatomic) IBOutlet UIButton *finishButton;
 -(IBAction)finishButton:(id)sender;
-@property(weak, nonatomic) IBOutlet UITextField *commentTextField;
+
+@property (weak, nonatomic) IBOutlet UIProgressView *progressBar;
 @end

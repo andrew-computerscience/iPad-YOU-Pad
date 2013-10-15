@@ -17,6 +17,8 @@ bool checker;
 NSString *survey;
 NSString *childName;
 NSString *date;
+NSString *gender;
+NSInteger pickerRow;
 
 @interface parentMenuViewController ()
 
@@ -36,6 +38,7 @@ NSString *date;
 @synthesize month;
 @synthesize year;
 @synthesize nextButton2;
+@synthesize genderOption;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -122,6 +125,7 @@ NSString *date;
     }
 }*/
 
+
 -(IBAction)backToMainMenu:(id)sender {
     [self dismissModalViewControllerAnimated:YES];
 }
@@ -141,6 +145,17 @@ NSString *date;
     
 - (IBAction)nextButtonAction2:(id)sender {
     childName = childNameTextField.text;
+
+    if(genderOption.selectedSegmentIndex == 0)
+    {
+        gender = @"Male";
+    }
+    else
+    {
+        gender = @"Female";
+    }
+    
+    NSLog(@"gender %@", gender);
     
     NSDate *dob = [self.timePicker date];
     NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];

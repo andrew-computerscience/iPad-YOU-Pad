@@ -12,8 +12,6 @@
 bool optionQuestions;
 int questions;
 int numOptions;
-NSString *comment;
-NSMutableString *answerString;
 
 @interface Parents45ViewController ()
 
@@ -22,7 +20,6 @@ NSMutableString *answerString;
 @implementation Parents45ViewController
 
 @synthesize finishButton;
-@synthesize commentTextField;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -41,9 +38,6 @@ NSMutableString *answerString;
     numOptions = 4;
     finishButton.enabled = NO;
     finishButton.alpha = 0.3;
-    CGRect frame = commentTextField.frame;
-    frame.size.height = 50;
-    commentTextField.frame = frame;
     
     if(!optionQuestions){
         [self disableQustions];
@@ -124,7 +118,7 @@ NSMutableString *answerString;
     //NSLog(@"%f", 2.0);
 }
 
--(IBAction)finishButton:(id)sender {
+/*-(IBAction)finishButton:(id)sender {
     //write to file
     NSMutableString *answerString = [NSMutableString string];
     [answerString appendString:[NSString stringWithFormat:@"%@, %@, %@, ", researcherName, parentName, parentId]];
@@ -182,7 +176,7 @@ NSMutableString *answerString;
     parentId = @"";
     researcherName = @"";
     parentName = @"";
-}
+}*/
 
 
 - (void)buttonClicked:(UIButton *)sender {
