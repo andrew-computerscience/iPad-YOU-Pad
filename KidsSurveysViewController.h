@@ -33,14 +33,13 @@ extern NSString *commentsString;
     IBOutlet UITextField *kidsName;
     IBOutlet UITextField *researcherName;
     IBOutlet UITextView *comments;
-}
-- (IBAction)playButton:(id)sender;
+}/*
 - (IBAction)playq1:(id)sender;
 - (IBAction)playq2:(id)sender;
 - (IBAction)playq3:(id)sender;
 - (IBAction)playq4:(id)sender;
 - (IBAction)playq5:(id)sender;
-
+*/
 - (IBAction)answer:(id)sender;
 - (IBAction)submit:(id)sender;
 - (IBAction)childDifficultiesNext:(id)sender;

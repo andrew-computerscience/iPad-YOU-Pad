@@ -121,18 +121,7 @@ NSString *commentsString;
 }
 
 //event handler for recording answer when an answer button is selected.
-- (IBAction)playButton:(id)sender {
-    NSString *stringPath =[[NSBundle mainBundle]pathForResource:@"4019" ofType:@"mp3"];
-    NSURL *url = [NSURL fileURLWithPath:stringPath];
-    
-    
-    NSError *error;
-    
-    avPlayer = [[AVAudioPlayer alloc]initWithContentsOfURL:url error:&error];
-    [avPlayer setNumberOfLoops:1];
-     [avPlayer play];
-}
-
+/*
 - (IBAction)playq1:(id)sender {
     NSError *error;
 
@@ -190,8 +179,7 @@ NSString *commentsString;
 }
 
 
-
-
+*/
 
 -(IBAction)answer:(id)sender
 {
