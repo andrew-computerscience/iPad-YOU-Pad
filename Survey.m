@@ -16,5 +16,14 @@
 @dynamic kid_name;
 @dynamic researcher_name;
 @dynamic uploaded;
-
+- (NSString *)sectionPath {
+    if(self.uploaded){
+        return @"Uploaded";
+    }
+    else{
+        return @"UnUploaded";
+    }
+    
+    //return [self.acctPeriod substringToIndex:4];
+}
 @end
