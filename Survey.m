@@ -18,10 +18,10 @@
 @dynamic uploaded;
 - (NSString *)sectionPath {
     if(self.uploaded){
-        return @"Uploaded";
+        return @"UnUploaded";
     }
     else{
-        return @"UnUploaded";
+        return @"Uploaded";
     }
     
     //return [self.acctPeriod substringToIndex:4];
