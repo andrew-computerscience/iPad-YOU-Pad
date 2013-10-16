@@ -4636,35 +4636,6 @@
         <image name="button (1).png" width="95" height="50"/>
         <image name="button.png" width="95" height="50"/>
     </resources>
-    <classes>
-        <class className="KidsSurveysViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/KidsSurveysViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="answer:"/>
-                <relationship kind="action" name="childDifficultiesNext:"/>
-                <relationship kind="action" name="childDifficultiesNextFollowUp:"/>
-                <relationship kind="action" name="childDifficultiesNextYR1a:"/>
-                <relationship kind="action" name="createFile:"/>
-                <relationship kind="action" name="forkNext:"/>
-                <relationship kind="action" name="goToMainMenu"/>
-                <relationship kind="action" name="infoEntered:"/>
-                <relationship kind="action" name="playButton:"/>
-                <relationship kind="action" name="playq1:"/>
-                <relationship kind="action" name="s1117FollowUpButtonPress:"/>
-                <relationship kind="action" name="s1117ImpactSuppButtonPress:"/>
-                <relationship kind="action" name="s1117YR1aButtonPress:"/>
-                <relationship kind="action" name="saveComments:"/>
-                <relationship kind="action" name="saveInfo:"/>
-                <relationship kind="action" name="submit:"/>
-                <relationship kind="outlet" name="comments" candidateClass="UITextView"/>
-                <relationship kind="outlet" name="endOfSurvey" candidateClass="UINavigationItem"/>
-                <relationship kind="outlet" name="firstQuestionNavBar" candidateClass="UINavigationItem"/>
-                <relationship kind="outlet" name="kidsID" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="kidsName" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="researcherName" candidateClass="UITextField"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
         <simulatedOrientationMetrics key="orientation"/>

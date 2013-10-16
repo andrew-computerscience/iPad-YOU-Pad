@@ -198,22 +198,6 @@
     <resources>
         <image name="button.png" width="95" height="50"/>
     </resources>
-    <classes>
-        <class className="MainMenuViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/MainMenuViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="checkPin:"/>
-                <relationship kind="action" name="goToCompletedSurveys"/>
-                <relationship kind="action" name="goToEducatorsSurveys"/>
-                <relationship kind="action" name="goToKidsSurveys"/>
-                <relationship kind="action" name="goToParentsSurveys"/>
-                <relationship kind="action" name="goToPictureSurveys:"/>
-                <relationship kind="action" name="goToSettings"/>
-                <relationship kind="action" name="lock:"/>
-                <relationship kind="outlet" name="pinField" candidateClass="UITextField"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
         <simulatedOrientationMetrics key="orientation"/>
