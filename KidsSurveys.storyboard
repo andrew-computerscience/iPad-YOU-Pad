@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="4510" systemVersion="12F45" targetRuntime="iOS.CocoaTouch.iPad" variant="6xAndEarlier" propertyAccessControl="none" initialViewController="k1n-AG-N5p">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12C60" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="k1n-AG-N5p">
     <dependencies>
         <deployment defaultVersion="1552" identifier="iOS"/>
         <development version="4600" identifier="xcode"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
     <scenes>
         <!--Kids Surveys View Controller-->
@@ -2472,6 +2472,13 @@
                                     <action selector="goToMainMenu" destination="JYR-rK-wMi" eventType="touchUpInside" id="oz2-rt-1iw"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Kid's Surveys" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="wD8-p4-64e">
+                                <rect key="frame" x="276" y="69" width="216" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -2543,7 +2550,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="2501" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="qb1-XK-wrb">
-                                <rect key="frame" x="299" y="397" width="170" height="34"/>
+                                <rect key="frame" x="20" y="395" width="170" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="No - No difficulties" backgroundImage="button.png">
@@ -2555,7 +2562,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="2502" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="t0Q-ro-zxq">
-                                <rect key="frame" x="20" y="461" width="158" height="34"/>
+                                <rect key="frame" x="203" y="395" width="167" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Yes - Minor difficulties" backgroundImage="button.png">
@@ -2567,7 +2574,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" tag="2503" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Tlf-q5-j6F">
-                                <rect key="frame" x="299" y="461" width="170" height="34"/>
+                                <rect key="frame" x="383" y="395" width="177" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Yes - Definite difficulties" backgroundImage="button.png">
@@ -2594,7 +2601,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="2504" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="HqW-QJ-wk4">
-                                <rect key="frame" x="558" y="461" width="170" height="34"/>
+                                <rect key="frame" x="571" y="395" width="170" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Yes - Severe difficulties" backgroundImage="button.png">
@@ -3946,21 +3953,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Researcher Name: " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="O9N-HB-0LX">
-                                <rect key="frame" x="138" y="256" width="147" height="21"/>
+                                <rect key="frame" x="135" y="256" width="154" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.21960784310000001" green="0.3294117647" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Child's Name: " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="yV7-BC-LNZ">
-                                <rect key="frame" x="138" y="297" width="113" height="21"/>
+                                <rect key="frame" x="135" y="297" width="113" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.21960784310000001" green="0.3294117647" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Child's Unique ID:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kTq-im-QVh">
-                                <rect key="frame" x="138" y="339" width="139" height="21"/>
+                                <rect key="frame" x="135" y="339" width="139" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.21960784310000001" green="0.3294117647" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
@@ -4011,6 +4018,13 @@
                                     <segue destination="JYR-rK-wMi" kind="push" id="IiP-CO-uT5"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Kid's Surveys" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Iol-mI-W3C">
+                                <rect key="frame" x="285" y="76" width="216" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -4998,6 +5012,57 @@
         <image name="button (1).png" width="95" height="50"/>
         <image name="button.png" width="95" height="50"/>
     </resources>
+    <classes>
+        <class className="KidsSurveysViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/KidsSurveysViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="answer:"/>
+                <relationship kind="action" name="childDifficultiesNext:"/>
+                <relationship kind="action" name="createFile:"/>
+                <relationship kind="action" name="forkNext:"/>
+                <relationship kind="action" name="goToMainMenu"/>
+                <relationship kind="action" name="infoEntered:"/>
+                <relationship kind="action" name="playButton:"/>
+                <relationship kind="action" name="playq10:"/>
+                <relationship kind="action" name="playq11:"/>
+                <relationship kind="action" name="playq12:"/>
+                <relationship kind="action" name="playq13:"/>
+                <relationship kind="action" name="playq14:"/>
+                <relationship kind="action" name="playq15:"/>
+                <relationship kind="action" name="playq16:"/>
+                <relationship kind="action" name="playq17:"/>
+                <relationship kind="action" name="playq18:"/>
+                <relationship kind="action" name="playq19:"/>
+                <relationship kind="action" name="playq1:"/>
+                <relationship kind="action" name="playq20:"/>
+                <relationship kind="action" name="playq21:"/>
+                <relationship kind="action" name="playq22:"/>
+                <relationship kind="action" name="playq23:"/>
+                <relationship kind="action" name="playq24:"/>
+                <relationship kind="action" name="playq25:"/>
+                <relationship kind="action" name="playq2:"/>
+                <relationship kind="action" name="playq3:"/>
+                <relationship kind="action" name="playq4:"/>
+                <relationship kind="action" name="playq5:"/>
+                <relationship kind="action" name="playq6:"/>
+                <relationship kind="action" name="playq7:"/>
+                <relationship kind="action" name="playq8:"/>
+                <relationship kind="action" name="playq9:"/>
+                <relationship kind="action" name="s1117FollowUpButtonPress:"/>
+                <relationship kind="action" name="s1117ImpactSuppButtonPress:"/>
+                <relationship kind="action" name="saveComments:"/>
+                <relationship kind="action" name="saveInfo:"/>
+                <relationship kind="action" name="submit:"/>
+                <relationship kind="outlet" name="comments" candidateClass="UITextView"/>
+                <relationship kind="outlet" name="endOfSurvey" candidateClass="UINavigationItem"/>
+                <relationship kind="outlet" name="firstQuestionNavBar" candidateClass="UINavigationItem"/>
+                <relationship kind="outlet" name="kidsID" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="kidsName" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="myProgressView" candidateClass="UIProgressView"/>
+                <relationship kind="outlet" name="researcherName" candidateClass="UITextField"/>
+            </relationships>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
         <simulatedOrientationMetrics key="orientation"/>
@@ -5005,7 +5070,7 @@
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="koi-5H-kqI"/>
-        <segue reference="jtA-Nd-GuM"/>
+        <segue reference="1bB-rf-Y3H"/>
         <segue reference="tYi-vt-Tou"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -512,9 +512,7 @@ NSString *commentsString;
     UIButton *yesSevere = (UIButton *)[self.view viewWithTag:2504];
     UIButton *noDifficulties = (UIButton *)[self.view viewWithTag:2501];
     
-    if(([yesMinor isSelected]==YES || [yesDefinite isSelected]==YES || [yesSevere isSelected]==YES)){
-        [self performSegueWithIdentifier:@"noDurationDifficulties" sender:self];
-    } else if (([yesMinor isSelected]==YES || [yesDefinite isSelected]==YES || [yesSevere isSelected]==YES)){
+    if (([yesMinor isSelected]==YES || [yesDefinite isSelected]==YES || [yesSevere isSelected]==YES)){
         [self performSegueWithIdentifier:@"yesDifficulties" sender:self];
     } else if([noDifficulties isSelected]==YES){
         [self performSegueWithIdentifier:@"noDifficulties" sender:self];
