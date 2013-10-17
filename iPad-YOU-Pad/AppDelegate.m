@@ -57,10 +57,11 @@
     NSURL *storeUrl = [NSURL fileURLWithPath: [docDir
                                                stringByAppendingPathComponent: @"Database.sqlite"]];
     NSError *error = nil;
-    NSDictionary *options = [NSDictionary dictionaryWithObjectsAndKeys:
+    /*NSDictionary *options = [NSDictionary dictionaryWithObjectsAndKeys:
     						 [NSNumber numberWithBool:YES], NSMigratePersistentStoresAutomaticallyOption,
     						 [NSNumber numberWithBool:YES], NSInferMappingModelAutomaticallyOption, nil];
-    
+     */
+    NSDictionary *options = @{ NSSQLitePragmasOption : @{@"journal_mode" : @"DELETE"} };
     _persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc]
                                    initWithManagedObjectModel:[self managedObjectModel]];
     if(![_persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType

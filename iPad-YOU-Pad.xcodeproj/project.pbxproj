@@ -700,6 +700,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "CITS3200 Group D";
 				TargetAttributes = {
+					A26E6A7517FC4D04006C9456 = {
+						DevelopmentTeam = ZJ7XK7955A;
+					};
 					A26E6A9617FC4D04006C9456 = {
 						TestTargetID = A26E6A7517FC4D04006C9456;
 					};
@@ -1001,10 +1004,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iPad-YOU-Pad/iPad-YOU-Pad-Prefix.pch";
 				INFOPLIST_FILE = "iPad-YOU-Pad/iPad-YOU-Pad-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
@@ -1015,10 +1021,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iPad-YOU-Pad/iPad-YOU-Pad-Prefix.pch";
 				INFOPLIST_FILE = "iPad-YOU-Pad/iPad-YOU-Pad-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
