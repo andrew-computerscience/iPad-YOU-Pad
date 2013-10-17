@@ -247,6 +247,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="infoEnteredTwo:" destination="wBo-ws-2db" eventType="editingDidEnd" id="z5o-Pg-3J5"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J69-Ri-z9D">
                                 <string key="text">Tell me what is happening in this picture.
@@ -258,6 +261,9 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Wcn-eP-xck">
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="infoEnteredTwo:" destination="wBo-ws-2db" eventType="editingDidEnd" id="es4-pR-vN8"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" tag="998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fAX-ql-Uk8">
                                 <constraints>
@@ -374,6 +380,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="infoEnteredThree:" destination="QJx-Py-pvP" eventType="editingDidEnd" id="bIS-F0-kyE"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" tag="998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W1j-6Y-s1b">
                                 <constraints>
@@ -678,6 +687,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="infoEnteredTwo:" destination="XQH-gi-zsy" eventType="editingDidEnd" id="TMg-el-y1a"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Et-Ed-qcJ">
                                 <string key="text">Tell me what is happening in this picture.
@@ -689,6 +701,9 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Bnc-RB-fWs">
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="infoEnteredTwo:" destination="XQH-gi-zsy" eventType="editingDidEnd" id="fvt-8c-O58"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" tag="998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="drQ-hM-NAo">
                                 <constraints>
@@ -804,6 +819,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="infoEnteredThree:" destination="Fej-nt-Fup" eventType="editingDidEnd" id="5XL-d9-vsL"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" tag="998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FZI-0Z-JE9">
                                 <constraints>
@@ -1108,6 +1126,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="infoEnteredTwo:" destination="FIS-lK-Czn" eventType="editingDidEnd" id="VEH-84-Yes"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qKw-SX-YIe">
                                 <string key="text">Tell me what is happening in this picture.
@@ -1119,6 +1140,9 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Va2-mP-C4M">
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="infoEnteredTwo:" destination="FIS-lK-Czn" eventType="editingDidEnd" id="mM0-AV-Ics"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" tag="998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LHO-87-BJ9">
                                 <constraints>
@@ -1235,6 +1259,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="infoEnteredThree:" destination="K28-j5-QO0" eventType="editingDidEnd" id="VqJ-Q5-fH0"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" tag="998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gmh-9p-OGb">
                                 <constraints>
@@ -1539,6 +1566,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="infoEnteredTwo:" destination="qbb-24-NqZ" eventType="editingDidEnd" id="4dm-kB-wfE"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iSQ-c0-Ir5">
                                 <string key="text">Tell me what is happening in this picture.
@@ -1550,6 +1580,9 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bzM-up-d8m">
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="infoEnteredTwo:" destination="qbb-24-NqZ" eventType="editingDidEnd" id="xfy-Ak-mGS"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" tag="998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J7H-2b-och">
                                 <constraints>
@@ -1669,6 +1702,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="infoEnteredThree:" destination="Ow7-dp-RU9" eventType="editingDidEnd" id="8FM-Fz-KRK"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" tag="998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KSJ-It-Dbo">
                                 <constraints>
@@ -1977,6 +2013,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="infoEnteredTwo:" destination="jH8-GN-X4w" eventType="editingDidEnd" id="cJl-Ha-WB4"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OFB-K6-7cd">
                                 <string key="text">Tell me what is happening in this picture.
@@ -1988,6 +2027,9 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dNH-Gs-6xS">
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="infoEnteredTwo:" destination="jH8-GN-X4w" eventType="editingDidEnd" id="jTw-Vn-xDk"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" tag="998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TnS-OJ-ygn">
                                 <constraints>
@@ -2104,6 +2146,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="infoEnteredThree:" destination="UoT-Oc-xgE" eventType="editingDidEnd" id="0sl-CB-ohH"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" tag="998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qoZ-ig-egG">
                                 <constraints>
@@ -2405,6 +2450,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="infoEnteredTwo:" destination="x9a-by-fti" eventType="editingDidEnd" id="oK6-1p-1si"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1u4-ee-2g4">
                                 <string key="text">Tell me what is happening in this picture.
@@ -2416,6 +2464,9 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="L8U-wO-2x6">
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="infoEnteredTwo:" destination="x9a-by-fti" eventType="editingDidEnd" id="hkD-k8-0ub"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" tag="998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T7p-Ie-apE">
                                 <constraints>
@@ -2532,6 +2583,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="infoEnteredThree:" destination="hkA-FM-Qsj" eventType="editingDidEnd" id="rda-Qb-l0J"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" tag="998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m7T-Ad-ECl">
                                 <constraints>
@@ -2836,6 +2890,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="infoEnteredTwo:" destination="NKj-8j-vDy" eventType="editingDidEnd" id="BaE-IS-rEP"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hjo-0h-7Pa">
                                 <string key="text">Tell me what is happening in this picture.
@@ -2847,6 +2904,9 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RkX-b0-cqf">
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="infoEnteredTwo:" destination="NKj-8j-vDy" eventType="editingDidEnd" id="1eY-V8-HTO"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" tag="998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MyT-3u-Mc0">
                                 <constraints>
@@ -2963,6 +3023,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="infoEnteredThree:" destination="lFg-kL-tK7" eventType="editingDidEnd" id="4iO-qL-BFf"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" tag="998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CLB-f2-2um">
                                 <constraints>
@@ -3267,6 +3330,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="infoEnteredTwo:" destination="gqO-9e-cUx" eventType="editingDidEnd" id="AC1-a3-k4m"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oFJ-B1-sFl">
                                 <string key="text">Tell me what is happening in this picture.
@@ -3278,6 +3344,9 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yR2-2I-pFW">
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="infoEnteredTwo:" destination="gqO-9e-cUx" eventType="editingDidEnd" id="CEZ-nj-6EC"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" tag="998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZhV-hE-6UD">
                                 <constraints>
@@ -3394,6 +3463,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="infoEnteredThree:" destination="XTw-bp-DV1" eventType="editingDidEnd" id="yl7-Tu-yGb"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" tag="998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AhO-H4-eyk">
                                 <constraints>
@@ -3701,6 +3773,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="infoEnteredTwo:" destination="XFp-qT-6Q7" eventType="editingDidEnd" id="iMa-NP-yE2"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wrd-8t-duu">
                                 <string key="text">Tell me what is happening in this picture.
@@ -3712,6 +3787,9 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yyf-OC-6cW">
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="infoEnteredTwo:" destination="XFp-qT-6Q7" eventType="editingDidEnd" id="fH1-OB-5Gh"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" tag="998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5v4-Eq-Ipv">
                                 <constraints>
@@ -3831,6 +3909,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="infoEnteredThree:" destination="AGH-zQ-WMx" eventType="editingDidEnd" id="MxV-5z-ROS"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" tag="998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5YI-wM-u7Q">
                                 <constraints>
@@ -4135,6 +4216,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="infoEnteredTwo:" destination="3cm-ea-1mp" eventType="editingDidEnd" id="9bg-S3-GBo"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GdE-dp-aAF">
                                 <string key="text">Tell me what is happening in this picture.
@@ -4146,6 +4230,9 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7t4-ax-uwI">
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="infoEnteredTwo:" destination="3cm-ea-1mp" eventType="editingDidEnd" id="f9R-jD-1Zj"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" tag="998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fkt-hK-brY">
                                 <constraints>
@@ -4262,6 +4349,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="infoEnteredThree:" destination="H0i-59-gAs" eventType="editingDidEnd" id="RhP-1y-t4T"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" tag="998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Ub-14-LmV">
                                 <constraints>
@@ -4566,6 +4656,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="infoEnteredTwo:" destination="C7R-QP-FHH" eventType="editingDidEnd" id="gKd-oh-fxj"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o8s-7y-7VJ">
                                 <string key="text">Tell me what is happening in this picture.
@@ -4577,6 +4670,9 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LMc-KD-a5Z">
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="infoEnteredTwo:" destination="C7R-QP-FHH" eventType="editingDidEnd" id="OHF-Wd-ukX"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" tag="998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Orr-H8-xQ3">
                                 <constraints>
@@ -4693,6 +4789,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="infoEnteredThree:" destination="a5l-XM-fxj" eventType="editingDidEnd" id="bEO-EO-fff"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" tag="998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qnc-Cp-I1r">
                                 <constraints>
@@ -4994,6 +5093,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="infoEnteredTwo:" destination="aDo-EE-XvI" eventType="editingDidEnd" id="T5s-Z0-QkU"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vw7-aU-lGS">
                                 <string key="text">Tell me what is happening in this picture.
@@ -5005,6 +5107,9 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VLc-6R-iB7">
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="infoEnteredTwo:" destination="aDo-EE-XvI" eventType="editingDidEnd" id="JDU-XV-C4Z"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" tag="998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ar7-uN-igG">
                                 <constraints>
@@ -5121,6 +5226,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="infoEnteredThree:" destination="o1C-ln-CMB" eventType="editingDidEnd" id="5Ke-9h-QPQ"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" tag="998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Koo-Zb-EYR">
                                 <constraints>
@@ -5249,14 +5357,23 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="infoEntered:" destination="Cme-do-6Bf" eventType="editingDidEnd" id="EtK-5k-fMY"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gN6-Rm-6ri">
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="infoEntered:" destination="Cme-do-6Bf" eventType="editingDidEnd" id="UbE-xN-lee"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7HZ-3d-qCK">
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="infoEntered:" destination="Cme-do-6Bf" eventType="editingDidEnd" id="R1g-QM-Fhp"/>
+                                </connections>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -5309,7 +5426,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" tag="998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FaH-tA-6dv">
+                            <button opaque="NO" tag="999" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FaH-tA-6dv">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Submit" backgroundImage="button (1).png">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -5347,7 +5464,7 @@
                         <rect key="frame" x="0.0" y="64" width="768" height="960"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" tag="998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cxs-2b-cjF">
+                            <button opaque="NO" tag="999" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cxs-2b-cjF">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Return to Menu" backgroundImage="button (1).png">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -5406,8 +5523,16 @@
         <class className="PictureSurveyViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/PictureSurveyViewController.h"/>
             <relationships>
+                <relationship kind="action" name="answer:"/>
+                <relationship kind="action" name="answerPartThree:"/>
+                <relationship kind="action" name="answerPartTwo:"/>
+                <relationship kind="action" name="buttonClicked:" candidateClass="UIButton"/>
                 <relationship kind="action" name="createFile:"/>
+                <relationship kind="action" name="firstNext:"/>
                 <relationship kind="action" name="goToMainMenu"/>
+                <relationship kind="action" name="infoEntered:"/>
+                <relationship kind="action" name="infoEnteredThree:"/>
+                <relationship kind="action" name="infoEnteredTwo:"/>
                 <relationship kind="action" name="playb1:"/>
                 <relationship kind="action" name="playb2:"/>
                 <relationship kind="action" name="playb4:"/>
@@ -5418,6 +5543,8 @@
                 <relationship kind="action" name="playm1:"/>
                 <relationship kind="action" name="playm2:"/>
                 <relationship kind="action" name="playm4:"/>
+                <relationship kind="action" name="saveInfo:"/>
+                <relationship kind="action" name="submit:"/>
                 <relationship kind="outlet" name="answerOne" candidateClass="UITextField"/>
                 <relationship kind="outlet" name="answerThree" candidateClass="UITextField"/>
                 <relationship kind="outlet" name="answerTwo" candidateClass="UITextField"/>

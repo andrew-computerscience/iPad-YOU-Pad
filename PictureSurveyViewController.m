@@ -8,6 +8,7 @@
 
 #import "PictureSurveyViewController.h"
 #import "ArraySingleton.h"
+#import "AppDelegate.h"
 
 bool runOncePS = true;
 int answers[50];
@@ -15,6 +16,7 @@ ArraySingleton *answersStringsOne;
 NSArray *paths;
 NSString *docDir;
 NSString *filePath;
+NSString *hiddenFilePath;
 NSString *kidsIDString;
 NSString *kidsNameString;
 NSString *researcherNameString;
@@ -56,7 +58,7 @@ NSFileManager *fmPS;
 	// Do any additional setup after loading the view.
     //make the next button unclickable until an answer is selected
     UIButton * next = (UIButton *)[self.view viewWithTag:998];
-    next.enabled = YES;
+    next.enabled = NO;
     
     //run this section of code only once, when a survey is first started
     if (runOncePS) {
@@ -183,10 +185,44 @@ NSFileManager *fmPS;
   
 }
 
+//handler to ensure all text fields are nonempty before allowing user to move on
+- (IBAction)infoEntered:(id)sender {
+    UIButton * next = (UIButton *)[self.view viewWithTag:998];
+    if(![researcherName.text isEqual: @""] && ![kidsName.text isEqual: @""] && ![kidsId.text isEqual: @""]){
+        next.enabled = YES;
+    } else {
+        next.enabled = NO;
+    }
+}
+
+//handler to ensure all text fields are nonempty before allowing user to move on
+- (IBAction)infoEnteredTwo:(id)sender {
+    UIButton * next = (UIButton *)[self.view viewWithTag:998];
+    if(![answerOne.text isEqual: @""] && ![answerTwo.text isEqual: @""]){
+        next.enabled = YES;
+    } else {
+        next.enabled = NO;
+    }
+}
+
+//handler to ensure all text fields are nonempty before allowing user to move on
+- (IBAction)infoEnteredThree:(id)sender {
+    UIButton * next = (UIButton *)[self.view viewWithTag:998];
+    if(![answerThree.text isEqual: @""]){
+        next.enabled = YES;
+    } else {
+        next.enabled = NO;
+    }
+}
+
 
 //event handler for recording answer when an answer button is selected. - NB: Modify to also rule out existing choice (deselect).
 -(IBAction)answer:(id)sender
 {
+    //enable the next button since an answer has been selected
+    UIButton * next = (UIButton *)[self.view viewWithTag:998];
+    next.enabled = YES;
+    
     UIButton *button = (UIButton *)sender;
     answers[(button.tag/100)] = (button.tag % 100);
     NSLog(@"answer added:%i", button.tag % 100);
@@ -197,6 +233,7 @@ NSFileManager *fmPS;
 -(IBAction)answerPartTwo:(id)sender
 {
     //NB: should not be possible if either answer is empty.
+    
     
     //add answer one to the first array
     NSLog(@"String answer one %@", answerOne.text);
@@ -221,7 +258,7 @@ NSFileManager *fmPS;
     NSLog(@"String answer three %@", [answersStringsOne.arrGlobal lastObject]);
     
     UIButton * next = (UIButton *)[self.view viewWithTag:998];
-    next.enabled = YES;
+    next.enabled = YES; 
 
 }
 
@@ -238,24 +275,25 @@ NSFileManager *fmPS;
     int a;
     int b;
     int c;
-    [answerString appendString:[NSString stringWithFormat:@"Face chosen: %d, ", answers[1]]];
-  NSLog(@"i = %d, answers i = %i", i, answers[1]);
-    [answerString appendString:[NSString stringWithFormat:@"Answers one %@, ", [answersStringsOne.arrGlobal objectAtIndex:i]]];
-    [answerString appendString:[NSString stringWithFormat:@"Answers Two %@, ", [answersStringsOne.arrGlobal objectAtIndex:i+1]]];
-    [answerString appendString:[NSString stringWithFormat:@"Answers Three %@, ", [answersStringsOne.arrGlobal objectAtIndex:i+2]]];
+    [answerString appendString:[NSString stringWithFormat:@"%d, ", answers[1]]];
+    NSLog(@"i = %d, answers i = %i", i, answers[1]);
+    [answerString appendString:[NSString stringWithFormat:@"%@, ", [answersStringsOne.arrGlobal objectAtIndex:i]]];
+    [answerString appendString:[NSString stringWithFormat:@"%@, ", [answersStringsOne.arrGlobal objectAtIndex:i+1]]];
+    [answerString appendString:[NSString stringWithFormat:@"%@, ", [answersStringsOne.arrGlobal objectAtIndex:i+2]]];
   
     i++;
   
 
-    while(answers[i] < 12){
-        if(answers[i] != -1){
+    while(i < 12){
+        if(answers[i+1] != -1){
           a = i*3;
           b = i*3+1;
           c = i*3+2;
-            [answerString appendString:[NSString stringWithFormat:@"Face chosen: %d, ", answers[i+1]]];
-            [answerString appendString:[NSString stringWithFormat:@"Answers one %@, ", [answersStringsOne.arrGlobal objectAtIndex:a]]];
-            [answerString appendString:[NSString stringWithFormat:@"Answers Two %@, ", [answersStringsOne.arrGlobal objectAtIndex:b]]];
-            [answerString appendString:[NSString stringWithFormat:@"Answers Three %@, ", [answersStringsOne.arrGlobal objectAtIndex:c]]];
+            [answerString appendString:[NSString stringWithFormat:@"%d, ", answers[i+1]]];
+             NSLog(@"i = %d, answers i = %i", i, answers[i+1]);
+            [answerString appendString:[NSString stringWithFormat:@"%@, ", [answersStringsOne.arrGlobal objectAtIndex:a]]];
+            [answerString appendString:[NSString stringWithFormat:@"%@, ", [answersStringsOne.arrGlobal objectAtIndex:b]]];
+            [answerString appendString:[NSString stringWithFormat:@"%@, ", [answersStringsOne.arrGlobal objectAtIndex:c]]];
         }
         i++;
     }
@@ -263,6 +301,14 @@ NSFileManager *fmPS;
     [pictureSurveyFile seekToEndOfFile];
     [pictureSurveyFile writeData:theData];
     [pictureSurveyFile closeFile];
+    
+    
+    NSFileHandle *hiddenPictureSurveyFile = [NSFileHandle fileHandleForWritingAtPath:hiddenFilePath];
+
+    [hiddenPictureSurveyFile seekToEndOfFile];
+    [hiddenPictureSurveyFile writeData:theData];
+    [hiddenPictureSurveyFile closeFile];
+    
 }
 
 
@@ -319,6 +365,31 @@ NSFileManager *fmPS;
     //create the answer file
     [fmPS createFileAtPath:filePath contents:nil attributes:nil];
     NSLog(@"file created at: %@",docDir);
+    
+    paths = NSSearchPathForDirectoriesInDomains(NSLibraryDirectory, NSUserDomainMask, YES);
+    docDir = [paths objectAtIndex:0];
+    hiddenFilePath = [docDir stringByAppendingPathComponent: [NSString stringWithFormat:@"KEDS-%@-%@", kidsIDString, unixTime]];
+    
+    //create the answer file
+    [fmPS createFileAtPath:hiddenFilePath contents:nil attributes:nil];
+    NSLog(@"file created at: %@",docDir);
+    
+    //Survey List change
+    //NSManagedObjectContext *context = [self managedObjectContext];
+    NSManagedObject *survey = [NSEntityDescription insertNewObjectForEntityForName:@"Survey" inManagedObjectContext:context];
+    [survey setValue:researcherNameString forKey:@"researcher_name"];
+    [survey setValue:kidsNameString forKey:@"kid_name"];
+    [survey setValue:kidsIDString forKey:@"kid_id"];
+    [survey setValue:false forKey:@"uploaded"];
+    [survey setValue:[NSString stringWithFormat:@"KEDS-%@-%@", kidsIDString, unixTime] forKey:@"file_name"];
+    NSError *error = nil;
+    // Save the object to persistent store
+    if (![context save:&error]) {
+        NSLog(@"Can't Save! %@ %@", error, [error localizedDescription]);
+    }else{
+        NSLog(@"Kids list updated successfully!");
+    }
+
 }
 
 

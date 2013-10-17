@@ -25,7 +25,7 @@ extern NSString *answerThreeString;
 {
     IBOutlet UITextField *answerOne;
     IBOutlet UITextField *answerTwo;
-    IBOutlet UITextField *answerThree;
+    IBOutlet UITextField *answerThree; 
     IBOutlet UITextField *kidsName;
     IBOutlet UITextField *kidsId;
     IBOutlet UITextField *researcherName;
@@ -38,6 +38,10 @@ extern NSString *answerThreeString;
 @property (nonatomic, retain) IBOutlet UITextField *answerTwo;
 
 @property (nonatomic, retain) IBOutlet UITextField *answerThree;
+
+- (IBAction)infoEntered:(id)sender;
+- (IBAction)infoEnteredTwo:(id)sender;
+- (IBAction)infoEnteredThree:(id)sender;
 
 
 - (IBAction)goToMainMenu;

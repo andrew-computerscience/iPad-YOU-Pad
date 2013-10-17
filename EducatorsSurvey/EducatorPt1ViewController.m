@@ -8,6 +8,7 @@
 
 #import "EducatorPt1ViewController.h"
 #import "EducatorMenuViewController.h"
+#import "AppDelegate.h"
 
 bool optionQuestions;
 int checkBox[35];
@@ -94,20 +95,19 @@ int questions;
         
         //Survey List change
         //NSManagedObjectContext *context = [self managedObjectContext];
-        /*NSManagedObject *EducatorSurvey = [NSEntityDescription insertNewObjectForEntityForName:@"Survey" inManagedObjectContext:context];
-        [parentSurvey setValue:researcherName forKey:@"researcher_name"];
-        [parentSurvey setValue:parentName forKey:@"kid_name"];
-        [parentSurvey setValue:parentId forKey:@"kid_id"];
-        [parentSurvey setValue:false forKey:@"uploaded"];
-        [parentSurvey setValue:[NSString stringWithFormat:@"%@-%@-%@-%@", survey, researcherName, parentName, parentId] forKey:@"file_name"];
-        NSLog(@"File Name:%@",[NSString stringWithFormat:@"%@-%@-%@-%@", survey, researcherName, parentName, parentId]);
+        NSManagedObject *survey_obj = [NSEntityDescription insertNewObjectForEntityForName:@"Survey" inManagedObjectContext:context];
+        [survey_obj setValue:researcherName forKey:@"researcher_name"];
+        [survey_obj setValue:educatorName forKey:@"kid_name"];
+        [survey_obj setValue:educatorId forKey:@"kid_id"];
+        [survey_obj setValue:false forKey:@"uploaded"];
+        [survey_obj setValue:[NSString stringWithFormat:@"%@-%@-%@-%@", survey, researcherName, educatorName, educatorId] forKey:@"file_name"];
         NSError *error = nil;
         // Save the object to persistent store
         if (![context save:&error]) {
             NSLog(@"Can't Save! %@ %@", error, [error localizedDescription]);
         }else{
             NSLog(@"Kids list updated successfully!");
-        }*/
+        }
         
         
     }
