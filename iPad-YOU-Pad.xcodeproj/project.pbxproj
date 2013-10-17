@@ -8,47 +8,47 @@
 
 /* Begin PBXBuildFile section */
 		010E8EE4180BB19300E8F1ED /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 010E8EE3180BB19300E8F1ED /* logo.jpg */; };
-		01776260180F8EFE004CEEF2 /* Boy1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 01776235180F8EFE004CEEF2 /* Boy1.wav */; };
-		01776261180F8EFE004CEEF2 /* Boy2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 01776236180F8EFE004CEEF2 /* Boy2.wav */; };
-		01776262180F8EFE004CEEF2 /* Boy3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 01776237180F8EFE004CEEF2 /* Boy3.wav */; };
-		01776263180F8EFE004CEEF2 /* Boy4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 01776238180F8EFE004CEEF2 /* Boy4.wav */; };
-		01776264180F8EFE004CEEF2 /* Girl1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 01776239180F8EFE004CEEF2 /* Girl1.wav */; };
-		01776265180F8EFE004CEEF2 /* Girl2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0177623A180F8EFE004CEEF2 /* Girl2.wav */; };
-		01776266180F8EFE004CEEF2 /* Girl3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0177623B180F8EFE004CEEF2 /* Girl3.wav */; };
-		01776267180F8EFE004CEEF2 /* Girl4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0177623C180F8EFE004CEEF2 /* Girl4.wav */; };
-		01776268180F8EFE004CEEF2 /* Man1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0177623D180F8EFE004CEEF2 /* Man1.wav */; };
-		01776269180F8EFE004CEEF2 /* Man2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0177623E180F8EFE004CEEF2 /* Man2.wav */; };
-		0177626A180F8EFE004CEEF2 /* Man3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0177623F180F8EFE004CEEF2 /* Man3.wav */; };
-		0177626B180F8EFE004CEEF2 /* Man4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 01776240180F8EFE004CEEF2 /* Man4.wav */; };
-		0177626C180F8EFE004CEEF2 /* PictureSurveys.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01776241180F8EFE004CEEF2 /* PictureSurveys.storyboard */; };
-		0177626D180F8EFE004CEEF2 /* PictureSurveyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01776243180F8EFE004CEEF2 /* PictureSurveyViewController.m */; };
-		0177626E180F8EFE004CEEF2 /* Afraid.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01776245180F8EFE004CEEF2 /* Afraid.jpg */; };
-		0177626F180F8EFE004CEEF2 /* Afraid_Selected.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01776246180F8EFE004CEEF2 /* Afraid_Selected.jpg */; };
-		01776270180F8EFE004CEEF2 /* Angry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01776247180F8EFE004CEEF2 /* Angry.jpg */; };
-		01776271180F8EFE004CEEF2 /* Angry_Selected.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01776248180F8EFE004CEEF2 /* Angry_Selected.jpg */; };
-		01776272180F8EFE004CEEF2 /* Emotional perspectives card.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01776249180F8EFE004CEEF2 /* Emotional perspectives card.jpg */; };
-		01776273180F8EFE004CEEF2 /* Happy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0177624A180F8EFE004CEEF2 /* Happy.jpg */; };
-		01776274180F8EFE004CEEF2 /* Happy_Selected.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0177624B180F8EFE004CEEF2 /* Happy_Selected.jpg */; };
-		01776275180F8EFE004CEEF2 /* Image 1 swinging happy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0177624C180F8EFE004CEEF2 /* Image 1 swinging happy.jpg */; };
-		01776276180F8EFE004CEEF2 /* Image 10ab telling off father angry child afraid.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0177624D180F8EFE004CEEF2 /* Image 10ab telling off father angry child afraid.jpg */; };
-		01776277180F8EFE004CEEF2 /* Image 11 unwarpping gift surprised.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0177624E180F8EFE004CEEF2 /* Image 11 unwarpping gift surprised.jpg */; };
-		01776278180F8EFE004CEEF2 /* Image 12ab sandcastle victim sad vandal happy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0177624F180F8EFE004CEEF2 /* Image 12ab sandcastle victim sad vandal happy.jpg */; };
-		01776279180F8EFE004CEEF2 /* Image 2 broken arm sad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01776250180F8EFE004CEEF2 /* Image 2 broken arm sad.jpg */; };
-		0177627A180F8EFE004CEEF2 /* Image 3 dark afraid.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01776251180F8EFE004CEEF2 /* Image 3 dark afraid.jpg */; };
-		0177627B180F8EFE004CEEF2 /* Image 4ab toy fight girl angry boy angry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01776252180F8EFE004CEEF2 /* Image 4ab toy fight girl angry boy angry.jpg */; };
-		0177627C180F8EFE004CEEF2 /* Image 5 watching TV relaxed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01776253180F8EFE004CEEF2 /* Image 5 watching TV relaxed.jpg */; };
-		0177627D180F8EFE004CEEF2 /* Image 6 jack in the box surprised.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01776254180F8EFE004CEEF2 /* Image 6 jack in the box surprised.jpg */; };
-		0177627E180F8EFE004CEEF2 /* Image 7ab ring a rosie outcast sad circle happy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01776255180F8EFE004CEEF2 /* Image 7ab ring a rosie outcast sad circle happy.jpg */; };
-		0177627F180F8EFE004CEEF2 /* Image 8ab child kicks child floor afraid standing angry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01776256180F8EFE004CEEF2 /* Image 8ab child kicks child floor afraid standing angry.jpg */; };
-		01776280180F8EFE004CEEF2 /* Image 9 rocking chair relaxed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01776257180F8EFE004CEEF2 /* Image 9 rocking chair relaxed.jpg */; };
-		01776281180F8EFE004CEEF2 /* Item Sample hair pulling.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01776258180F8EFE004CEEF2 /* Item Sample hair pulling.jpg */; };
-		01776282180F8EFE004CEEF2 /* KEDS - Instructions 2012.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 01776259180F8EFE004CEEF2 /* KEDS - Instructions 2012.pdf */; };
-		01776283180F8EFE004CEEF2 /* Relaxed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0177625A180F8EFE004CEEF2 /* Relaxed.jpg */; };
-		01776284180F8EFE004CEEF2 /* Relaxed_Selected.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0177625B180F8EFE004CEEF2 /* Relaxed_Selected.jpg */; };
-		01776285180F8EFE004CEEF2 /* Sad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0177625C180F8EFE004CEEF2 /* Sad.jpg */; };
-		01776286180F8EFE004CEEF2 /* Sad_Selected.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0177625D180F8EFE004CEEF2 /* Sad_Selected.jpg */; };
-		01776287180F8EFE004CEEF2 /* Surprise.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0177625E180F8EFE004CEEF2 /* Surprise.jpg */; };
-		01776288180F8EFE004CEEF2 /* Surprise_Selected.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0177625F180F8EFE004CEEF2 /* Surprise_Selected.jpg */; };
+		016969AE180F97E6008027B8 /* Boy1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 01696983180F97E6008027B8 /* Boy1.wav */; };
+		016969AF180F97E6008027B8 /* Boy2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 01696984180F97E6008027B8 /* Boy2.wav */; };
+		016969B0180F97E6008027B8 /* Boy3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 01696985180F97E6008027B8 /* Boy3.wav */; };
+		016969B1180F97E6008027B8 /* Boy4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 01696986180F97E6008027B8 /* Boy4.wav */; };
+		016969B2180F97E6008027B8 /* Girl1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 01696987180F97E6008027B8 /* Girl1.wav */; };
+		016969B3180F97E6008027B8 /* Girl2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 01696988180F97E6008027B8 /* Girl2.wav */; };
+		016969B4180F97E6008027B8 /* Girl3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 01696989180F97E6008027B8 /* Girl3.wav */; };
+		016969B5180F97E6008027B8 /* Girl4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0169698A180F97E6008027B8 /* Girl4.wav */; };
+		016969B6180F97E6008027B8 /* Man1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0169698B180F97E6008027B8 /* Man1.wav */; };
+		016969B7180F97E6008027B8 /* Man2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0169698C180F97E6008027B8 /* Man2.wav */; };
+		016969B8180F97E6008027B8 /* Man3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0169698D180F97E6008027B8 /* Man3.wav */; };
+		016969B9180F97E6008027B8 /* Man4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0169698E180F97E6008027B8 /* Man4.wav */; };
+		016969BA180F97E6008027B8 /* PictureSurveys.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0169698F180F97E6008027B8 /* PictureSurveys.storyboard */; };
+		016969BB180F97E6008027B8 /* PictureSurveyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01696991180F97E6008027B8 /* PictureSurveyViewController.m */; };
+		016969BC180F97E6008027B8 /* Afraid.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01696993180F97E6008027B8 /* Afraid.jpg */; };
+		016969BD180F97E6008027B8 /* Afraid_Selected.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01696994180F97E6008027B8 /* Afraid_Selected.jpg */; };
+		016969BE180F97E6008027B8 /* Angry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01696995180F97E6008027B8 /* Angry.jpg */; };
+		016969BF180F97E6008027B8 /* Angry_Selected.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01696996180F97E6008027B8 /* Angry_Selected.jpg */; };
+		016969C0180F97E6008027B8 /* Emotional perspectives card.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01696997180F97E6008027B8 /* Emotional perspectives card.jpg */; };
+		016969C1180F97E6008027B8 /* Happy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01696998180F97E6008027B8 /* Happy.jpg */; };
+		016969C2180F97E6008027B8 /* Happy_Selected.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01696999180F97E6008027B8 /* Happy_Selected.jpg */; };
+		016969C3180F97E6008027B8 /* Image 1 swinging happy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0169699A180F97E6008027B8 /* Image 1 swinging happy.jpg */; };
+		016969C4180F97E6008027B8 /* Image 10ab telling off father angry child afraid.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0169699B180F97E6008027B8 /* Image 10ab telling off father angry child afraid.jpg */; };
+		016969C5180F97E6008027B8 /* Image 11 unwarpping gift surprised.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0169699C180F97E6008027B8 /* Image 11 unwarpping gift surprised.jpg */; };
+		016969C6180F97E6008027B8 /* Image 12ab sandcastle victim sad vandal happy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0169699D180F97E6008027B8 /* Image 12ab sandcastle victim sad vandal happy.jpg */; };
+		016969C7180F97E6008027B8 /* Image 2 broken arm sad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0169699E180F97E6008027B8 /* Image 2 broken arm sad.jpg */; };
+		016969C8180F97E6008027B8 /* Image 3 dark afraid.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0169699F180F97E6008027B8 /* Image 3 dark afraid.jpg */; };
+		016969C9180F97E6008027B8 /* Image 4ab toy fight girl angry boy angry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 016969A0180F97E6008027B8 /* Image 4ab toy fight girl angry boy angry.jpg */; };
+		016969CA180F97E6008027B8 /* Image 5 watching TV relaxed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 016969A1180F97E6008027B8 /* Image 5 watching TV relaxed.jpg */; };
+		016969CB180F97E6008027B8 /* Image 6 jack in the box surprised.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 016969A2180F97E6008027B8 /* Image 6 jack in the box surprised.jpg */; };
+		016969CC180F97E6008027B8 /* Image 7ab ring a rosie outcast sad circle happy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 016969A3180F97E6008027B8 /* Image 7ab ring a rosie outcast sad circle happy.jpg */; };
+		016969CD180F97E6008027B8 /* Image 8ab child kicks child floor afraid standing angry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 016969A4180F97E6008027B8 /* Image 8ab child kicks child floor afraid standing angry.jpg */; };
+		016969CE180F97E6008027B8 /* Image 9 rocking chair relaxed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 016969A5180F97E6008027B8 /* Image 9 rocking chair relaxed.jpg */; };
+		016969CF180F97E6008027B8 /* Item Sample hair pulling.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 016969A6180F97E6008027B8 /* Item Sample hair pulling.jpg */; };
+		016969D0180F97E6008027B8 /* KEDS - Instructions 2012.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 016969A7180F97E6008027B8 /* KEDS - Instructions 2012.pdf */; };
+		016969D1180F97E6008027B8 /* Relaxed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 016969A8180F97E6008027B8 /* Relaxed.jpg */; };
+		016969D2180F97E6008027B8 /* Relaxed_Selected.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 016969A9180F97E6008027B8 /* Relaxed_Selected.jpg */; };
+		016969D3180F97E6008027B8 /* Sad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 016969AA180F97E6008027B8 /* Sad.jpg */; };
+		016969D4180F97E6008027B8 /* Sad_Selected.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 016969AB180F97E6008027B8 /* Sad_Selected.jpg */; };
+		016969D5180F97E6008027B8 /* Surprise.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 016969AC180F97E6008027B8 /* Surprise.jpg */; };
+		016969D6180F97E6008027B8 /* Surprise_Selected.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 016969AD180F97E6008027B8 /* Surprise_Selected.jpg */; };
 		01AFF725180F805B002F971A /* EducatorEndViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AFF711180F805B002F971A /* EducatorEndViewController.m */; };
 		01AFF726180F805B002F971A /* EducatorMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AFF713180F805B002F971A /* EducatorMenuViewController.m */; };
 		01AFF727180F805B002F971A /* EducatorPt1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AFF715180F805B002F971A /* EducatorPt1ViewController.m */; };
@@ -157,48 +157,48 @@
 
 /* Begin PBXFileReference section */
 		010E8EE3180BB19300E8F1ED /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logo.jpg; path = ../logo.jpg; sourceTree = "<group>"; };
-		01776235180F8EFE004CEEF2 /* Boy1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Boy1.wav; path = "../../Files to include/Boy1.wav"; sourceTree = "<group>"; };
-		01776236180F8EFE004CEEF2 /* Boy2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Boy2.wav; path = "../../Files to include/Boy2.wav"; sourceTree = "<group>"; };
-		01776237180F8EFE004CEEF2 /* Boy3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Boy3.wav; path = "../../Files to include/Boy3.wav"; sourceTree = "<group>"; };
-		01776238180F8EFE004CEEF2 /* Boy4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Boy4.wav; path = "../../Files to include/Boy4.wav"; sourceTree = "<group>"; };
-		01776239180F8EFE004CEEF2 /* Girl1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Girl1.wav; path = "../../Files to include/Girl1.wav"; sourceTree = "<group>"; };
-		0177623A180F8EFE004CEEF2 /* Girl2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Girl2.wav; path = "../../Files to include/Girl2.wav"; sourceTree = "<group>"; };
-		0177623B180F8EFE004CEEF2 /* Girl3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Girl3.wav; path = "../../Files to include/Girl3.wav"; sourceTree = "<group>"; };
-		0177623C180F8EFE004CEEF2 /* Girl4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Girl4.wav; path = "../../Files to include/Girl4.wav"; sourceTree = "<group>"; };
-		0177623D180F8EFE004CEEF2 /* Man1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Man1.wav; path = "../../Files to include/Man1.wav"; sourceTree = "<group>"; };
-		0177623E180F8EFE004CEEF2 /* Man2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Man2.wav; path = "../../Files to include/Man2.wav"; sourceTree = "<group>"; };
-		0177623F180F8EFE004CEEF2 /* Man3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Man3.wav; path = "../../Files to include/Man3.wav"; sourceTree = "<group>"; };
-		01776240180F8EFE004CEEF2 /* Man4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Man4.wav; path = "../../Files to include/Man4.wav"; sourceTree = "<group>"; };
-		01776241180F8EFE004CEEF2 /* PictureSurveys.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = PictureSurveys.storyboard; path = "../Files to include/PictureSurveys.storyboard"; sourceTree = "<group>"; };
-		01776242180F8EFE004CEEF2 /* PictureSurveyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PictureSurveyViewController.h; path = "../Files to include/PictureSurveyViewController.h"; sourceTree = "<group>"; };
-		01776243180F8EFE004CEEF2 /* PictureSurveyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PictureSurveyViewController.m; path = "../Files to include/PictureSurveyViewController.m"; sourceTree = "<group>"; };
-		01776245180F8EFE004CEEF2 /* Afraid.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Afraid.jpg; sourceTree = "<group>"; };
-		01776246180F8EFE004CEEF2 /* Afraid_Selected.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Afraid_Selected.jpg; sourceTree = "<group>"; };
-		01776247180F8EFE004CEEF2 /* Angry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Angry.jpg; sourceTree = "<group>"; };
-		01776248180F8EFE004CEEF2 /* Angry_Selected.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Angry_Selected.jpg; sourceTree = "<group>"; };
-		01776249180F8EFE004CEEF2 /* Emotional perspectives card.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Emotional perspectives card.jpg"; sourceTree = "<group>"; };
-		0177624A180F8EFE004CEEF2 /* Happy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Happy.jpg; sourceTree = "<group>"; };
-		0177624B180F8EFE004CEEF2 /* Happy_Selected.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Happy_Selected.jpg; sourceTree = "<group>"; };
-		0177624C180F8EFE004CEEF2 /* Image 1 swinging happy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Image 1 swinging happy.jpg"; sourceTree = "<group>"; };
-		0177624D180F8EFE004CEEF2 /* Image 10ab telling off father angry child afraid.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Image 10ab telling off father angry child afraid.jpg"; sourceTree = "<group>"; };
-		0177624E180F8EFE004CEEF2 /* Image 11 unwarpping gift surprised.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Image 11 unwarpping gift surprised.jpg"; sourceTree = "<group>"; };
-		0177624F180F8EFE004CEEF2 /* Image 12ab sandcastle victim sad vandal happy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Image 12ab sandcastle victim sad vandal happy.jpg"; sourceTree = "<group>"; };
-		01776250180F8EFE004CEEF2 /* Image 2 broken arm sad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Image 2 broken arm sad.jpg"; sourceTree = "<group>"; };
-		01776251180F8EFE004CEEF2 /* Image 3 dark afraid.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Image 3 dark afraid.jpg"; sourceTree = "<group>"; };
-		01776252180F8EFE004CEEF2 /* Image 4ab toy fight girl angry boy angry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Image 4ab toy fight girl angry boy angry.jpg"; sourceTree = "<group>"; };
-		01776253180F8EFE004CEEF2 /* Image 5 watching TV relaxed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Image 5 watching TV relaxed.jpg"; sourceTree = "<group>"; };
-		01776254180F8EFE004CEEF2 /* Image 6 jack in the box surprised.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Image 6 jack in the box surprised.jpg"; sourceTree = "<group>"; };
-		01776255180F8EFE004CEEF2 /* Image 7ab ring a rosie outcast sad circle happy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Image 7ab ring a rosie outcast sad circle happy.jpg"; sourceTree = "<group>"; };
-		01776256180F8EFE004CEEF2 /* Image 8ab child kicks child floor afraid standing angry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Image 8ab child kicks child floor afraid standing angry.jpg"; sourceTree = "<group>"; };
-		01776257180F8EFE004CEEF2 /* Image 9 rocking chair relaxed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Image 9 rocking chair relaxed.jpg"; sourceTree = "<group>"; };
-		01776258180F8EFE004CEEF2 /* Item Sample hair pulling.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Item Sample hair pulling.jpg"; sourceTree = "<group>"; };
-		01776259180F8EFE004CEEF2 /* KEDS - Instructions 2012.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "KEDS - Instructions 2012.pdf"; sourceTree = "<group>"; };
-		0177625A180F8EFE004CEEF2 /* Relaxed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Relaxed.jpg; sourceTree = "<group>"; };
-		0177625B180F8EFE004CEEF2 /* Relaxed_Selected.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Relaxed_Selected.jpg; sourceTree = "<group>"; };
-		0177625C180F8EFE004CEEF2 /* Sad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sad.jpg; sourceTree = "<group>"; };
-		0177625D180F8EFE004CEEF2 /* Sad_Selected.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sad_Selected.jpg; sourceTree = "<group>"; };
-		0177625E180F8EFE004CEEF2 /* Surprise.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Surprise.jpg; sourceTree = "<group>"; };
-		0177625F180F8EFE004CEEF2 /* Surprise_Selected.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Surprise_Selected.jpg; sourceTree = "<group>"; };
+		01696983180F97E6008027B8 /* Boy1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Boy1.wav; path = ../Boy1.wav; sourceTree = "<group>"; };
+		01696984180F97E6008027B8 /* Boy2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Boy2.wav; path = ../Boy2.wav; sourceTree = "<group>"; };
+		01696985180F97E6008027B8 /* Boy3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Boy3.wav; path = ../Boy3.wav; sourceTree = "<group>"; };
+		01696986180F97E6008027B8 /* Boy4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Boy4.wav; path = ../Boy4.wav; sourceTree = "<group>"; };
+		01696987180F97E6008027B8 /* Girl1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Girl1.wav; path = ../Girl1.wav; sourceTree = "<group>"; };
+		01696988180F97E6008027B8 /* Girl2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Girl2.wav; path = ../Girl2.wav; sourceTree = "<group>"; };
+		01696989180F97E6008027B8 /* Girl3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Girl3.wav; path = ../Girl3.wav; sourceTree = "<group>"; };
+		0169698A180F97E6008027B8 /* Girl4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Girl4.wav; path = ../Girl4.wav; sourceTree = "<group>"; };
+		0169698B180F97E6008027B8 /* Man1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Man1.wav; path = ../Man1.wav; sourceTree = "<group>"; };
+		0169698C180F97E6008027B8 /* Man2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Man2.wav; path = ../Man2.wav; sourceTree = "<group>"; };
+		0169698D180F97E6008027B8 /* Man3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Man3.wav; path = ../Man3.wav; sourceTree = "<group>"; };
+		0169698E180F97E6008027B8 /* Man4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Man4.wav; path = ../Man4.wav; sourceTree = "<group>"; };
+		0169698F180F97E6008027B8 /* PictureSurveys.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PictureSurveys.storyboard; sourceTree = "<group>"; };
+		01696990180F97E6008027B8 /* PictureSurveyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureSurveyViewController.h; sourceTree = "<group>"; };
+		01696991180F97E6008027B8 /* PictureSurveyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureSurveyViewController.m; sourceTree = "<group>"; };
+		01696993180F97E6008027B8 /* Afraid.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Afraid.jpg; sourceTree = "<group>"; };
+		01696994180F97E6008027B8 /* Afraid_Selected.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Afraid_Selected.jpg; sourceTree = "<group>"; };
+		01696995180F97E6008027B8 /* Angry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Angry.jpg; sourceTree = "<group>"; };
+		01696996180F97E6008027B8 /* Angry_Selected.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Angry_Selected.jpg; sourceTree = "<group>"; };
+		01696997180F97E6008027B8 /* Emotional perspectives card.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Emotional perspectives card.jpg"; sourceTree = "<group>"; };
+		01696998180F97E6008027B8 /* Happy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Happy.jpg; sourceTree = "<group>"; };
+		01696999180F97E6008027B8 /* Happy_Selected.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Happy_Selected.jpg; sourceTree = "<group>"; };
+		0169699A180F97E6008027B8 /* Image 1 swinging happy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Image 1 swinging happy.jpg"; sourceTree = "<group>"; };
+		0169699B180F97E6008027B8 /* Image 10ab telling off father angry child afraid.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Image 10ab telling off father angry child afraid.jpg"; sourceTree = "<group>"; };
+		0169699C180F97E6008027B8 /* Image 11 unwarpping gift surprised.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Image 11 unwarpping gift surprised.jpg"; sourceTree = "<group>"; };
+		0169699D180F97E6008027B8 /* Image 12ab sandcastle victim sad vandal happy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Image 12ab sandcastle victim sad vandal happy.jpg"; sourceTree = "<group>"; };
+		0169699E180F97E6008027B8 /* Image 2 broken arm sad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Image 2 broken arm sad.jpg"; sourceTree = "<group>"; };
+		0169699F180F97E6008027B8 /* Image 3 dark afraid.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Image 3 dark afraid.jpg"; sourceTree = "<group>"; };
+		016969A0180F97E6008027B8 /* Image 4ab toy fight girl angry boy angry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Image 4ab toy fight girl angry boy angry.jpg"; sourceTree = "<group>"; };
+		016969A1180F97E6008027B8 /* Image 5 watching TV relaxed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Image 5 watching TV relaxed.jpg"; sourceTree = "<group>"; };
+		016969A2180F97E6008027B8 /* Image 6 jack in the box surprised.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Image 6 jack in the box surprised.jpg"; sourceTree = "<group>"; };
+		016969A3180F97E6008027B8 /* Image 7ab ring a rosie outcast sad circle happy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Image 7ab ring a rosie outcast sad circle happy.jpg"; sourceTree = "<group>"; };
+		016969A4180F97E6008027B8 /* Image 8ab child kicks child floor afraid standing angry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Image 8ab child kicks child floor afraid standing angry.jpg"; sourceTree = "<group>"; };
+		016969A5180F97E6008027B8 /* Image 9 rocking chair relaxed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Image 9 rocking chair relaxed.jpg"; sourceTree = "<group>"; };
+		016969A6180F97E6008027B8 /* Item Sample hair pulling.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Item Sample hair pulling.jpg"; sourceTree = "<group>"; };
+		016969A7180F97E6008027B8 /* KEDS - Instructions 2012.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "KEDS - Instructions 2012.pdf"; sourceTree = "<group>"; };
+		016969A8180F97E6008027B8 /* Relaxed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Relaxed.jpg; sourceTree = "<group>"; };
+		016969A9180F97E6008027B8 /* Relaxed_Selected.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Relaxed_Selected.jpg; sourceTree = "<group>"; };
+		016969AA180F97E6008027B8 /* Sad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sad.jpg; sourceTree = "<group>"; };
+		016969AB180F97E6008027B8 /* Sad_Selected.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sad_Selected.jpg; sourceTree = "<group>"; };
+		016969AC180F97E6008027B8 /* Surprise.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Surprise.jpg; sourceTree = "<group>"; };
+		016969AD180F97E6008027B8 /* Surprise_Selected.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Surprise_Selected.jpg; sourceTree = "<group>"; };
 		01AFF710180F805B002F971A /* EducatorEndViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EducatorEndViewController.h; path = EducatorsSurvey/EducatorEndViewController.h; sourceTree = "<group>"; };
 		01AFF711180F805B002F971A /* EducatorEndViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EducatorEndViewController.m; path = EducatorsSurvey/EducatorEndViewController.m; sourceTree = "<group>"; };
 		01AFF712180F805B002F971A /* EducatorMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EducatorMenuViewController.h; path = EducatorsSurvey/EducatorMenuViewController.h; sourceTree = "<group>"; };
@@ -355,56 +355,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01776244180F8EFE004CEEF2 /* survey-images */ = {
+		01696992180F97E6008027B8 /* survey-images */ = {
 			isa = PBXGroup;
 			children = (
-				01776245180F8EFE004CEEF2 /* Afraid.jpg */,
-				01776246180F8EFE004CEEF2 /* Afraid_Selected.jpg */,
-				01776247180F8EFE004CEEF2 /* Angry.jpg */,
-				01776248180F8EFE004CEEF2 /* Angry_Selected.jpg */,
-				01776249180F8EFE004CEEF2 /* Emotional perspectives card.jpg */,
-				0177624A180F8EFE004CEEF2 /* Happy.jpg */,
-				0177624B180F8EFE004CEEF2 /* Happy_Selected.jpg */,
-				0177624C180F8EFE004CEEF2 /* Image 1 swinging happy.jpg */,
-				0177624D180F8EFE004CEEF2 /* Image 10ab telling off father angry child afraid.jpg */,
-				0177624E180F8EFE004CEEF2 /* Image 11 unwarpping gift surprised.jpg */,
-				0177624F180F8EFE004CEEF2 /* Image 12ab sandcastle victim sad vandal happy.jpg */,
-				01776250180F8EFE004CEEF2 /* Image 2 broken arm sad.jpg */,
-				01776251180F8EFE004CEEF2 /* Image 3 dark afraid.jpg */,
-				01776252180F8EFE004CEEF2 /* Image 4ab toy fight girl angry boy angry.jpg */,
-				01776253180F8EFE004CEEF2 /* Image 5 watching TV relaxed.jpg */,
-				01776254180F8EFE004CEEF2 /* Image 6 jack in the box surprised.jpg */,
-				01776255180F8EFE004CEEF2 /* Image 7ab ring a rosie outcast sad circle happy.jpg */,
-				01776256180F8EFE004CEEF2 /* Image 8ab child kicks child floor afraid standing angry.jpg */,
-				01776257180F8EFE004CEEF2 /* Image 9 rocking chair relaxed.jpg */,
-				01776258180F8EFE004CEEF2 /* Item Sample hair pulling.jpg */,
-				01776259180F8EFE004CEEF2 /* KEDS - Instructions 2012.pdf */,
-				0177625A180F8EFE004CEEF2 /* Relaxed.jpg */,
-				0177625B180F8EFE004CEEF2 /* Relaxed_Selected.jpg */,
-				0177625C180F8EFE004CEEF2 /* Sad.jpg */,
-				0177625D180F8EFE004CEEF2 /* Sad_Selected.jpg */,
-				0177625E180F8EFE004CEEF2 /* Surprise.jpg */,
-				0177625F180F8EFE004CEEF2 /* Surprise_Selected.jpg */,
+				01696993180F97E6008027B8 /* Afraid.jpg */,
+				01696994180F97E6008027B8 /* Afraid_Selected.jpg */,
+				01696995180F97E6008027B8 /* Angry.jpg */,
+				01696996180F97E6008027B8 /* Angry_Selected.jpg */,
+				01696997180F97E6008027B8 /* Emotional perspectives card.jpg */,
+				01696998180F97E6008027B8 /* Happy.jpg */,
+				01696999180F97E6008027B8 /* Happy_Selected.jpg */,
+				0169699A180F97E6008027B8 /* Image 1 swinging happy.jpg */,
+				0169699B180F97E6008027B8 /* Image 10ab telling off father angry child afraid.jpg */,
+				0169699C180F97E6008027B8 /* Image 11 unwarpping gift surprised.jpg */,
+				0169699D180F97E6008027B8 /* Image 12ab sandcastle victim sad vandal happy.jpg */,
+				0169699E180F97E6008027B8 /* Image 2 broken arm sad.jpg */,
+				0169699F180F97E6008027B8 /* Image 3 dark afraid.jpg */,
+				016969A0180F97E6008027B8 /* Image 4ab toy fight girl angry boy angry.jpg */,
+				016969A1180F97E6008027B8 /* Image 5 watching TV relaxed.jpg */,
+				016969A2180F97E6008027B8 /* Image 6 jack in the box surprised.jpg */,
+				016969A3180F97E6008027B8 /* Image 7ab ring a rosie outcast sad circle happy.jpg */,
+				016969A4180F97E6008027B8 /* Image 8ab child kicks child floor afraid standing angry.jpg */,
+				016969A5180F97E6008027B8 /* Image 9 rocking chair relaxed.jpg */,
+				016969A6180F97E6008027B8 /* Item Sample hair pulling.jpg */,
+				016969A7180F97E6008027B8 /* KEDS - Instructions 2012.pdf */,
+				016969A8180F97E6008027B8 /* Relaxed.jpg */,
+				016969A9180F97E6008027B8 /* Relaxed_Selected.jpg */,
+				016969AA180F97E6008027B8 /* Sad.jpg */,
+				016969AB180F97E6008027B8 /* Sad_Selected.jpg */,
+				016969AC180F97E6008027B8 /* Surprise.jpg */,
+				016969AD180F97E6008027B8 /* Surprise_Selected.jpg */,
 			);
-			name = "survey-images";
-			path = "../Files to include/survey-images";
+			path = "survey-images";
 			sourceTree = "<group>";
 		};
 		0EE1A78F180CE905001B14BE /* Audio */ = {
 			isa = PBXGroup;
 			children = (
-				01776235180F8EFE004CEEF2 /* Boy1.wav */,
-				01776236180F8EFE004CEEF2 /* Boy2.wav */,
-				01776237180F8EFE004CEEF2 /* Boy3.wav */,
-				01776238180F8EFE004CEEF2 /* Boy4.wav */,
-				01776239180F8EFE004CEEF2 /* Girl1.wav */,
-				0177623A180F8EFE004CEEF2 /* Girl2.wav */,
-				0177623B180F8EFE004CEEF2 /* Girl3.wav */,
-				0177623C180F8EFE004CEEF2 /* Girl4.wav */,
-				0177623D180F8EFE004CEEF2 /* Man1.wav */,
-				0177623E180F8EFE004CEEF2 /* Man2.wav */,
-				0177623F180F8EFE004CEEF2 /* Man3.wav */,
-				01776240180F8EFE004CEEF2 /* Man4.wav */,
 				0EE1A791180CE9F1001B14BE /* vo-2.wav */,
 				0EE1A792180CE9F1001B14BE /* vo-3.wav */,
 				0EE1A793180CE9F1001B14BE /* vo-4.wav */,
@@ -486,6 +473,18 @@
 		A26E6A8017FC4D04006C9456 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				01696983180F97E6008027B8 /* Boy1.wav */,
+				01696984180F97E6008027B8 /* Boy2.wav */,
+				01696985180F97E6008027B8 /* Boy3.wav */,
+				01696986180F97E6008027B8 /* Boy4.wav */,
+				01696987180F97E6008027B8 /* Girl1.wav */,
+				01696988180F97E6008027B8 /* Girl2.wav */,
+				01696989180F97E6008027B8 /* Girl3.wav */,
+				0169698A180F97E6008027B8 /* Girl4.wav */,
+				0169698B180F97E6008027B8 /* Man1.wav */,
+				0169698C180F97E6008027B8 /* Man2.wav */,
+				0169698D180F97E6008027B8 /* Man3.wav */,
+				0169698E180F97E6008027B8 /* Man4.wav */,
 				BB9B9F9C1807B1B600F03C96 /* logo-144.png */,
 				010E8EE3180BB19300E8F1ED /* logo.jpg */,
 				BB9B9F9A1807B1B100F03C96 /* logo-72.png */,
@@ -538,12 +537,12 @@
 		A2847B9F1806860100461AE5 /* Pictures */ = {
 			isa = PBXGroup;
 			children = (
-				01776241180F8EFE004CEEF2 /* PictureSurveys.storyboard */,
-				01776242180F8EFE004CEEF2 /* PictureSurveyViewController.h */,
-				01776243180F8EFE004CEEF2 /* PictureSurveyViewController.m */,
+				0169698F180F97E6008027B8 /* PictureSurveys.storyboard */,
+				01696990180F97E6008027B8 /* PictureSurveyViewController.h */,
+				01696991180F97E6008027B8 /* PictureSurveyViewController.m */,
 				A2847B60180685FC00461AE5 /* ArraySingleton.h */,
 				A2847B61180685FC00461AE5 /* ArraySingleton.m */,
-				01776244180F8EFE004CEEF2 /* survey-images */,
+				01696992180F97E6008027B8 /* survey-images */,
 			);
 			name = Pictures;
 			path = ..;
@@ -787,46 +786,46 @@
 				01AFF72E180F805B002F971A /* EducatorsSurveys.storyboard in Resources */,
 				01AFF72F180F805B002F971A /* nursery.png in Resources */,
 				01AFF730180F805B002F971A /* playground.png in Resources */,
-				01776260180F8EFE004CEEF2 /* Boy1.wav in Resources */,
-				01776261180F8EFE004CEEF2 /* Boy2.wav in Resources */,
-				01776262180F8EFE004CEEF2 /* Boy3.wav in Resources */,
-				01776263180F8EFE004CEEF2 /* Boy4.wav in Resources */,
-				01776264180F8EFE004CEEF2 /* Girl1.wav in Resources */,
-				01776265180F8EFE004CEEF2 /* Girl2.wav in Resources */,
-				01776266180F8EFE004CEEF2 /* Girl3.wav in Resources */,
-				01776267180F8EFE004CEEF2 /* Girl4.wav in Resources */,
-				01776268180F8EFE004CEEF2 /* Man1.wav in Resources */,
-				01776269180F8EFE004CEEF2 /* Man2.wav in Resources */,
-				0177626A180F8EFE004CEEF2 /* Man3.wav in Resources */,
-				0177626B180F8EFE004CEEF2 /* Man4.wav in Resources */,
-				0177626C180F8EFE004CEEF2 /* PictureSurveys.storyboard in Resources */,
-				0177626E180F8EFE004CEEF2 /* Afraid.jpg in Resources */,
-				0177626F180F8EFE004CEEF2 /* Afraid_Selected.jpg in Resources */,
-				01776270180F8EFE004CEEF2 /* Angry.jpg in Resources */,
-				01776271180F8EFE004CEEF2 /* Angry_Selected.jpg in Resources */,
-				01776272180F8EFE004CEEF2 /* Emotional perspectives card.jpg in Resources */,
-				01776273180F8EFE004CEEF2 /* Happy.jpg in Resources */,
-				01776274180F8EFE004CEEF2 /* Happy_Selected.jpg in Resources */,
-				01776275180F8EFE004CEEF2 /* Image 1 swinging happy.jpg in Resources */,
-				01776276180F8EFE004CEEF2 /* Image 10ab telling off father angry child afraid.jpg in Resources */,
-				01776277180F8EFE004CEEF2 /* Image 11 unwarpping gift surprised.jpg in Resources */,
-				01776278180F8EFE004CEEF2 /* Image 12ab sandcastle victim sad vandal happy.jpg in Resources */,
-				01776279180F8EFE004CEEF2 /* Image 2 broken arm sad.jpg in Resources */,
-				0177627A180F8EFE004CEEF2 /* Image 3 dark afraid.jpg in Resources */,
-				0177627B180F8EFE004CEEF2 /* Image 4ab toy fight girl angry boy angry.jpg in Resources */,
-				0177627C180F8EFE004CEEF2 /* Image 5 watching TV relaxed.jpg in Resources */,
-				0177627D180F8EFE004CEEF2 /* Image 6 jack in the box surprised.jpg in Resources */,
-				0177627E180F8EFE004CEEF2 /* Image 7ab ring a rosie outcast sad circle happy.jpg in Resources */,
-				0177627F180F8EFE004CEEF2 /* Image 8ab child kicks child floor afraid standing angry.jpg in Resources */,
-				01776280180F8EFE004CEEF2 /* Image 9 rocking chair relaxed.jpg in Resources */,
-				01776281180F8EFE004CEEF2 /* Item Sample hair pulling.jpg in Resources */,
-				01776282180F8EFE004CEEF2 /* KEDS - Instructions 2012.pdf in Resources */,
-				01776283180F8EFE004CEEF2 /* Relaxed.jpg in Resources */,
-				01776284180F8EFE004CEEF2 /* Relaxed_Selected.jpg in Resources */,
-				01776285180F8EFE004CEEF2 /* Sad.jpg in Resources */,
-				01776286180F8EFE004CEEF2 /* Sad_Selected.jpg in Resources */,
-				01776287180F8EFE004CEEF2 /* Surprise.jpg in Resources */,
-				01776288180F8EFE004CEEF2 /* Surprise_Selected.jpg in Resources */,
+				016969AE180F97E6008027B8 /* Boy1.wav in Resources */,
+				016969AF180F97E6008027B8 /* Boy2.wav in Resources */,
+				016969B0180F97E6008027B8 /* Boy3.wav in Resources */,
+				016969B1180F97E6008027B8 /* Boy4.wav in Resources */,
+				016969B2180F97E6008027B8 /* Girl1.wav in Resources */,
+				016969B3180F97E6008027B8 /* Girl2.wav in Resources */,
+				016969B4180F97E6008027B8 /* Girl3.wav in Resources */,
+				016969B5180F97E6008027B8 /* Girl4.wav in Resources */,
+				016969B6180F97E6008027B8 /* Man1.wav in Resources */,
+				016969B7180F97E6008027B8 /* Man2.wav in Resources */,
+				016969B8180F97E6008027B8 /* Man3.wav in Resources */,
+				016969B9180F97E6008027B8 /* Man4.wav in Resources */,
+				016969BA180F97E6008027B8 /* PictureSurveys.storyboard in Resources */,
+				016969BC180F97E6008027B8 /* Afraid.jpg in Resources */,
+				016969BD180F97E6008027B8 /* Afraid_Selected.jpg in Resources */,
+				016969BE180F97E6008027B8 /* Angry.jpg in Resources */,
+				016969BF180F97E6008027B8 /* Angry_Selected.jpg in Resources */,
+				016969C0180F97E6008027B8 /* Emotional perspectives card.jpg in Resources */,
+				016969C1180F97E6008027B8 /* Happy.jpg in Resources */,
+				016969C2180F97E6008027B8 /* Happy_Selected.jpg in Resources */,
+				016969C3180F97E6008027B8 /* Image 1 swinging happy.jpg in Resources */,
+				016969C4180F97E6008027B8 /* Image 10ab telling off father angry child afraid.jpg in Resources */,
+				016969C5180F97E6008027B8 /* Image 11 unwarpping gift surprised.jpg in Resources */,
+				016969C6180F97E6008027B8 /* Image 12ab sandcastle victim sad vandal happy.jpg in Resources */,
+				016969C7180F97E6008027B8 /* Image 2 broken arm sad.jpg in Resources */,
+				016969C8180F97E6008027B8 /* Image 3 dark afraid.jpg in Resources */,
+				016969C9180F97E6008027B8 /* Image 4ab toy fight girl angry boy angry.jpg in Resources */,
+				016969CA180F97E6008027B8 /* Image 5 watching TV relaxed.jpg in Resources */,
+				016969CB180F97E6008027B8 /* Image 6 jack in the box surprised.jpg in Resources */,
+				016969CC180F97E6008027B8 /* Image 7ab ring a rosie outcast sad circle happy.jpg in Resources */,
+				016969CD180F97E6008027B8 /* Image 8ab child kicks child floor afraid standing angry.jpg in Resources */,
+				016969CE180F97E6008027B8 /* Image 9 rocking chair relaxed.jpg in Resources */,
+				016969CF180F97E6008027B8 /* Item Sample hair pulling.jpg in Resources */,
+				016969D0180F97E6008027B8 /* KEDS - Instructions 2012.pdf in Resources */,
+				016969D1180F97E6008027B8 /* Relaxed.jpg in Resources */,
+				016969D2180F97E6008027B8 /* Relaxed_Selected.jpg in Resources */,
+				016969D3180F97E6008027B8 /* Sad.jpg in Resources */,
+				016969D4180F97E6008027B8 /* Sad_Selected.jpg in Resources */,
+				016969D5180F97E6008027B8 /* Surprise.jpg in Resources */,
+				016969D6180F97E6008027B8 /* Surprise_Selected.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -878,7 +877,7 @@
 				01AFF72B180F805B002F971A /* EducatorPt42ViewController.m in Sources */,
 				01AFF72C180F805B002F971A /* EducatorPt51ViewController.m in Sources */,
 				01AFF72D180F805B002F971A /* EducatorPt52ViewController.m in Sources */,
-				0177626D180F8EFE004CEEF2 /* PictureSurveyViewController.m in Sources */,
+				016969BB180F97E6008027B8 /* PictureSurveyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
