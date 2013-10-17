@@ -364,83 +364,83 @@ NSString *commentsString;
         selected[button.tag / 100] = button.tag;
     }  else if([buttonTitle isEqualToString:@"No - No difficulties"]){
         NSLog(@"No - No difficulties!");
-        answers[button.tag / 100] = 10;
+        answers[button.tag / 100] = 0;
         selected[button.tag / 100] = button.tag;
     } else if([buttonTitle isEqualToString:@"Yes - Minor difficulties"]){
         NSLog(@"Yes - Minor difficulties!");
-        answers[button.tag / 100] = 11;
+        answers[button.tag / 100] = 1;
         selected[button.tag / 100] = button.tag;
     } else if([buttonTitle isEqualToString:@"Yes - Definite difficulties"]){
         NSLog(@"Yes - Definite difficulties");
-        answers[button.tag / 100] = 12;
+        answers[button.tag / 100] = 2;
         selected[button.tag / 100] = button.tag;
     } else if([buttonTitle isEqualToString:@"Yes - Severe difficulties"]){
         NSLog(@"Yes - Severe difficulties!");
-        answers[button.tag / 100] = 13;
+        answers[button.tag / 100] = 3;
         selected[button.tag / 100] = button.tag;
     } else if([buttonTitle isEqualToString:@"Less than a month"]){
         NSLog(@"Less than a month!");
-        answers[button.tag / 100] = 14;
+        answers[button.tag / 100] = 0;
         selected[button.tag / 100] = button.tag;
     } else if([buttonTitle isEqualToString:@"1-5 months"]){
         NSLog(@"1-5 months!");
-        answers[button.tag / 100] = 15;
+        answers[button.tag / 100] = 1;
         selected[button.tag / 100] = button.tag;
     } else if([buttonTitle isEqualToString:@"6-12 months"]){
         NSLog(@"6-12 months!");
-        answers[button.tag / 100] = 16;
+        answers[button.tag / 100] = 2;
         selected[button.tag / 100] = button.tag;
     } else if([buttonTitle isEqualToString:@"Over a year"]){
         NSLog(@"Over a year!");
-        answers[button.tag / 100] = 17;
+        answers[button.tag / 100] = 3;
         selected[button.tag / 100] = button.tag;
     } else if([buttonTitle isEqualToString:@"Not at all"]){
         NSLog(@"Not at all!");
-        answers[button.tag / 100] = 20;
+        answers[button.tag / 100] = 0;
         selected[button.tag / 100] = button.tag;
     } else if([buttonTitle isEqualToString:@"Only a little"]){
         NSLog(@"Only a little!");
-        answers[button.tag / 100] = 21;
+        answers[button.tag / 100] = 1;
         selected[button.tag / 100] = button.tag;
     } else if([buttonTitle isEqualToString:@"Quite a lot"]){
         NSLog(@"Quite a lot!");
-        answers[button.tag / 100] = 22;
+        answers[button.tag / 100] = 2;
         selected[button.tag / 100] = button.tag;
     } else if([buttonTitle isEqualToString:@"A great deal"]){
         NSLog(@"A great deal!");
-        answers[button.tag / 100] = 23;
+        answers[button.tag / 100] = 3;
         selected[button.tag / 100] = button.tag;
     }  else if([buttonTitle isEqualToString:@"Much worse"]){
         NSLog(@"Much worse");
-        answers[button.tag / 100] = 30;
+        answers[button.tag / 100] = 0;
         selected[button.tag / 100] = button.tag;
     } else if([buttonTitle isEqualToString:@"A bit worse"]){
         NSLog(@"A bit worse!");
-        answers[button.tag / 100] = 31;
+        answers[button.tag / 100] = 1;
         selected[button.tag / 100] = button.tag;
     }  else if([buttonTitle isEqualToString:@"About the same"]){
         NSLog(@"About the same!");
-        answers[button.tag / 100] = 32;
+        answers[button.tag / 100] = 2;
         selected[button.tag / 100] = button.tag;
     }  else if([buttonTitle isEqualToString:@"A bit better"]){
         NSLog(@"A bit better!");
-        answers[button.tag / 100] = 33;
+        answers[button.tag / 100] = 3;
         selected[button.tag / 100] = button.tag;
     }  else if([buttonTitle isEqualToString:@"Much better"]){
         NSLog(@"Much better!");
-        answers[button.tag / 100] = 34;
+        answers[button.tag / 100] = 4;
         selected[button.tag / 100] = button.tag;
     }  else if([buttonTitle isEqualToString:@"No"]){
         NSLog(@"No!");
-        answers[button.tag / 100] = 40;
+        answers[button.tag / 100] = 0;
         selected[button.tag / 100] = button.tag;
     }  else if([buttonTitle isEqualToString:@"A little"]){
         NSLog(@"A little!");
-        answers[button.tag / 100] = 41;
+        answers[button.tag / 100] = 1;
         selected[button.tag / 100] = button.tag;
     }  else if([buttonTitle isEqualToString:@"A lot"]){
         NSLog(@"A lot!");
-        answers[button.tag / 100] = 42;
+        answers[button.tag / 100] = 2;
         selected[button.tag / 100] = button.tag;
     }
 }
