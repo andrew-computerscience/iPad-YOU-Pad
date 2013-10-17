@@ -282,6 +282,7 @@
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <action selector="infoEnteredTwo:" destination="wBo-ws-2db" eventType="editingDidEnd" id="es4-pR-vN8"/>
+                                    <outlet property="delegate" destination="wBo-ws-2db" id="2b8-VS-sCM"/>
                                 </connections>
                             </textField>
                             <button opaque="NO" tag="998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fAX-ql-Uk8">
@@ -752,6 +753,7 @@
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <action selector="infoEnteredTwo:" destination="XQH-gi-zsy" eventType="editingDidEnd" id="fvt-8c-O58"/>
+                                    <outlet property="delegate" destination="XQH-gi-zsy" id="KmV-6l-66Q"/>
                                 </connections>
                             </textField>
                             <button opaque="NO" tag="998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="drQ-hM-NAo">
@@ -1221,6 +1223,7 @@
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <action selector="infoEnteredTwo:" destination="FIS-lK-Czn" eventType="editingDidEnd" id="mM0-AV-Ics"/>
+                                    <outlet property="delegate" destination="FIS-lK-Czn" id="clB-YY-5Hg"/>
                                 </connections>
                             </textField>
                             <button opaque="NO" tag="998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LHO-87-BJ9">
@@ -1691,6 +1694,7 @@
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <action selector="infoEnteredTwo:" destination="qbb-24-NqZ" eventType="editingDidEnd" id="xfy-Ak-mGS"/>
+                                    <outlet property="delegate" destination="qbb-24-NqZ" id="OqN-Ba-H2b"/>
                                 </connections>
                             </textField>
                             <button opaque="NO" tag="998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J7H-2b-och">
@@ -2166,6 +2170,7 @@
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <action selector="infoEnteredTwo:" destination="jH8-GN-X4w" eventType="editingDidEnd" id="jTw-Vn-xDk"/>
+                                    <outlet property="delegate" destination="jH8-GN-X4w" id="mht-cY-YMI"/>
                                 </connections>
                             </textField>
                             <button opaque="NO" tag="998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TnS-OJ-ygn">
@@ -2636,6 +2641,7 @@
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <action selector="infoEnteredTwo:" destination="x9a-by-fti" eventType="editingDidEnd" id="hkD-k8-0ub"/>
+                                    <outlet property="delegate" destination="x9a-by-fti" id="nMk-r5-eJY"/>
                                 </connections>
                             </textField>
                             <button opaque="NO" tag="998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T7p-Ie-apE">
@@ -3106,6 +3112,7 @@
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <action selector="infoEnteredTwo:" destination="NKj-8j-vDy" eventType="editingDidEnd" id="1eY-V8-HTO"/>
+                                    <outlet property="delegate" destination="NKj-8j-vDy" id="whk-LU-iEU"/>
                                 </connections>
                             </textField>
                             <button opaque="NO" tag="998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MyT-3u-Mc0">
@@ -3576,6 +3583,7 @@
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <action selector="infoEnteredTwo:" destination="gqO-9e-cUx" eventType="editingDidEnd" id="CEZ-nj-6EC"/>
+                                    <outlet property="delegate" destination="gqO-9e-cUx" id="Esq-hB-5Ik"/>
                                 </connections>
                             </textField>
                             <button opaque="NO" tag="998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZhV-hE-6UD">
@@ -4048,6 +4056,7 @@
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <action selector="infoEnteredTwo:" destination="XFp-qT-6Q7" eventType="editingDidEnd" id="fH1-OB-5Gh"/>
+                                    <outlet property="delegate" destination="XFp-qT-6Q7" id="TkO-eg-w7m"/>
                                 </connections>
                             </textField>
                             <button opaque="NO" tag="998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5v4-Eq-Ipv">
@@ -4520,6 +4529,7 @@
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <action selector="infoEnteredTwo:" destination="3cm-ea-1mp" eventType="editingDidEnd" id="f9R-jD-1Zj"/>
+                                    <outlet property="delegate" destination="3cm-ea-1mp" id="iwx-kd-mjf"/>
                                 </connections>
                             </textField>
                             <button opaque="NO" tag="998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fkt-hK-brY">
@@ -4990,6 +5000,7 @@
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <action selector="infoEnteredTwo:" destination="C7R-QP-FHH" eventType="editingDidEnd" id="OHF-Wd-ukX"/>
+                                    <outlet property="delegate" destination="C7R-QP-FHH" id="0zU-NO-NSy"/>
                                 </connections>
                             </textField>
                             <button opaque="NO" tag="998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Orr-H8-xQ3">
@@ -5457,6 +5468,7 @@
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <action selector="infoEnteredTwo:" destination="aDo-EE-XvI" eventType="editingDidEnd" id="JDU-XV-C4Z"/>
+                                    <outlet property="delegate" destination="aDo-EE-XvI" id="lRl-FD-UGU"/>
                                 </connections>
                             </textField>
                             <button opaque="NO" tag="998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ar7-uN-igG">
@@ -5864,27 +5876,271 @@
     </scenes>
     <resources>
         <image name="Afraid.jpg" width="100" height="100"/>
+        <image name="Afraid.jpg" width="100" height="100"/>
+        <image name="Afraid.jpg" width="100" height="100"/>
+        <image name="Afraid.jpg" width="100" height="100"/>
+        <image name="Afraid.jpg" width="100" height="100"/>
+        <image name="Afraid.jpg" width="100" height="100"/>
+        <image name="Afraid.jpg" width="100" height="100"/>
+        <image name="Afraid.jpg" width="100" height="100"/>
+        <image name="Afraid.jpg" width="100" height="100"/>
+        <image name="Afraid.jpg" width="100" height="100"/>
+        <image name="Afraid.jpg" width="100" height="100"/>
+        <image name="Afraid.jpg" width="100" height="100"/>
+        <image name="Afraid_Selected.jpg" width="100" height="100"/>
+        <image name="Afraid_Selected.jpg" width="100" height="100"/>
+        <image name="Afraid_Selected.jpg" width="100" height="100"/>
+        <image name="Afraid_Selected.jpg" width="100" height="100"/>
+        <image name="Afraid_Selected.jpg" width="100" height="100"/>
+        <image name="Afraid_Selected.jpg" width="100" height="100"/>
+        <image name="Afraid_Selected.jpg" width="100" height="100"/>
+        <image name="Afraid_Selected.jpg" width="100" height="100"/>
+        <image name="Afraid_Selected.jpg" width="100" height="100"/>
+        <image name="Afraid_Selected.jpg" width="100" height="100"/>
+        <image name="Afraid_Selected.jpg" width="100" height="100"/>
         <image name="Afraid_Selected.jpg" width="100" height="100"/>
         <image name="Angry.jpg" width="100" height="100"/>
+        <image name="Angry.jpg" width="100" height="100"/>
+        <image name="Angry.jpg" width="100" height="100"/>
+        <image name="Angry.jpg" width="100" height="100"/>
+        <image name="Angry.jpg" width="100" height="100"/>
+        <image name="Angry.jpg" width="100" height="100"/>
+        <image name="Angry.jpg" width="100" height="100"/>
+        <image name="Angry.jpg" width="100" height="100"/>
+        <image name="Angry.jpg" width="100" height="100"/>
+        <image name="Angry.jpg" width="100" height="100"/>
+        <image name="Angry.jpg" width="100" height="100"/>
+        <image name="Angry.jpg" width="100" height="100"/>
+        <image name="Angry_Selected.jpg" width="100" height="100"/>
+        <image name="Angry_Selected.jpg" width="100" height="100"/>
+        <image name="Angry_Selected.jpg" width="100" height="100"/>
+        <image name="Angry_Selected.jpg" width="100" height="100"/>
+        <image name="Angry_Selected.jpg" width="100" height="100"/>
+        <image name="Angry_Selected.jpg" width="100" height="100"/>
+        <image name="Angry_Selected.jpg" width="100" height="100"/>
+        <image name="Angry_Selected.jpg" width="100" height="100"/>
+        <image name="Angry_Selected.jpg" width="100" height="100"/>
+        <image name="Angry_Selected.jpg" width="100" height="100"/>
+        <image name="Angry_Selected.jpg" width="100" height="100"/>
         <image name="Angry_Selected.jpg" width="100" height="100"/>
         <image name="Happy.jpg" width="100" height="100"/>
+        <image name="Happy.jpg" width="100" height="100"/>
+        <image name="Happy.jpg" width="100" height="100"/>
+        <image name="Happy.jpg" width="100" height="100"/>
+        <image name="Happy.jpg" width="100" height="100"/>
+        <image name="Happy.jpg" width="100" height="100"/>
+        <image name="Happy.jpg" width="100" height="100"/>
+        <image name="Happy.jpg" width="100" height="100"/>
+        <image name="Happy.jpg" width="100" height="100"/>
+        <image name="Happy.jpg" width="100" height="100"/>
+        <image name="Happy.jpg" width="100" height="100"/>
+        <image name="Happy.jpg" width="100" height="100"/>
+        <image name="Happy_Selected.jpg" width="100" height="100"/>
+        <image name="Happy_Selected.jpg" width="100" height="100"/>
+        <image name="Happy_Selected.jpg" width="100" height="100"/>
+        <image name="Happy_Selected.jpg" width="100" height="100"/>
+        <image name="Happy_Selected.jpg" width="100" height="100"/>
+        <image name="Happy_Selected.jpg" width="100" height="100"/>
+        <image name="Happy_Selected.jpg" width="100" height="100"/>
+        <image name="Happy_Selected.jpg" width="100" height="100"/>
+        <image name="Happy_Selected.jpg" width="100" height="100"/>
+        <image name="Happy_Selected.jpg" width="100" height="100"/>
+        <image name="Happy_Selected.jpg" width="100" height="100"/>
         <image name="Happy_Selected.jpg" width="100" height="100"/>
         <image name="Image 1 swinging happy.jpg" width="1560" height="1026"/>
+        <image name="Image 1 swinging happy.jpg" width="1560" height="1026"/>
+        <image name="Image 1 swinging happy.jpg" width="1560" height="1026"/>
+        <image name="Image 2 broken arm sad.jpg" width="1560" height="1029"/>
+        <image name="Image 2 broken arm sad.jpg" width="1560" height="1029"/>
         <image name="Image 2 broken arm sad.jpg" width="1560" height="1029"/>
         <image name="Image 3 dark afraid.jpg" width="1560" height="1059"/>
+        <image name="Image 3 dark afraid.jpg" width="1560" height="1059"/>
+        <image name="Image 3 dark afraid.jpg" width="1560" height="1059"/>
+        <image name="Image 4ab toy fight girl angry boy angry.jpg" width="1560" height="1034"/>
+        <image name="Image 4ab toy fight girl angry boy angry.jpg" width="1560" height="1034"/>
+        <image name="Image 4ab toy fight girl angry boy angry.jpg" width="1560" height="1034"/>
+        <image name="Image 4ab toy fight girl angry boy angry.jpg" width="1560" height="1034"/>
+        <image name="Image 4ab toy fight girl angry boy angry.jpg" width="1560" height="1034"/>
         <image name="Image 4ab toy fight girl angry boy angry.jpg" width="1560" height="1034"/>
         <image name="Image 5 watching TV relaxed.jpg" width="1559" height="1000"/>
+        <image name="Image 5 watching TV relaxed.jpg" width="1559" height="1000"/>
+        <image name="Image 5 watching TV relaxed.jpg" width="1559" height="1000"/>
+        <image name="Image 6 jack in the box surprised.jpg" width="1038" height="1559"/>
+        <image name="Image 6 jack in the box surprised.jpg" width="1038" height="1559"/>
         <image name="Image 6 jack in the box surprised.jpg" width="1038" height="1559"/>
         <image name="Image 7ab ring a rosie outcast sad circle happy.jpg" width="1559" height="1101"/>
+        <image name="Image 7ab ring a rosie outcast sad circle happy.jpg" width="1559" height="1101"/>
+        <image name="Image 7ab ring a rosie outcast sad circle happy.jpg" width="1559" height="1101"/>
+        <image name="Image 7ab ring a rosie outcast sad circle happy.jpg" width="1559" height="1101"/>
+        <image name="Image 7ab ring a rosie outcast sad circle happy.jpg" width="1559" height="1101"/>
+        <image name="Image 7ab ring a rosie outcast sad circle happy.jpg" width="1559" height="1101"/>
+        <image name="Image 8ab child kicks child floor afraid standing angry.jpg" width="1560" height="1035"/>
+        <image name="Image 8ab child kicks child floor afraid standing angry.jpg" width="1560" height="1035"/>
+        <image name="Image 8ab child kicks child floor afraid standing angry.jpg" width="1560" height="1035"/>
+        <image name="Image 8ab child kicks child floor afraid standing angry.jpg" width="1560" height="1035"/>
+        <image name="Image 8ab child kicks child floor afraid standing angry.jpg" width="1560" height="1035"/>
         <image name="Image 8ab child kicks child floor afraid standing angry.jpg" width="1560" height="1035"/>
         <image name="Image 9 rocking chair relaxed.jpg" width="995" height="1559"/>
+        <image name="Image 9 rocking chair relaxed.jpg" width="995" height="1559"/>
+        <image name="Image 9 rocking chair relaxed.jpg" width="995" height="1559"/>
+        <image name="Relaxed.jpg" width="100" height="100"/>
+        <image name="Relaxed.jpg" width="100" height="100"/>
+        <image name="Relaxed.jpg" width="100" height="100"/>
+        <image name="Relaxed.jpg" width="100" height="100"/>
+        <image name="Relaxed.jpg" width="100" height="100"/>
+        <image name="Relaxed.jpg" width="100" height="100"/>
+        <image name="Relaxed.jpg" width="100" height="100"/>
+        <image name="Relaxed.jpg" width="100" height="100"/>
+        <image name="Relaxed.jpg" width="100" height="100"/>
+        <image name="Relaxed.jpg" width="100" height="100"/>
+        <image name="Relaxed.jpg" width="100" height="100"/>
         <image name="Relaxed.jpg" width="100" height="100"/>
         <image name="Relaxed_Selected.jpg" width="100" height="100"/>
+        <image name="Relaxed_Selected.jpg" width="100" height="100"/>
+        <image name="Relaxed_Selected.jpg" width="100" height="100"/>
+        <image name="Relaxed_Selected.jpg" width="100" height="100"/>
+        <image name="Relaxed_Selected.jpg" width="100" height="100"/>
+        <image name="Relaxed_Selected.jpg" width="100" height="100"/>
+        <image name="Relaxed_Selected.jpg" width="100" height="100"/>
+        <image name="Relaxed_Selected.jpg" width="100" height="100"/>
+        <image name="Relaxed_Selected.jpg" width="100" height="100"/>
+        <image name="Relaxed_Selected.jpg" width="100" height="100"/>
+        <image name="Relaxed_Selected.jpg" width="100" height="100"/>
+        <image name="Relaxed_Selected.jpg" width="100" height="100"/>
+        <image name="Sad.jpg" width="100" height="100"/>
+        <image name="Sad.jpg" width="100" height="100"/>
+        <image name="Sad.jpg" width="100" height="100"/>
+        <image name="Sad.jpg" width="100" height="100"/>
+        <image name="Sad.jpg" width="100" height="100"/>
+        <image name="Sad.jpg" width="100" height="100"/>
+        <image name="Sad.jpg" width="100" height="100"/>
+        <image name="Sad.jpg" width="100" height="100"/>
+        <image name="Sad.jpg" width="100" height="100"/>
+        <image name="Sad.jpg" width="100" height="100"/>
+        <image name="Sad.jpg" width="100" height="100"/>
         <image name="Sad.jpg" width="100" height="100"/>
         <image name="Sad_Selected.jpg" width="100" height="100"/>
+        <image name="Sad_Selected.jpg" width="100" height="100"/>
+        <image name="Sad_Selected.jpg" width="100" height="100"/>
+        <image name="Sad_Selected.jpg" width="100" height="100"/>
+        <image name="Sad_Selected.jpg" width="100" height="100"/>
+        <image name="Sad_Selected.jpg" width="100" height="100"/>
+        <image name="Sad_Selected.jpg" width="100" height="100"/>
+        <image name="Sad_Selected.jpg" width="100" height="100"/>
+        <image name="Sad_Selected.jpg" width="100" height="100"/>
+        <image name="Sad_Selected.jpg" width="100" height="100"/>
+        <image name="Sad_Selected.jpg" width="100" height="100"/>
+        <image name="Sad_Selected.jpg" width="100" height="100"/>
+        <image name="Speaker_Icon.png" width="200" height="200"/>
+        <image name="Speaker_Icon.png" width="200" height="200"/>
+        <image name="Speaker_Icon.png" width="200" height="200"/>
+        <image name="Speaker_Icon.png" width="200" height="200"/>
+        <image name="Speaker_Icon.png" width="200" height="200"/>
+        <image name="Speaker_Icon.png" width="200" height="200"/>
+        <image name="Speaker_Icon.png" width="200" height="200"/>
+        <image name="Speaker_Icon.png" width="200" height="200"/>
+        <image name="Speaker_Icon.png" width="200" height="200"/>
+        <image name="Speaker_Icon.png" width="200" height="200"/>
+        <image name="Speaker_Icon.png" width="200" height="200"/>
+        <image name="Speaker_Icon.png" width="200" height="200"/>
+        <image name="Speaker_Icon.png" width="200" height="200"/>
+        <image name="Speaker_Icon.png" width="200" height="200"/>
+        <image name="Speaker_Icon.png" width="200" height="200"/>
+        <image name="Speaker_Icon.png" width="200" height="200"/>
+        <image name="Speaker_Icon.png" width="200" height="200"/>
+        <image name="Speaker_Icon.png" width="200" height="200"/>
+        <image name="Speaker_Icon.png" width="200" height="200"/>
+        <image name="Speaker_Icon.png" width="200" height="200"/>
+        <image name="Speaker_Icon.png" width="200" height="200"/>
+        <image name="Speaker_Icon.png" width="200" height="200"/>
+        <image name="Speaker_Icon.png" width="200" height="200"/>
+        <image name="Speaker_Icon.png" width="200" height="200"/>
+        <image name="Speaker_Icon.png" width="200" height="200"/>
+        <image name="Speaker_Icon.png" width="200" height="200"/>
+        <image name="Speaker_Icon.png" width="200" height="200"/>
+        <image name="Speaker_Icon.png" width="200" height="200"/>
+        <image name="Speaker_Icon.png" width="200" height="200"/>
+        <image name="Speaker_Icon.png" width="200" height="200"/>
+        <image name="Speaker_Icon.png" width="200" height="200"/>
+        <image name="Speaker_Icon.png" width="200" height="200"/>
+        <image name="Speaker_Icon.png" width="200" height="200"/>
+        <image name="Speaker_Icon.png" width="200" height="200"/>
+        <image name="Speaker_Icon.png" width="200" height="200"/>
+        <image name="Speaker_Icon.png" width="200" height="200"/>
+        <image name="Speaker_Icon.png" width="200" height="200"/>
+        <image name="Speaker_Icon.png" width="200" height="200"/>
+        <image name="Speaker_Icon.png" width="200" height="200"/>
+        <image name="Speaker_Icon.png" width="200" height="200"/>
+        <image name="Speaker_Icon.png" width="200" height="200"/>
+        <image name="Speaker_Icon.png" width="200" height="200"/>
+        <image name="Speaker_Icon.png" width="200" height="200"/>
+        <image name="Speaker_Icon.png" width="200" height="200"/>
+        <image name="Speaker_Icon.png" width="200" height="200"/>
+        <image name="Speaker_Icon.png" width="200" height="200"/>
+        <image name="Speaker_Icon.png" width="200" height="200"/>
         <image name="Speaker_Icon.png" width="200" height="200"/>
         <image name="Surprise.jpg" width="100" height="100"/>
+        <image name="Surprise.jpg" width="100" height="100"/>
+        <image name="Surprise.jpg" width="100" height="100"/>
+        <image name="Surprise.jpg" width="100" height="100"/>
+        <image name="Surprise.jpg" width="100" height="100"/>
+        <image name="Surprise.jpg" width="100" height="100"/>
+        <image name="Surprise.jpg" width="100" height="100"/>
+        <image name="Surprise.jpg" width="100" height="100"/>
+        <image name="Surprise.jpg" width="100" height="100"/>
+        <image name="Surprise.jpg" width="100" height="100"/>
+        <image name="Surprise.jpg" width="100" height="100"/>
+        <image name="Surprise.jpg" width="100" height="100"/>
         <image name="Surprise_Selected.jpg" width="100" height="100"/>
+        <image name="Surprise_Selected.jpg" width="100" height="100"/>
+        <image name="Surprise_Selected.jpg" width="100" height="100"/>
+        <image name="Surprise_Selected.jpg" width="100" height="100"/>
+        <image name="Surprise_Selected.jpg" width="100" height="100"/>
+        <image name="Surprise_Selected.jpg" width="100" height="100"/>
+        <image name="Surprise_Selected.jpg" width="100" height="100"/>
+        <image name="Surprise_Selected.jpg" width="100" height="100"/>
+        <image name="Surprise_Selected.jpg" width="100" height="100"/>
+        <image name="Surprise_Selected.jpg" width="100" height="100"/>
+        <image name="Surprise_Selected.jpg" width="100" height="100"/>
+        <image name="Surprise_Selected.jpg" width="100" height="100"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
+        <image name="button (1).png" width="95" height="50"/>
         <image name="button (1).png" width="95" height="50"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
