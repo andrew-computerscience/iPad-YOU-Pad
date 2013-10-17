@@ -58,7 +58,7 @@ int end;
     //write to file
     NSMutableString *answerString = [NSMutableString string];
     [answerString appendString:[NSString stringWithFormat:@"%@, %@, %@, ", researcherName, parentName, parentId]];
-    [answerString appendString:[NSString stringWithFormat:@"%@, %@, %@, ", childName, gender, date]];
+    [answerString appendString:[NSString stringWithFormat:@"%@, %@, %@, %@, /n", childName, gender, parent, date]];
     for(int i = 0; i <= end; i++){
         if(i == 0)
         {
@@ -115,6 +115,8 @@ int end;
     childName = @"";
     survey = @"";
     surveyNum = 0;
+    gender = @"";
+    parent = @"";
 }
 
 

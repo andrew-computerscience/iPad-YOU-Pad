@@ -26,7 +26,9 @@ NSFileManager *fmPS;
 
 
 @interface PictureSurveyViewController ()
-
+{
+  AVAudioPlayer *avPlayer;
+}
 @end
 
 
@@ -65,6 +67,111 @@ NSFileManager *fmPS;
         
     }
     runOncePS = false;
+}
+
+
+- (IBAction)playgeneric3:(id)sender {
+  NSError *error;
+  
+  NSString *stringPath =[[NSBundle mainBundle]pathForResource:@"Boy3" ofType:@"wav"];
+  NSURL *url = [NSURL fileURLWithPath:stringPath];
+  avPlayer = [[AVAudioPlayer alloc]initWithContentsOfURL:url error:&error];
+  [avPlayer play];
+}
+//Boy questions play
+
+- (IBAction)playb1:(id)sender {
+  NSError *error;
+  
+  NSString *stringPath =[[NSBundle mainBundle]pathForResource:@"Boy1" ofType:@"wav"];
+  NSURL *url = [NSURL fileURLWithPath:stringPath];
+  avPlayer = [[AVAudioPlayer alloc]initWithContentsOfURL:url error:&error];
+  [avPlayer play];
+}
+
+//Girl Questions Play
+
+
+- (IBAction)playg1:(id)sender {
+  NSError *error;
+  
+  NSString *stringPath =[[NSBundle mainBundle]pathForResource:@"Girl1" ofType:@"wav"];
+  NSURL *url = [NSURL fileURLWithPath:stringPath];
+  avPlayer = [[AVAudioPlayer alloc]initWithContentsOfURL:url error:&error];
+  [avPlayer play];
+}
+
+// Man Q1
+
+- (IBAction)playm1:(id)sender {
+  NSError *error;
+  
+  NSString *stringPath =[[NSBundle mainBundle]pathForResource:@"Man1" ofType:@"wav"];
+  NSURL *url = [NSURL fileURLWithPath:stringPath];
+  avPlayer = [[AVAudioPlayer alloc]initWithContentsOfURL:url error:&error];
+  [avPlayer play];
+}
+
+//Question 2 set
+
+- (IBAction)playb2:(id)sender {
+  NSError *error;
+  
+  NSString *stringPath =[[NSBundle mainBundle]pathForResource:@"Boy2" ofType:@"wav"];
+  NSURL *url = [NSURL fileURLWithPath:stringPath];
+  avPlayer = [[AVAudioPlayer alloc]initWithContentsOfURL:url error:&error];
+  [avPlayer play];
+}
+
+
+- (IBAction)playg2:(id)sender {
+  NSError *error;
+  
+  NSString *stringPath =[[NSBundle mainBundle]pathForResource:@"Girl2" ofType:@"wav"];
+  NSURL *url = [NSURL fileURLWithPath:stringPath];
+  avPlayer = [[AVAudioPlayer alloc]initWithContentsOfURL:url error:&error];
+  [avPlayer play];
+}
+
+
+- (IBAction)playm2:(id)sender {
+  NSError *error;
+  
+  NSString *stringPath =[[NSBundle mainBundle]pathForResource:@"Man2" ofType:@"wav"];
+  NSURL *url = [NSURL fileURLWithPath:stringPath];
+  avPlayer = [[AVAudioPlayer alloc]initWithContentsOfURL:url error:&error];
+  [avPlayer play];
+}
+
+//Question 4
+
+
+- (IBAction)playb4:(id)sender {
+  NSError *error;
+  
+  NSString *stringPath =[[NSBundle mainBundle]pathForResource:@"Boy4" ofType:@"wav"];
+  NSURL *url = [NSURL fileURLWithPath:stringPath];
+  avPlayer = [[AVAudioPlayer alloc]initWithContentsOfURL:url error:&error];
+  [avPlayer play];
+}
+
+
+- (IBAction)playg4:(id)sender {
+  NSError *error;
+  
+  NSString *stringPath =[[NSBundle mainBundle]pathForResource:@"Girl4" ofType:@"wav"];
+  NSURL *url = [NSURL fileURLWithPath:stringPath];
+  avPlayer = [[AVAudioPlayer alloc]initWithContentsOfURL:url error:&error];
+  [avPlayer play];
+}
+
+- (IBAction)playm4:(id)sender {
+  NSError *error;
+  
+  NSString *stringPath =[[NSBundle mainBundle]pathForResource:@"Man4" ofType:@"wav"];
+  NSURL *url = [NSURL fileURLWithPath:stringPath];
+  avPlayer = [[AVAudioPlayer alloc]initWithContentsOfURL:url error:&error];
+  [avPlayer play];
 }
 
 -(IBAction)firstNext:(id)sender
@@ -187,6 +294,12 @@ NSFileManager *fmPS;
   kidsIDString = kidsId.text;
   kidsNameString = kidsName.text;
 }
+  
+//handler to bring view back to the main menu
+- (void)goToMainMenu{
+  [self dismissModalViewControllerAnimated:YES];
+}
+
 
 - (IBAction)createFile:(id)sender {
   

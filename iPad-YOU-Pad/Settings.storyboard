@@ -141,7 +141,7 @@
                                     <constraint firstAttribute="width" constant="552" id="Sov-5b-Xdo"/>
                                     <constraint firstAttribute="height" constant="258" id="xA1-7a-NYh"/>
                                 </constraints>
-                                <mutableString key="text">This iPad application was created by UWA students in conjunction with the 2013 UWA Professional Computing unit and Project K.I.D.S. 
+                                <string key="text">This iPad application was created by UWA students in conjunction with the 2013 UWA Professional Computing unit and Project K.I.D.S. 
 
 While extreme care and time was put into developing this application, there is no guarentee provided with this application that it is 100% free from bugs and other software related issues.
 
@@ -149,7 +149,7 @@ We take no responsibility for any loss of data that may arise from use of this a
 
 By using this application, you are acknowledging these statements.
 
-The copyright of this application remains with the developers at all times.</mutableString>
+The copyright of this application remains with the developers at all times.</string>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>

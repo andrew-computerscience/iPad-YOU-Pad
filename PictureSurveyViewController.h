@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 #import "ArraySingleton.h"
 
 int answers[50];
@@ -28,6 +29,8 @@ extern NSString *answerThreeString;
     IBOutlet UITextField *kidsName;
     IBOutlet UITextField *kidsId;
     IBOutlet UITextField *researcherName;
+  
+  
 }
 
 @property (nonatomic, retain) IBOutlet UITextField *answerOne;
@@ -37,7 +40,20 @@ extern NSString *answerThreeString;
 @property (nonatomic, retain) IBOutlet UITextField *answerThree;
 
 
+- (IBAction)goToMainMenu;
 
 - (IBAction)createFile:(id)sender;
+- (IBAction)playgeneric3:(id)sender;
 
+- (IBAction)playb1:(id)sender;
+- (IBAction)playb2:(id)sender;
+- (IBAction)playb4:(id)sender;
+
+- (IBAction)playg1:(id)sender;
+- (IBAction)playg2:(id)sender;
+- (IBAction)playg4:(id)sender;
+
+- (IBAction)playm1:(id)sender;
+- (IBAction)playm2:(id)sender;
+- (IBAction)playm4:(id)sender;
 @end

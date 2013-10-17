@@ -28,6 +28,7 @@ extern NSString *hiddenDocDir;
 extern NSString *childName;
 extern NSString *date;
 extern NSString *gender;
+extern NSString *parent;
 
 
 extern bool firstStartup;
@@ -55,12 +56,10 @@ extern bool firstStartup;
 -(IBAction)backToMainMenu:(id)sender;
 
 @property (weak, nonatomic) IBOutlet UISegmentedControl *genderOption;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *parentOption;
 
 @property(weak,nonatomic) IBOutlet UITextField *researcherNameTextField;
 @property(weak,nonatomic) IBOutlet UITextField *parentNameTextField;
 @property(weak,nonatomic) IBOutlet UITextField *parentIdTextField;
 @property(weak,nonatomic) IBOutlet UITextField *childNameTextField;
-@property(weak,nonatomic) IBOutlet UITextField *day;
-@property(weak,nonatomic) IBOutlet UITextField *month;
-@property(weak,nonatomic) IBOutlet UITextField *year;
 @end

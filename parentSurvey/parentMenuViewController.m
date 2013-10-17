@@ -19,6 +19,7 @@ NSString *childName;
 NSString *date;
 NSString *gender;
 NSInteger pickerRow;
+NSString *parent;
 
 @interface parentMenuViewController ()
 
@@ -34,11 +35,9 @@ NSInteger pickerRow;
 @synthesize parentIdTextField;
 @synthesize nextButton;
 @synthesize childNameTextField;
-@synthesize day;
-@synthesize month;
-@synthesize year;
 @synthesize nextButton2;
 @synthesize genderOption;
+@synthesize parentOption;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -153,6 +152,14 @@ NSInteger pickerRow;
     else
     {
         gender = @"Female";
+    }
+    if(parentOption.selectedSegmentIndex == 0)
+    {
+        parent = @"Mother";
+    }
+    else
+    {
+        parent = @"Father";
     }
     
     NSLog(@"gender %@", gender);
