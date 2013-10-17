@@ -117,7 +117,6 @@
 		A289646117FD253C0071FC46 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A289646017FD253C0071FC46 /* Settings.storyboard */; };
 		A289646417FD257B0071FC46 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A289646317FD257B0071FC46 /* SettingsViewController.m */; };
 		A2E0DC5517FD167C004E7327 /* CompletedSurveys.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2E0DC5417FD167C004E7327 /* CompletedSurveys.storyboard */; };
-		A2E0DC5D17FD17FC004E7327 /* CompletedSurveysViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E0DC5C17FD17FC004E7327 /* CompletedSurveysViewController.m */; };
 		BB5FA5A91800354300F08104 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB5FA5A81800354300F08104 /* CoreData.framework */; };
 		BB5FA5AC1800386D00F08104 /* Survey.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BB5FA5AA1800386D00F08104 /* Survey.xcdatamodeld */; };
 		BB5FA5AF18003F4400F08104 /* SurveyListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5FA5AE18003F4400F08104 /* SurveyListViewController.m */; };
@@ -284,8 +283,6 @@
 		A289646217FD257B0071FC46 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
 		A289646317FD257B0071FC46 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 		A2E0DC5417FD167C004E7327 /* CompletedSurveys.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CompletedSurveys.storyboard; sourceTree = "<group>"; };
-		A2E0DC5B17FD17FC004E7327 /* CompletedSurveysViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompletedSurveysViewController.h; sourceTree = "<group>"; };
-		A2E0DC5C17FD17FC004E7327 /* CompletedSurveysViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompletedSurveysViewController.m; sourceTree = "<group>"; };
 		BB5FA5A81800354300F08104 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		BB5FA5AB1800386D00F08104 /* Survey.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Survey.xcdatamodel; sourceTree = "<group>"; };
 		BB5FA5AD18003F4400F08104 /* SurveyListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SurveyListViewController.h; sourceTree = "<group>"; };
@@ -562,8 +559,6 @@
 			isa = PBXGroup;
 			children = (
 				A2E0DC5417FD167C004E7327 /* CompletedSurveys.storyboard */,
-				A2E0DC5B17FD17FC004E7327 /* CompletedSurveysViewController.h */,
-				A2E0DC5C17FD17FC004E7327 /* CompletedSurveysViewController.m */,
 				BB5FA5AD18003F4400F08104 /* SurveyListViewController.h */,
 				BB5FA5AE18003F4400F08104 /* SurveyListViewController.m */,
 				BB5FA5B218004CD200F08104 /* SurveyListCell.h */,
@@ -847,7 +842,6 @@
 				A26E6A9017FC4D04006C9456 /* MainMenuViewController.m in Sources */,
 				A26E6A8A17FC4D04006C9456 /* AppDelegate.m in Sources */,
 				A289646417FD257B0071FC46 /* SettingsViewController.m in Sources */,
-				A2E0DC5D17FD17FC004E7327 /* CompletedSurveysViewController.m in Sources */,
 				A26E6AB517FC4D2C006C9456 /* KidsSurveysViewController.m in Sources */,
 				A26E6A8617FC4D04006C9456 /* main.m in Sources */,
 				BB5FA5AC1800386D00F08104 /* Survey.xcdatamodeld in Sources */,

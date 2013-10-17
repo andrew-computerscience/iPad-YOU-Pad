@@ -107,6 +107,8 @@
 {
     [super viewDidLoad];
     
+    NSLog(@"view loaded!");
+    
     NSError *error;
     if (![[self fetchedResultsController] performFetch:&error]) {
         // Update to handle the error appropriately.
@@ -199,6 +201,7 @@
     
     // Return the number of sections.
     //return [surveyArray count];
+    
     return [[self.fetchedResultsController sections] count];
 }
 
@@ -209,7 +212,7 @@
     //return [[surveyArray objectAtIndex:section] count];
     id <NSFetchedResultsSectionInfo> sectionInfo =
     [[[self fetchedResultsController] sections] objectAtIndex:section];
-    
+    NSLog(@"%d",[sectionInfo numberOfObjects]);
     return [sectionInfo numberOfObjects];
 }
 
